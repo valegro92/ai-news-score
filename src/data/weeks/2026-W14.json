@@ -1,0 +1,127 @@
+{
+  "id": "2026-W14",
+  "label": "Settimana 14 — Aprile 2026",
+  "lastUpdate": "5 Apr 2026",
+  "news": [
+    {
+      "id": "2026-w14-01",
+      "titolo": "Solo l'1% delle aziende ha un rollout AI maturo — il 99% sperimenta senza misurare",
+      "fonte": "McKinsey / Gallagher",
+      "data": "Mar 2026",
+      "url": "https://www.ajg.com/news-and-insights/features/ai-adoption-and-risk-benchmarking-2026/",
+      "categoria": "Adozione AI",
+      "sintesi": "L'88% delle organizzazioni usa AI in qualche forma, ma solo l'1% si definisce maturo e il 6% vede ritorni finanziari reali. Il ROI medio richiede 28 mesi. Il problema non è il budget: è lo skills gap, che blocca il 60% delle aziende.",
+      "score": 10
+    },
+    {
+      "id": "2026-w14-02",
+      "titolo": "Amazon taglia 16.000 posti: l'AI agentica sostituisce il middle management",
+      "fonte": "CNN / CNBC / Bloomberg",
+      "data": "Gen-Mar 2026",
+      "url": "https://www.cnbc.com/2026/01/28/amazon-layoffs-anti-bureaucracy-ai.html",
+      "categoria": "AI e Lavoro",
+      "sintesi": "Amazon ha licenziato 16.000 dipendenti corporate, portando il totale a oltre 30.000. Il CEO Jassy ha dichiarato esplicitamente che l'AI agentica ridurrà il bisogno di personale. Il target principale: i ruoli di coordinamento e reporting.",
+      "score": 9
+    },
+    {
+      "id": "2026-w14-03",
+      "titolo": "Il 40% dei tuoi software avrà agenti AI entro dicembre — ma nessuno li governa",
+      "fonte": "Gartner / Camunda",
+      "data": "Mar 2026",
+      "url": "https://finance.yahoo.com/news/40-enterprise-apps-embed-ai-181310288.html",
+      "categoria": "Tool e Automazione",
+      "sintesi": "Gartner prevede il 40% delle app enterprise con agenti AI entro fine 2026. Ma Camunda rivela che l'80% delle organizzazioni non ha visibilità su come l'AI opera nei propri workflow. Il paradosso: l'AI arriva senza governance.",
+      "score": 9
+    },
+    {
+      "id": "2026-w14-04",
+      "titolo": "L'AI invisibile: l'80% delle aziende non sa dove l'AI opera nei propri processi",
+      "fonte": "Camunda / TechRadar",
+      "data": "Mar 2026",
+      "url": "https://www.techradar.com/pro/2026-the-year-enterprise-ai-finally-gets-to-work",
+      "categoria": "Adozione AI",
+      "sintesi": "Il report Camunda 2026 rivela che l'80% delle organizzazioni non ha visibilità sull'AI nei workflow quotidiani. Il 66% cita compliance come barriera allo scaling. Il tema non è più adottare l'AI — è governare l'AI che c'è già.",
+      "score": 9
+    },
+    {
+      "id": "2026-w14-05",
+      "titolo": "AI Act rinviato: hai 16 mesi in più — ma gli standard non esistono ancora",
+      "fonte": "EU Council / Kennedys Law",
+      "data": "16 Mar 2026",
+      "url": "https://www.resultsense.com/news/2026-03-16-eu-council-agrees-position-streamline-ai-act",
+      "categoria": "Regolamentazione",
+      "sintesi": "L'enforcement dei sistemi AI ad alto rischio slitta a dicembre 2027. Motivo: standard di conformità e strumenti ancora non pronti. Per le PMI è tempo di prepararsi, non di dormire. Le sanzioni restano fino a 35M o 7% del fatturato.",
+      "score": 8
+    },
+    {
+      "id": "2026-w14-06",
+      "titolo": "OpenAI chiude Sora dopo 6 mesi: bruciava $1M al giorno, Disney ritira $1 miliardo",
+      "fonte": "TechCrunch / CNN / Variety",
+      "data": "24-29 Mar 2026",
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "categoria": "Business AI",
+      "sintesi": "Sora chiude: utenti crollati sotto 500.000, costo compute insostenibile. Disney scopre la chiusura un'ora prima dell'annuncio e ritira un investimento da $1 miliardo. Lezione per chi adotta AI: non inseguire l'hype, misurare il costo reale.",
+      "score": 8
+    },
+    {
+      "id": "2026-w14-07",
+      "titolo": "59.000 licenziamenti tech nel 2026: l'AI è la causa dichiarata, non più implicita",
+      "fonte": "IBTimes / CBS News",
+      "data": "Gen-Mar 2026",
+      "url": "https://www.ibtimes.co.uk/ai-driven-layoffs-2026-tech-sector-1788111",
+      "categoria": "AI e Lavoro",
+      "sintesi": "59.000 tagli nel tech dall'inizio del 2026. Amazon, Meta, Block citano esplicitamente l'AI come motivazione. I ruoli più colpiti: customer service e middle management. Le aziende non si nascondono più.",
+      "score": 8
+    },
+    {
+      "id": "2026-w14-08",
+      "titolo": "Il 54% delle aziende UK usa AI (+19pp in un anno) — ma il 60% non ha le competenze",
+      "fonte": "BCC / Mole Valley Chamber",
+      "data": "Mar 2026",
+      "url": "https://molevalleychamber.co.uk/uk-sme-ai-adoption-report-2026/",
+      "categoria": "Adozione AI",
+      "sintesi": "Adozione AI in UK: dal 25% (2024) al 54% (2026). Ma il 60% cita lo skills gap come barriera principale, non il budget. La maggioranza delle PMI usa almeno un tool AI, ma l'adozione resta sperimentale.",
+      "score": 8
+    },
+    {
+      "id": "2026-w14-09",
+      "titolo": "Gemma 4 di Google: open source Apache 2.0, reasoning e agenti — gratis per tutti",
+      "fonte": "Google Blog",
+      "data": "2 Apr 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Google rilascia Gemma 4 con licenza Apache 2.0 senza restrizioni. Ottimizzato per reasoning avanzato e workflow agentici. Sei lab ora rilasciano modelli open competitivi: il gap open/closed si è chiuso.",
+      "score": 7
+    },
+    {
+      "id": "2026-w14-10",
+      "titolo": "Snowflake + OpenAI: $200 milioni per agenti AI che lavorano sui tuoi dati senza spostarli",
+      "fonte": "Snowflake / CIO Dive",
+      "data": "Feb 2026",
+      "url": "https://www.ciodive.com/news/snowflake-openai-200M-partnership/811282/",
+      "categoria": "Tool e Automazione",
+      "sintesi": "Partnership da $200M: i modelli OpenAI diventano nativi nella piattaforma Snowflake. I 12.600 clienti potranno costruire agenti AI autonomi sui propri dati senza spostare nulla fuori dall'ambiente governato.",
+      "score": 7
+    },
+    {
+      "id": "2026-w14-11",
+      "titolo": "NVIDIA lancia piattaforma open per agenti AI con SAP, Salesforce, Siemens e altri 13",
+      "fonte": "NVIDIA Newsroom",
+      "data": "Mar 2026",
+      "url": "https://nvidianews.nvidia.com/news/ai-agents",
+      "categoria": "Tool e Automazione",
+      "sintesi": "Piattaforma open source per agenti AI enterprise autonomi. 16 partner tra cui Adobe, SAP, ServiceNow e Siemens. L'obiettivo: standardizzare sicurezza e governance degli agenti nel contesto enterprise.",
+      "score": 7
+    },
+    {
+      "id": "2026-w14-12",
+      "titolo": "Google Search Live: ricerca voce + camera in tempo reale, ora in 200+ paesi",
+      "fonte": "Google",
+      "data": "31 Mar 2026",
+      "url": "https://www.theneuron.ai/explainer-articles/around-the-horn-digest-everything-that-happened-in-ai-today-monday-march-31-2026",
+      "categoria": "Tool e Automazione",
+      "sintesi": "Google rende ufficiale Search Live in oltre 200 paesi. Ricerca conversazionale in tempo reale con voce e fotocamera simultanee. Alimentato da Gemini 3.1 Flash Live. Un cambio di paradigma nell'interazione con la ricerca.",
+      "score": 7
+    }
+  ]
+}

@@ -21,7 +21,7 @@ export default function ScoreRing({ score, size = 64 }: { score: number; size?: 
           cy={size / 2}
           r={radius}
           fill="none"
-          stroke="#454545"
+          stroke="#4A4544"
           strokeWidth="4"
         />
         <circle

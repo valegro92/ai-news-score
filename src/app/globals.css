@@ -6,17 +6,17 @@
   --color-cassetta-brand-light: #5EEAD2;
   --color-cassetta-brand-dark: #0D9488;
 
-  /* Sfondi dark-first */
-  --color-cassetta-bg: #292524;
-  --color-cassetta-surface: #2D2D2D;
-  --color-cassetta-hover: #3A3A3A;
-  --color-cassetta-border: #454545;
-  --color-cassetta-elevated: #4A4A4A;
+  /* Sfondi dark-first — contrasti migliorati */
+  --color-cassetta-bg: #1A1918;
+  --color-cassetta-surface: #292524;
+  --color-cassetta-hover: #352F2E;
+  --color-cassetta-border: #4A4544;
+  --color-cassetta-elevated: #3D3836;
 
-  /* Testo */
-  --color-cassetta-text: #FFFFFF;
-  --color-cassetta-muted: #A9A8A7;
-  --color-cassetta-hint: #9CA3AF;
+  /* Testo — gerarchia più chiara */
+  --color-cassetta-text: #F5F5F4;
+  --color-cassetta-muted: #B8B5B3;
+  --color-cassetta-hint: #8A8685;
 
   /* Funzionali */
   --color-cassetta-green: #4ADE80;
@@ -41,8 +41,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Animations */
 @keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
+  from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
 }
 @keyframes fadeIn {
@@ -54,10 +55,11 @@ body {
   to { transform: scale(1); opacity: 1; }
 }
 
-.animate-slide-up { animation: slideUp 0.5s ease-out forwards; }
+.animate-slide-up { animation: slideUp 0.4s ease-out forwards; }
 .animate-fade-in { animation: fadeIn 0.3s ease-out forwards; }
 .animate-score { animation: scoreReveal 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
 
+/* Interactive elements */
 .vote-btn {
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -65,9 +67,21 @@ body {
 .vote-btn:active { transform: scale(0.95); }
 
 .news-card {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .news-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  border-color: var(--color-cassetta-elevated);
+}
+
+/* Mobile responsive improvements */
+@media (max-width: 640px) {
+  .news-card {
+    padding: 1rem;
+  }
+  .news-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }

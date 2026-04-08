@@ -38,10 +38,10 @@ export default function NewsCard({
       {/* Subtle gradient accent */}
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-cassetta-brand/50 to-transparent" />
 
-      <div className="flex gap-5">
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
         {/* Score ring */}
-        <div className="flex-shrink-0 flex flex-col items-center gap-1">
-          <ScoreRing score={score} size={72} />
+        <div className="flex-shrink-0 flex flex-row sm:flex-col items-center gap-2 sm:gap-1">
+          <ScoreRing score={score} size={56} />
           <span className="text-[10px] font-mono text-cassetta-muted tracking-wider uppercase">
             score
           </span>
@@ -50,12 +50,12 @@ export default function NewsCard({
         {/* Content */}
         <div className="flex-1 min-w-0">
           {/* Category + meta */}
-          <div className="flex items-center gap-3 mb-2">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-2">
             <span className={`inline-block px-2.5 py-0.5 rounded-md text-xs font-semibold border ${catClass}`}>
               {categoria}
             </span>
             <span className="text-xs text-cassetta-muted">{fonte}</span>
-            <span className="text-xs text-cassetta-hint">{data}</span>
+            <span className="text-xs text-cassetta-hint hidden sm:inline">{data}</span>
           </div>
 
           {/* Title */}
