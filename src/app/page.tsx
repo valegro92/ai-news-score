@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { newsItems } from "@/data/news";
 import { getVotes } from "@/lib/votes";
 import NewsCard from "@/components/NewsCard";
@@ -32,9 +33,14 @@ export default async function Home() {
         <div className="relative max-w-4xl mx-auto px-6 py-12">
           {/* Brand */}
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-lg bg-cassetta-brand-dark flex items-center justify-center text-white font-bold text-lg">
-              🔧
-            </div>
+            <Image
+              src="/logo-120.png"
+              alt="La Cassetta degli AI-trezzi"
+              width={40}
+              height={40}
+              className="rounded-lg"
+              priority
+            />
             <div>
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-cassetta-brand">
                 La Cassetta degli AI-trezzi
