@@ -1,0 +1,4 @@
+node_modules
+.next
+*.tsbuildinfo
+src/data/votes.json
