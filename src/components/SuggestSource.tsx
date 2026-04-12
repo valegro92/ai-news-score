@@ -85,7 +85,7 @@ export default function SuggestSource() {
             </div>
             <div className="flex items-center justify-between">
               <p className="text-[10px] text-cassetta-hint">
-                L&apos;AI la valuterà con gli stessi 5 criteri delle altre news.
+                L&apos;AI la valuterà con lo stesso metodo delle 100+ fonti monitorate.
               </p>
               <button
                 type="submit"

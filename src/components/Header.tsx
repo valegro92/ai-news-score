@@ -78,11 +78,11 @@ export default function Header({
         <div className="mt-8 p-4 rounded-xl bg-cassetta-surface/80 border border-cassetta-border max-w-xl">
           <p className="text-sm text-cassetta-muted">
             <span className="text-cassetta-brand font-semibold">Come funziona:</span>{" "}
-            Ogni settimana seleziono e valuto le news AI con un metodo a punti.
-            Lo score va da 1 a 10 e misura quanto una notizia è rilevante per chi
-            lavora davvero con l&apos;AI.{" "}
+            Una pipeline automatica scrapa 100+ fonti RSS ogni settimana,
+            un&apos;AI valuta ogni notizia con score da 1 a 10 basato su impatto
+            reale per chi lavora con l&apos;AI in azienda. Solo le migliori arrivano qui.{" "}
             <span className="text-cassetta-text">
-              Vota se sei d&apos;accordo — o se pensi che mi sbaglio.
+              Vota se sei d&apos;accordo — o se pensi che l&apos;AI sbaglia.
             </span>
           </p>
         </div>

@@ -1,9 +1,9 @@
 export default function Officina() {
   const steps = [
-    "L\u0027AI cerca le news da 15+ fonti internazionali",
-    "Le valuta con 5 criteri pesati (scala 1-10)",
-    "Scrive le sintesi e aggiorna il codice del sito",
-    "Pusha su GitHub \u2192 Vercel fa il deploy automatico",
+    "Ogni lunedì la pipeline scrapa 100+ fonti RSS internazionali e italiane",
+    "Un'AI valuta ogni notizia con score 1-10, tag e sommario in italiano",
+    "Solo le top 30 passano il filtro e finiscono sul sito",
+    "Tutto automatico: Vercel Cron → OpenRouter AI → Redis → deploy",
   ];
 
   return (
@@ -33,9 +33,11 @@ export default function Officina() {
 
           <p>
             <span className="text-cassetta-text font-semibold">Il metodo è 100% AI-driven.</span>
-            {" "}Ogni lunedì mattina un agente AI autonomo cerca le news della settimana,
-            le valuta con un sistema a punti calibrato su chi lavora con l&apos;AI nelle PMI,
-            scrive le sintesi, aggiorna questo sito e fa il deploy. Tutto senza intervento umano.
+            {" "}Ogni lunedì mattina una pipeline automatica scrapa oltre 100 feed RSS
+            &mdash; da TechCrunch a Wired Italia, da OpenAI Blog a Agenda Digitale, da Ben&apos;s Bites
+            a Gary Marcus &mdash; filtra gli ultimi 7 giorni, deduplica e passa tutto a un&apos;AI
+            che assegna uno score da 1 a 10 calibrato su chi lavora davvero con l&apos;AI nelle PMI.
+            Nessun intervento umano.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 my-6">
@@ -65,8 +67,9 @@ export default function Officina() {
 
           <div className="mt-4 pt-4 border-t border-cassetta-border/50">
             <p className="text-xs text-cassetta-hint">
-              Stack: Next.js 16 + Tailwind 4 su Vercel. Pipeline: Claude (Anthropic) come agente autonomo
-              con web search, scoring, generazione codice e deploy via GitHub Actions.
+              Stack: Next.js 16 + Tailwind 4 su Vercel. Pipeline: 100+ feed RSS via rss-parser,
+              AI scoring con OpenRouter (5 modelli free in fallback), storage Upstash Redis,
+              Vercel Cron settimanale.
               Progetto open source:{" "}
               <a
                 href="https://github.com/valegro92/ai-news-score"
