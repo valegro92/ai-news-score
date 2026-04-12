@@ -2,6 +2,7 @@ import { getWeek, getAllWeeks } from "@/data/news";
 import { getVotes } from "@/lib/votes";
 import Header from "@/components/Header";
 import CategoryFilter from "@/components/CategoryFilter";
+import SuggestSource from "@/components/SuggestSource";
 import Officina from "@/components/Officina";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -76,6 +77,7 @@ export default async function WeekPage({ params }: Props) {
         weekLabel={week.label}
         lastUpdate={week.lastUpdate}
       />
+      <SuggestSource />
       <Officina />
       <Footer />
     </div>
