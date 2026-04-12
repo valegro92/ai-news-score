@@ -7,12 +7,18 @@ export async function POST(request: NextRequest) {
     const { newsId, type } = body;
 
     if (!newsId || !["agree", "disagree"].includes(type)) {
-      return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+      return NextResponse.json(
+        { error: "Invalid request" },
+        { status: 400 }
+      );
     }
 
-    const result = await addVote(newsId, type);
-    return NextResponse.json(result);
+    await addVote(newsId, type);
+    return NextResponse.json({ ok: true });
   } catch {
-    return NextResponse.json({ error: "Server error" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Server error" },
+      { status: 500 }
+    );
   }
 }
