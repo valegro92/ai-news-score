@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
+import { redis } from "@/lib/redis";
 
 export interface NewsItem {
   id: string;
@@ -35,15 +36,13 @@ function validateNewsItem(item: Record<string, unknown>, weekId: string): NewsIt
   return item as unknown as NewsItem;
 }
 
-/** Load and validate a single week JSON */
+/** Load and validate a single week JSON from filesystem */
 function loadWeek(filename: string): WeekData {
   const filepath = join(WEEKS_DIR, filename);
   const raw = JSON.parse(readFileSync(filepath, "utf-8"));
-
   if (!raw.id || !raw.label || !raw.lastUpdate || !Array.isArray(raw.news)) {
-    throw new Error(`Invalid week file: ${filename} — missing id, label, lastUpdate or news array`);
+    throw new Error(`Invalid week file: ${filename}`);
   }
-
   return {
     id: raw.id,
     label: raw.label,
@@ -52,13 +51,54 @@ function loadWeek(filename: string): WeekData {
   };
 }
 
-/** Get all available weeks sorted newest first */
+/** Convert pipeline ScoredArticle to NewsItem format */
+function pipelineToNewsItem(article: {
+  id: string; title: string; link: string; source: string;
+  date: string; score: number; tags: string[]; sommario: string;
+}): NewsItem {
+  return {
+    id: article.id,
+    titolo: article.title,
+    fonte: article.source,
+    data: article.date,
+    url: article.link,
+    categoria: (article.tags && article.tags[0]) || "AI",
+    sintesi: article.sommario || "",
+    score: article.score,
+  };
+}
+
+/** Try to load latest week from Redis (pipeline results) */
+async function loadFromRedis(): Promise<WeekData | null> {
+  try {
+    const latestId = await redis.get<string>("week:latest");
+    if (!latestId) return null;
+    const raw = await redis.get<string>(`week:${latestId}`);
+    if (!raw) return null;
+    const data = typeof raw === "string" ? JSON.parse(raw) : raw;
+    return {
+      id: data.weekId,
+      label: data.label,
+      lastUpdate: data.generatedAt,
+      news: (data.articles || []).map(pipelineToNewsItem),
+    };
+  } catch (err) {
+    console.error("Redis news load error:", err);
+    return null;
+  }
+}
+
+/** Get all available weeks from filesystem, sorted newest first */
 export function getAllWeeks(): WeekData[] {
-  const files = readdirSync(WEEKS_DIR)
-    .filter((f) => f.endsWith(".json"))
-    .sort()
-    .reverse();
-  return files.map(loadWeek);
+  try {
+    const files = readdirSync(WEEKS_DIR)
+      .filter((f) => f.endsWith(".json"))
+      .sort()
+      .reverse();
+    return files.map(loadWeek);
+  } catch {
+    return [];
+  }
 }
 
 /** Get a specific week by id (e.g. "2026-W14") */
@@ -71,7 +111,21 @@ export function getWeek(weekId: string): WeekData | null {
   }
 }
 
-/** Get the latest week */
+/** Get the latest week — tries Redis first, then filesystem */
+export async function getLatestWeekAsync(): Promise<WeekData> {
+  // 1. Try Redis (pipeline data)
+  const redisWeek = await loadFromRedis();
+  if (redisWeek && redisWeek.news.length > 0) return redisWeek;
+
+  // 2. Fallback to filesystem
+  const weeks = getAllWeeks();
+  if (weeks.length === 0) {
+    throw new Error("No week data found");
+  }
+  return weeks[0];
+}
+
+/** Sync version for backwards compatibility */
 export function getLatestWeek(): WeekData {
   const weeks = getAllWeeks();
   if (weeks.length === 0) {
@@ -80,5 +134,5 @@ export function getLatestWeek(): WeekData {
   return weeks[0];
 }
 
-/** Backwards compatibility — flat list of all news from latest week */
+/** Backwards compatibility — flat list from latest static week */
 export const newsItems: NewsItem[] = getLatestWeek().news;
