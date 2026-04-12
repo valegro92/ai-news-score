@@ -1,12 +1,19 @@
 import { Redis } from "@upstash/redis";
 
-if (!process.env.KV_REST_API_URL || !process.env.KV_REST_API_TOKEN) {
+const url =
+  process.env.KV_REST_API_URL ||
+  process.env.UPSTASH_REDIS_REST_URL ||
+  "";
+
+const token =
+  process.env.KV_REST_API_TOKEN ||
+  process.env.UPSTASH_REDIS_REST_TOKEN ||
+  "";
+
+if (!url || !token) {
   console.warn(
     "⚠️ Variabili Upstash Redis mancanti. Lo storage non persisterà."
   );
 }
 
-export const redis = new Redis({
-  url: process.env.KV_REST_API_URL || "",
-  token: process.env.KV_REST_API_TOKEN || "",
-});
+export const redis = new Redis({ url, token });
