@@ -1,15 +1,15 @@
-// OpenRouter client con 5 modelli gratuiti in fallback
+// OpenRouter client con modelli gratuiti in fallback
 // La key è in process.env.OPENROUTER_API_KEY (Vercel env var, MAI nel codice)
 
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
-// Modelli gratuiti su OpenRouter — ordinati per qualità
+// Modelli gratuiti su OpenRouter — aggiornati aprile 2026
 const FREE_MODELS = [
-  "google/gemma-3-12b-it:free",
-  "meta-llama/llama-3.3-70b-instruct:free",
-  "mistralai/mistral-small-3.1-24b-instruct:free",
-  "qwen/qwen3-14b:free",
-  "deepseek/deepseek-r1-0528:free",
+  "google/gemma-4-31b-it:free",
+  "google/gemma-4-26b-a4b-it:free",
+  "nvidia/nemotron-3-super-120b-a12b:free",
+  "nvidia/nemotron-3-nano-30b-a3b:free",
+  "minimax/minimax-m2.5:free",
 ];
 
 interface ChatMessage {
@@ -37,7 +37,7 @@ async function callModel(
       model,
       messages,
       temperature: 0.3,
-      max_tokens: 1024,
+      max_tokens: 4096,
     }),
   });
 
@@ -56,8 +56,12 @@ export async function chat(messages: ChatMessage[]): Promise<string> {
 
   for (const model of FREE_MODELS) {
     try {
+      console.log(`🤖 Provo modello: ${model}`);
       const result = await callModel(model, messages);
-      if (result) return result;
+      if (result) {
+        console.log(`✅ Risposta da ${model} (${result.length} chars)`);
+        return result;
+      }
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
       errors.push(msg);
@@ -76,15 +80,23 @@ export async function chatJSON<T>(
 ): Promise<T> {
   const raw = await chat(messages);
 
-  // Estrai il blocco JSON dalla risposta
-  const jsonMatch = raw.match(/\{[\s\S]*\}/);
-  if (!jsonMatch) {
-    throw new Error(`Nessun JSON trovato nella risposta: ${raw.slice(0, 200)}`);
+  // Estrai il blocco JSON dalla risposta (gestisce anche ```json ... ```)
+  let jsonStr = raw;
+  const fenceMatch = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (fenceMatch) {
+    jsonStr = fenceMatch[1].trim();
+  } else {
+    const objMatch = raw.match(/\{[\s\S]*\}/);
+    if (objMatch) {
+      jsonStr = objMatch[0];
+    } else {
+      throw new Error(`Nessun JSON trovato nella risposta: ${raw.slice(0, 300)}`);
+    }
   }
 
   try {
-    return JSON.parse(jsonMatch[0]) as T;
+    return JSON.parse(jsonStr) as T;
   } catch {
-    throw new Error(`JSON non valido: ${jsonMatch[0].slice(0, 200)}`);
+    throw new Error(`JSON non valido: ${jsonStr.slice(0, 300)}`);
   }
 }

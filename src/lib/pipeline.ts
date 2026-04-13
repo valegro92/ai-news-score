@@ -87,7 +87,6 @@ async function fetchFeeds(): Promise<RawArticle[]> {
               snippet: (item.contentSnippet || item.content || "").slice(0, 300),
             }));
         } catch {
-          console.warn(`⚠️ Feed fallito: ${feed.name}`);
           return [];
         }
       })
@@ -120,12 +119,15 @@ interface AIScoreResponse {
 
 async function filterAndScore(
   raw: RawArticle[]
-): Promise<ScoredArticle[]> {
+): Promise<{ scored: ScoredArticle[]; aiSuccess: number; aiFailed: number }> {
   const scored: ScoredArticle[] = [];
-  const CHUNK = 15; // articoli per chiamata AI
+  const CHUNK = 8; // ridotto da 15 per non stressare modelli free
+  let aiSuccess = 0;
+  let aiFailed = 0;
 
   for (let i = 0; i < raw.length; i += CHUNK) {
     const chunk = raw.slice(i, i + CHUNK);
+    const chunkNum = Math.floor(i / CHUNK) + 1;
     const listing = chunk
       .map(
         (a, idx) =>
@@ -134,6 +136,7 @@ async function filterAndScore(
       .join("\n");
 
     try {
+      console.log(`🧩 Chunk ${chunkNum}: scoring ${chunk.length} articoli...`);
       const result = await chatJSON<AIScoreResponse>([
         {
           role: "system",
@@ -146,7 +149,8 @@ Per ogni articolo assegna:
 Criteri score alto: impatto pratico su aziende, novità di prodotto usabile, regolazione EU/IT, trend di adozione.
 Criteri score basso: paper accademici teorici, notizie vecchie riciclate, puro hype senza sostanza.
 
-Rispondi SOLO con JSON valido: {"articles": [{"index": N, "score": N, "tags": [...], "sommario": "..."}]}`,
+Rispondi SOLO con JSON valido, senza markdown fence:
+{"articles": [{"index": 0, "score": 7, "tags": ["LLM","produttività"], "sommario": "..."}]}`,
         },
         {
           role: "user",
@@ -154,6 +158,7 @@ Rispondi SOLO con JSON valido: {"articles": [{"index": N, "score": N, "tags": [.
         },
       ]);
 
+      console.log(`✅ Chunk ${chunkNum}: ${result.articles.length} articoli scorati`);
       for (const item of result.articles) {
         const article = chunk[item.index];
         if (!article) continue;
@@ -168,8 +173,10 @@ Rispondi SOLO con JSON valido: {"articles": [{"index": N, "score": N, "tags": [.
           sommario: item.sommario || "",
         });
       }
+      aiSuccess += chunk.length;
     } catch (err) {
-      console.error(`⚠️ AI scoring fallito per chunk ${i}:`, err);
+      console.error(`❌ AI scoring fallito per chunk ${chunkNum}:`, err);
+      aiFailed += chunk.length;
       // Fallback: inserisci senza score AI
       for (const article of chunk) {
         scored.push({
@@ -187,7 +194,11 @@ Rispondi SOLO con JSON valido: {"articles": [{"index": N, "score": N, "tags": [.
   }
 
   // Ordina per score decrescente, prendi top 30
-  return scored.sort((a, b) => b.score - a.score).slice(0, 30);
+  return {
+    scored: scored.sort((a, b) => b.score - a.score).slice(0, 30),
+    aiSuccess,
+    aiFailed,
+  };
 }
 
 // --- Pipeline principale ---
@@ -209,10 +220,14 @@ export async function runPipeline(): Promise<WeekData> {
 
   // 2. Filtra e assegna score con AI
   console.log("🤖 Scoring AI in corso...");
-  const articles = await filterAndScore(raw);
-  console.log(`✅ ${articles.length} articoli scorati e selezionati`);
+  const { scored: articles, aiSuccess, aiFailed } = await filterAndScore(raw);
+  console.log(`📊 Risultato: ${aiSuccess} scorati con AI, ${aiFailed} in fallback`);
+  console.log(`✅ ${articles.length} articoli selezionati (top 30)`);
 
-  // 3. Salva su Redis
+  // 3. Quality gate: non sovrascrivere Redis se AI ha fallito completamente
+  const aiRatio = aiSuccess / (aiSuccess + aiFailed);
+  const hasQualityScoring = aiRatio > 0.3; // almeno 30% scorato con AI
+
   const weekData: WeekData = {
     weekId,
     label,
@@ -220,6 +235,12 @@ export async function runPipeline(): Promise<WeekData> {
     articles,
   };
 
+  if (!hasQualityScoring) {
+    console.error(`🚫 Quality gate fallito: solo ${Math.round(aiRatio * 100)}% scorato con AI. Redis NON aggiornato.`);
+    return weekData;
+  }
+
+  // 4. Salva su Redis
   try {
     await redis.set(`week:${weekId}`, JSON.stringify(weekData));
     await redis.set("week:latest", weekId);
