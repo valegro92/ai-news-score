@@ -191,7 +191,7 @@ export async function runPipeline(): Promise<WeekData & { aiOk: boolean; aiError
   console.log(`⏱️ Fetch: ${t1}s`);
 
   if (raw.length === 0) {
-    return { weekId, label, generatedAt: new Date().toISOString(), articles: [] };
+    return { weekId, label, generatedAt: new Date().toISOString(), articles: [], aiOk: false, aiError: "no articles fetched", hasKey: !!process.env.OPENROUTER_API_KEY };
   }
 
   // Diagnostica: verifica che la key sia presente
