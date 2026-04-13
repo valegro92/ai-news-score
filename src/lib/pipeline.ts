@@ -58,43 +58,40 @@ function slugify(text: string): string {
     .slice(0, 60);
 }
 
-// --- Fetch RSS (ottimizzato per stare sotto 60s) ---
-const parser = new Parser({ timeout: 5000 });
+// --- Fetch RSS (TUTTO in parallelo, timeout aggressivo) ---
+const parser = new Parser({ timeout: 3000 });
 
 async function fetchFeeds(): Promise<RawArticle[]> {
   const sevenDaysAgo = new Date();
   sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+
+  // Tutti i feed in parallelo — un singolo Promise.allSettled
+  const results = await Promise.allSettled(
+    feedList.map(async (feed) => {
+      try {
+        const parsed = await parser.parseURL(feed.url);
+        return (parsed.items || [])
+          .filter((item) => {
+            if (!item.title || !item.link) return false;
+            const pub = item.pubDate ? new Date(item.pubDate) : null;
+            return !pub || pub >= sevenDaysAgo;
+          })
+          .map((item) => ({
+            title: item.title!.trim(),
+            link: item.link!,
+            source: feed.name,
+            date: item.pubDate || new Date().toISOString(),
+            snippet: (item.contentSnippet || item.content || "").slice(0, 200),
+          }));
+      } catch {
+        return [];
+      }
+    })
+  );
+
   const articles: RawArticle[] = [];
-  const BATCH = 20; // batch grandi per parallelismo
-
-  for (let i = 0; i < feedList.length; i += BATCH) {
-    const batch = feedList.slice(i, i + BATCH);
-    const results = await Promise.allSettled(
-      batch.map(async (feed) => {
-        try {
-          const parsed = await parser.parseURL(feed.url);
-          return (parsed.items || [])
-            .filter((item) => {
-              if (!item.title || !item.link) return false;
-              const pub = item.pubDate ? new Date(item.pubDate) : null;
-              return !pub || pub >= sevenDaysAgo;
-            })
-            .map((item) => ({
-              title: item.title!.trim(),
-              link: item.link!,
-              source: feed.name,
-              date: item.pubDate || new Date().toISOString(),
-              snippet: (item.contentSnippet || item.content || "").slice(0, 200),
-            }));
-        } catch {
-          return [];
-        }
-      })
-    );
-
-    for (const r of results) {
-      if (r.status === "fulfilled") articles.push(...r.value);
-    }
+  for (const r of results) {
+    if (r.status === "fulfilled") articles.push(...r.value);
   }
 
   // Deduplica per titolo
@@ -106,12 +103,12 @@ async function fetchFeeds(): Promise<RawArticle[]> {
     return true;
   });
 
-  // Ordina per data decrescente, prendi max 50 per AI scoring
+  // Ordina per data decrescente, prendi max 30 per AI scoring (1 sola call)
   unique.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  return unique.slice(0, 50);
+  return unique.slice(0, 30);
 }
 
-// --- Filtra e Scorea con AI (2 chunk da ~25) ---
+// --- Filtra e Scorea con AI (1 singola call, max 30 articoli) ---
 interface AIScoreResponse {
   articles: {
     index: number;
@@ -125,7 +122,7 @@ async function filterAndScore(
   raw: RawArticle[]
 ): Promise<{ scored: ScoredArticle[]; aiSuccess: number; aiFailed: number }> {
   const scored: ScoredArticle[] = [];
-  const CHUNK = 25;
+  const CHUNK = 30; // tutti in una sola call AI
   let aiSuccess = 0;
   let aiFailed = 0;
 
