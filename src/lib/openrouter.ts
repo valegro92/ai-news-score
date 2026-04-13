@@ -37,7 +37,7 @@ async function callModel(
       model,
       messages,
       temperature: 0.3,
-      max_tokens: 4096,
+      max_tokens: 2048,
     }),
   });
 

@@ -103,9 +103,9 @@ async function fetchFeeds(): Promise<RawArticle[]> {
     return true;
   });
 
-  // Ordina per data decrescente, prendi max 30 per AI scoring (1 sola call)
+  // Ordina per data decrescente, prendi max 15 per AI scoring veloce
   unique.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  return unique.slice(0, 30);
+  return unique.slice(0, 15);
 }
 
 // --- Filtra e Scorea con AI (1 singola call, max 30 articoli) ---
@@ -122,7 +122,7 @@ async function filterAndScore(
   raw: RawArticle[]
 ): Promise<{ scored: ScoredArticle[]; aiSuccess: number; aiFailed: number }> {
   const scored: ScoredArticle[] = [];
-  const CHUNK = 30; // tutti in una sola call AI
+  const CHUNK = 15; // tutti in una sola call AI
   let aiSuccess = 0;
   let aiFailed = 0;
 
@@ -132,7 +132,7 @@ async function filterAndScore(
     const listing = chunk
       .map(
         (a, idx) =>
-          `[${idx}] "${a.title}" — ${a.source}\n    ${a.snippet.slice(0, 120)}`
+          `[${idx}] "${a.title}" — ${a.source}`
       )
       .join("\n");
 
@@ -189,7 +189,7 @@ Rispondi SOLO con JSON: {"articles": [{"index": 0, "score": 7, "tags": ["LLM"], 
   }
 
   return {
-    scored: scored.sort((a, b) => b.score - a.score).slice(0, 30),
+    scored: scored.sort((a, b) => b.score - a.score).slice(0, 15),
     aiSuccess,
     aiFailed,
   };
