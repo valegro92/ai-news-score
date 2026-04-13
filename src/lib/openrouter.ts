@@ -8,7 +8,6 @@ const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 const FREE_MODELS = [
   "openrouter/free",
   "google/gemma-4-31b-it:free",
-  "nvidia/nemotron-3-super-120b-a12b:free",
 ];
 
 interface ChatMessage {
@@ -66,7 +65,7 @@ export async function chat(messages: ChatMessage[]): Promise<string> {
   for (const model of FREE_MODELS) {
     try {
       console.log(`🤖 Provo: ${model}`);
-      const result = await withTimeout(callModel(model, messages), 25000, model);
+      const result = await withTimeout(callModel(model, messages), 40000, model);
       if (result) {
         console.log(`✅ ${model} ok (${result.length} chars)`);
         return result;
