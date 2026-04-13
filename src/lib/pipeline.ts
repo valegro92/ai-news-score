@@ -58,14 +58,14 @@ function slugify(text: string): string {
     .slice(0, 60);
 }
 
-// --- Fetch RSS ---
-const parser = new Parser({ timeout: 8000 });
+// --- Fetch RSS (ottimizzato per stare sotto 60s) ---
+const parser = new Parser({ timeout: 5000 });
 
 async function fetchFeeds(): Promise<RawArticle[]> {
   const sevenDaysAgo = new Date();
   sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
   const articles: RawArticle[] = [];
-  const BATCH = 10;
+  const BATCH = 20; // batch grandi per parallelismo
 
   for (let i = 0; i < feedList.length; i += BATCH) {
     const batch = feedList.slice(i, i + BATCH);
@@ -84,7 +84,7 @@ async function fetchFeeds(): Promise<RawArticle[]> {
               link: item.link!,
               source: feed.name,
               date: item.pubDate || new Date().toISOString(),
-              snippet: (item.contentSnippet || item.content || "").slice(0, 300),
+              snippet: (item.contentSnippet || item.content || "").slice(0, 200),
             }));
         } catch {
           return [];
@@ -99,15 +99,19 @@ async function fetchFeeds(): Promise<RawArticle[]> {
 
   // Deduplica per titolo
   const seen = new Set<string>();
-  return articles.filter((a) => {
+  const unique = articles.filter((a) => {
     const key = a.title.toLowerCase();
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+
+  // Ordina per data decrescente, prendi max 50 per AI scoring
+  unique.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return unique.slice(0, 50);
 }
 
-// --- Filtra e Scorea con AI ---
+// --- Filtra e Scorea con AI (2 chunk da ~25) ---
 interface AIScoreResponse {
   articles: {
     index: number;
@@ -121,7 +125,7 @@ async function filterAndScore(
   raw: RawArticle[]
 ): Promise<{ scored: ScoredArticle[]; aiSuccess: number; aiFailed: number }> {
   const scored: ScoredArticle[] = [];
-  const CHUNK = 8; // ridotto da 15 per non stressare modelli free
+  const CHUNK = 25;
   let aiSuccess = 0;
   let aiFailed = 0;
 
@@ -131,7 +135,7 @@ async function filterAndScore(
     const listing = chunk
       .map(
         (a, idx) =>
-          `[${idx}] "${a.title}" — ${a.source}\n    ${a.snippet.slice(0, 150)}`
+          `[${idx}] "${a.title}" — ${a.source}\n    ${a.snippet.slice(0, 120)}`
       )
       .join("\n");
 
@@ -140,25 +144,19 @@ async function filterAndScore(
       const result = await chatJSON<AIScoreResponse>([
         {
           role: "system",
-          content: `Sei un editor AI che valuta notizie settimanali sull'intelligenza artificiale per una newsletter italiana rivolta a PMI, professionisti e decision-maker.
-Per ogni articolo assegna:
-- score: 1-10 (10 = impatto altissimo su adozione AI in azienda)
-- tags: max 3 tag brevi (es. "LLM", "regolazione", "open-source", "PMI", "produttività")
-- sommario: 1 frase in italiano che spiega perché conta per chi lavora
-
-Criteri score alto: impatto pratico su aziende, novità di prodotto usabile, regolazione EU/IT, trend di adozione.
-Criteri score basso: paper accademici teorici, notizie vecchie riciclate, puro hype senza sostanza.
-
-Rispondi SOLO con JSON valido, senza markdown fence:
-{"articles": [{"index": 0, "score": 7, "tags": ["LLM","produttività"], "sommario": "..."}]}`,
+          content: `Sei un editor AI che valuta notizie sull'intelligenza artificiale per una newsletter italiana rivolta a PMI e professionisti.
+Per ogni articolo rispondi con: score (1-10), tags (max 3), sommario (1 frase in italiano).
+Score alto = impatto pratico su aziende, prodotto usabile, regolazione EU/IT.
+Score basso = paper teorici, hype senza sostanza.
+Rispondi SOLO con JSON: {"articles": [{"index": 0, "score": 7, "tags": ["LLM"], "sommario": "..."}]}`,
         },
         {
           role: "user",
-          content: `Valuta queste ${chunk.length} notizie AI della settimana:\n\n${listing}`,
+          content: `Valuta:\n\n${listing}`,
         },
       ]);
 
-      console.log(`✅ Chunk ${chunkNum}: ${result.articles.length} articoli scorati`);
+      console.log(`✅ Chunk ${chunkNum}: ${result.articles.length} scorati`);
       for (const item of result.articles) {
         const article = chunk[item.index];
         if (!article) continue;
@@ -174,10 +172,10 @@ Rispondi SOLO con JSON valido, senza markdown fence:
         });
       }
       aiSuccess += chunk.length;
+
     } catch (err) {
-      console.error(`❌ AI scoring fallito per chunk ${chunkNum}:`, err);
+      console.error(`❌ AI scoring fallito chunk ${chunkNum}:`, err);
       aiFailed += chunk.length;
-      // Fallback: inserisci senza score AI
       for (const article of chunk) {
         scored.push({
           id: slugify(article.title),
@@ -193,7 +191,6 @@ Rispondi SOLO con JSON valido, senza markdown fence:
     }
   }
 
-  // Ordina per score decrescente, prendi top 30
   return {
     scored: scored.sort((a, b) => b.score - a.score).slice(0, 30),
     aiSuccess,
@@ -205,38 +202,35 @@ Rispondi SOLO con JSON valido, senza markdown fence:
 export async function runPipeline(): Promise<WeekData> {
   const weekId = getWeekId();
   const label = getWeekLabel();
+  const startTime = Date.now();
 
   console.log(`🚀 Pipeline avviata per ${weekId} (${label})`);
 
-  // 1. Fetch da tutti i feed RSS
+  // 1. Fetch RSS
   console.log(`📡 Fetch da ${feedList.length} feed...`);
   const raw = await fetchFeeds();
-  console.log(`📰 ${raw.length} articoli trovati (ultimi 7 giorni)`);
+  const fetchTime = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`📰 ${raw.length} articoli in ${fetchTime}s`);
 
   if (raw.length === 0) {
-    console.warn("⚠️ Nessun articolo trovato. Pipeline terminata.");
+    console.warn("⚠️ Nessun articolo trovato.");
     return { weekId, label, generatedAt: new Date().toISOString(), articles: [] };
   }
 
-  // 2. Filtra e assegna score con AI
-  console.log("🤖 Scoring AI in corso...");
+  // 2. AI scoring
+  console.log("🤖 Scoring AI...");
   const { scored: articles, aiSuccess, aiFailed } = await filterAndScore(raw);
-  console.log(`📊 Risultato: ${aiSuccess} scorati con AI, ${aiFailed} in fallback`);
-  console.log(`✅ ${articles.length} articoli selezionati (top 30)`);
+  const totalTime = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`📊 ${aiSuccess} AI ok, ${aiFailed} fallback — ${totalTime}s totali`);
 
-  // 3. Quality gate: non sovrascrivere Redis se AI ha fallito completamente
+  // 3. Quality gate
   const aiRatio = aiSuccess / (aiSuccess + aiFailed);
-  const hasQualityScoring = aiRatio > 0.3; // almeno 30% scorato con AI
-
   const weekData: WeekData = {
-    weekId,
-    label,
-    generatedAt: new Date().toISOString(),
-    articles,
+    weekId, label, generatedAt: new Date().toISOString(), articles,
   };
 
-  if (!hasQualityScoring) {
-    console.error(`🚫 Quality gate fallito: solo ${Math.round(aiRatio * 100)}% scorato con AI. Redis NON aggiornato.`);
+  if (aiRatio < 0.3) {
+    console.error(`🚫 Quality gate: ${Math.round(aiRatio * 100)}% AI. Redis NON aggiornato.`);
     return weekData;
   }
 
@@ -244,15 +238,15 @@ export async function runPipeline(): Promise<WeekData> {
   try {
     await redis.set(`week:${weekId}`, JSON.stringify(weekData));
     await redis.set("week:latest", weekId);
-    console.log(`💾 Salvato su Redis: week:${weekId}`);
+    console.log(`💾 Salvato: week:${weekId} (${articles.length} articoli)`);
   } catch (err) {
-    console.error("❌ Errore salvataggio Redis:", err);
+    console.error("❌ Redis:", err);
   }
 
   return weekData;
 }
 
-// --- Leggi risultati da Redis ---
+// --- Leggi da Redis ---
 export async function getLatestWeek(): Promise<WeekData | null> {
   try {
     const latestId = await redis.get<string>("week:latest");
