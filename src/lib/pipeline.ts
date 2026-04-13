@@ -134,7 +134,7 @@ interface AIScoreResponse {
 
 async function scoreArticles(
   raw: RawArticle[]
-): Promise<{ scored: ScoredArticle[]; aiOk: boolean }> {
+): Promise<{ scored: ScoredArticle[]; aiOk: boolean; aiError?: string }> {
   const listing = raw
     .map((a, i) => `[${i}] "${a.title}" — ${a.source}`)
     .join("\n");
@@ -166,20 +166,21 @@ JSON: {"articles": [{"index": 0, "score": 7, "tags": ["LLM"], "sommario": "..."}
         };
       })
       .filter(Boolean) as ScoredArticle[];
-    return { scored: scored.sort((a, b) => b.score - a.score), aiOk: true };
+    return { scored: scored.sort((a, b) => b.score - a.score), aiOk: true, aiError: undefined };
   } catch (err) {
-    console.error("❌ AI fallita:", err);
+    const errMsg = err instanceof Error ? err.message : String(err);
+    console.error("❌ AI fallita:", errMsg);
     // Fallback senza AI
     const scored = raw.map((a) => ({
       id: slugify(a.title), title: a.title, link: a.link,
       source: a.source, date: a.date, score: 5, tags: [] as string[], sommario: "",
     }));
-    return { scored, aiOk: false };
+    return { scored, aiOk: false, aiError: errMsg };
   }
 }
 
 // --- Pipeline principale ---
-export async function runPipeline(): Promise<WeekData> {
+export async function runPipeline(): Promise<WeekData & { aiOk: boolean; aiError?: string; hasKey: boolean }> {
   const weekId = getWeekId();
   const label = getWeekLabel();
   const t0 = Date.now();
@@ -193,12 +194,18 @@ export async function runPipeline(): Promise<WeekData> {
     return { weekId, label, generatedAt: new Date().toISOString(), articles: [] };
   }
 
-  const { scored, aiOk } = await scoreArticles(raw);
+  // Diagnostica: verifica che la key sia presente
+  const hasKey = !!process.env.OPENROUTER_API_KEY;
+  const keyPreview = hasKey ? process.env.OPENROUTER_API_KEY!.slice(0, 12) + "..." : "MANCANTE";
+  console.log(`🔑 OPENROUTER_API_KEY: ${keyPreview}`);
+
+  const { scored, aiOk, aiError } = await scoreArticles(raw);
   const t2 = ((Date.now() - t0) / 1000).toFixed(1);
   console.log(`⏱️ Totale: ${t2}s (AI: ${aiOk ? "ok" : "fallback"})`);
 
-  const weekData: WeekData = {
+  const weekData: WeekData & { aiOk: boolean; aiError?: string; hasKey: boolean } = {
     weekId, label, generatedAt: new Date().toISOString(), articles: scored,
+    aiOk, aiError, hasKey,
   };
 
   // Quality gate: non salvare se AI fallita

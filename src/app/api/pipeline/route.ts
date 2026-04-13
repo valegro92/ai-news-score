@@ -28,9 +28,13 @@ export async function GET(request: NextRequest) {
       ok: true,
       weekId: result.weekId,
       articlesCount: result.articles.length,
+      aiOk: result.aiOk,
+      aiError: result.aiError || null,
+      hasKey: result.hasKey,
       topArticles: result.articles.slice(0, 5).map((a) => ({
         title: a.title,
         score: a.score,
+        sommario: a.sommario,
       })),
     });
   } catch (err) {
