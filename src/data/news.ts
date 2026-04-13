@@ -24,8 +24,7 @@ const WEEKS_DIR = join(process.cwd(), "src/data/weeks");
 
 /** Validate a single news item has all required fields */
 function validateNewsItem(item: Record<string, unknown>, weekId: string): NewsItem {
-  const required = ["id", "titolo", "fonte", "data", "url", "categoria", "sintesi", "score"];
-  for (const field of required) {
+  const required = ["id", "titolo", "fonte", "data", "url", "categoria", "sintesi", "score"];  for (const field of required) {
     if (!(field in item) || item[field] === undefined || item[field] === "") {
       throw new Error(`[${weekId}] News item missing field: ${field} — id: ${item.id || "unknown"}`);
     }
@@ -50,7 +49,6 @@ function loadWeek(filename: string): WeekData {
     news: raw.news.map((n: Record<string, unknown>) => validateNewsItem(n, raw.id)),
   };
 }
-
 /** Convert pipeline ScoredArticle to NewsItem format */
 function pipelineToNewsItem(article: {
   id: string; title: string; link: string; source: string;
@@ -78,8 +76,7 @@ async function loadFromRedis(): Promise<WeekData | null> {
     const latestId = await redis.get<string>("week:latest");
     if (!latestId) return null;
     const raw = await redis.get<string>(`week:${latestId}`);
-    if (!raw) return null;
-    const data = typeof raw === "string" ? JSON.parse(raw) : raw;
+    if (!raw) return null;    const data = typeof raw === "string" ? JSON.parse(raw) : raw;
     return {
       id: data.weekId,
       label: data.label,
@@ -108,25 +105,23 @@ export function getAllWeeks(): WeekData[] {
 /** Get a specific week by id (e.g. "2026-W14") */
 export function getWeek(weekId: string): WeekData | null {
   const filename = `${weekId}.json`;
-  try {
-    return loadWeek(filename);
+  try {    return loadWeek(filename);
   } catch {
     return null;
   }
 }
 
-/** Get the latest week — tries Redis first, then filesystem */
+/** Get the latest week — static JSON curati hanno priorità, Redis solo fallback */
 export async function getLatestWeekAsync(): Promise<WeekData> {
-  // 1. Try Redis (pipeline data)
+  // 1. Priorità: JSON statici curati (dal task schedulato)
+  const weeks = getAllWeeks();
+  if (weeks.length > 0) return weeks[0];
+
+  // 2. Fallback: Redis (pipeline automatica)
   const redisWeek = await loadFromRedis();
   if (redisWeek && redisWeek.news.length > 0) return redisWeek;
 
-  // 2. Fallback to filesystem
-  const weeks = getAllWeeks();
-  if (weeks.length === 0) {
-    throw new Error("No week data found");
-  }
-  return weeks[0];
+  throw new Error("No week data found");
 }
 
 /** Sync version for backwards compatibility */
