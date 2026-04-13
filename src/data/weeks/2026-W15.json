@@ -1,0 +1,152 @@
+{
+  "id": "2026-W15",
+  "label": "Settimana 15 — Aprile 2026",
+  "lastUpdate": "13 Apr 2026",
+  "news": [
+    {
+      "id": "2026-w15-01",
+      "titolo": "80% dei lavoratori rifiuta l'AI: la 'quiet rebellion' contro i mandati aziendali è iniziata",
+      "fonte": "Fortune",
+      "data": "9 Apr 2026",
+      "url": "https://fortune.com/2026/04/09/ai-backlash-quiet-quitting-fobo-obsolete-white-collar-rebellion/",
+      "categoria": "AI e Lavoro",
+      "sintesi": "L'80% dei lavoratori evita o rifiuta i tool AI aziendali. Solo il 9% si fida dell'AI per decisioni critiche vs 61% dei dirigenti: trust chasm di 52 punti.",
+      "score": 10
+    },
+    {
+      "id": "2026-w15-02",
+      "titolo": "78.557 licenziamenti tech in Q1 2026: il 48% causato esplicitamente dall'AI",
+      "fonte": "Tom's Hardware / TechRadar",
+      "data": "Apr 2026",
+      "url": "https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai",
+      "categoria": "AI e Lavoro",
+      "sintesi": "78.557 lavoratori tech licenziati in Q1, il 76% negli USA. 37.638 tagli (48%) attribuiti all'AI. Le aziende non si nascondono più.",
+      "score": 10
+    },    {
+      "id": "2026-w15-03",
+      "titolo": "Il paradosso ROI: $3.70 per ogni $1 investito, ma l'80% non vede impatto su EBIT",
+      "fonte": "McKinsey / AmplifAI",
+      "data": "Apr 2026",
+      "url": "https://www.amplifai.com/blog/generative-ai-statistics",
+      "categoria": "Adozione AI",
+      "sintesi": "Per ogni $1 in GenAI, ritorno medio di $3.70. Ma l'80% delle organizzazioni non vede impatto su EBIT. Il valore è concentrato nei first mover.",
+      "score": 10
+    },
+    {
+      "id": "2026-w15-04",
+      "titolo": "CFO ammettono in privato: i tagli AI saranno 9 volte più alti quest'anno",
+      "fonte": "Fortune",
+      "data": "24 Mar 2026",
+      "url": "https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/",
+      "categoria": "AI e Lavoro",
+      "sintesi": "Survey riservata sui CFO: i tagli AI nel 2026 saranno 9x superiori ai dichiarati. Goldman Sachs stima 300 milioni di posti impattati globalmente.",
+      "score": 10
+    },
+    {
+      "id": "2026-w15-05",
+      "titolo": "L'AI efficiency trap: i lavoratori spendono il 346% di tempo in più a verificare gli output",
+      "fonte": "Fortune",
+      "data": "1 Apr 2026",
+      "url": "https://fortune.com/2026/04/01/ai-layoffs-automation-productivity-finance-employment-investors-ceos/",
+      "categoria": "Adozione AI",
+      "sintesi": "Chi usa AI spende fino al 346% di tempo in più. Il 40% dei guadagni di efficienza viene annullato dalla verifica degli output. Risparmio reale: solo 5.4%.",
+      "score": 10
+    },    {
+      "id": "2026-w15-06",
+      "titolo": "Block taglia il 40% della forza lavoro: l'AI customer service risolve il 70-80% dei ticket",
+      "fonte": "CNBC / CNN",
+      "data": "26 Feb 2026",
+      "url": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html",
+      "categoria": "AI e Lavoro",
+      "sintesi": "Block da 10.000 a 6.000 dipendenti. Dorsey: 'Non è crisi, è AI capability.' Customer service AI risolve 70-80% dei ticket. Più grande taglio AI-driven della storia.",
+      "score": 10
+    },
+    {
+      "id": "2026-w15-07",
+      "titolo": "Oracle taglia 30.000 posti per finanziare $50 miliardi di infrastruttura AI",
+      "fonte": "CNBC / The Register",
+      "data": "31 Mar - 10 Apr 2026",
+      "url": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+      "categoria": "AI e Lavoro",
+      "sintesi": "Oracle licenzia il 18% della workforce per liberare $8-10B annui. Capex AI a $50B. Email di licenziamento alle 6 AM senza preavviso in India, Canada, Messico.",
+      "score": 9
+    },
+    {
+      "id": "2026-w15-08",
+      "titolo": "79% delle aziende fatica con l'AI: il 54% dei C-suite ammette che sta 'spaccando' l'azienda",
+      "fonte": "Writer",
+      "data": "Apr 2026",
+      "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
+      "categoria": "Adozione AI",
+      "sintesi": "79% in difficoltà (+10pp dal 2025). Il 54% dei dirigenti ammette fratture interne. Il 59% investe oltre $1M/anno ma il gap investimento-risultati si allarga.",
+      "score": 9
+    },    {
+      "id": "2026-w15-09",
+      "titolo": "India guida l'adozione AI globale al 40%, ma l'expertise tecnica profonda è quasi zero",
+      "fonte": "Asanify",
+      "data": "12 Apr 2026",
+      "url": "https://asanify.com/blog/news/india-enterprise-ai-adoption-april-12-2026/",
+      "categoria": "Adozione AI",
+      "sintesi": "40% delle aziende indiane con AI at scale vs 28% globale. Ma expertise profonda al 0-4%. Adozione ampia ma non profonda: pattern replicabile in Europa.",
+      "score": 9
+    },
+    {
+      "id": "2026-w15-10",
+      "titolo": "GPT-5.4: agenti autonomi con computer use nativo e 1 milione di token di contesto",
+      "fonte": "OpenAI",
+      "data": "5 Mar 2026",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "categoria": "Tool e Automazione",
+      "sintesi": "Computer use nativo: agenti che controllano mouse e tastiera. 1M token di contesto. Supera i professionisti umani nell'83% dei confronti su knowledge work.",
+      "score": 9
+    },
+    {
+      "id": "2026-w15-11",
+      "titolo": "AI Omnibus EU: la 'semplificazione' dell'AI Act rinvia gli obblighi al 2027-2028",
+      "fonte": "EU Commission / Amnesty",
+      "data": "Apr 2026",
+      "url": "https://www.amnesty.org/en/latest/news/2026/04/eu-simplification-laws/",
+      "categoria": "Regolamentazione",
+      "sintesi": "Obblighi high-risk rinviati a dic 2027 / ago 2028. Amnesty: rollback dei diritti mascherato da semplificazione. Per le PMI: più tempo, zero standard.",
+      "score": 8
+    },    {
+      "id": "2026-w15-12",
+      "titolo": "Meta lancia Llama 5 (600B parametri) e poi rilascia Muse Spark proprietario",
+      "fonte": "CNBC / VentureBeat",
+      "data": "8 Apr 2026",
+      "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Llama 5 open source con 600B parametri. Ma Muse Spark, primo modello di Superintelligence Labs, è proprietario. La strategia open di Meta cambia direzione.",
+      "score": 7
+    },
+    {
+      "id": "2026-w15-13",
+      "titolo": "'Claude mania' al HumanX: Anthropic domina la scena, Claude Code è il tool del momento",
+      "fonte": "CNBC",
+      "data": "11 Apr 2026",
+      "url": "https://www.cnbc.com/2026/04/11/vibe-check-from-ai-industry-humanx-anthropic-is-talk-of-the-town.html",
+      "categoria": "Business AI",
+      "sintesi": "Al HumanX OpenAI non domina più. Claude Code è il tool di cui tutti parlano. App gratuita più scaricata negli USA. Revenue stimata: $2.5 miliardi.",
+      "score": 7
+    },
+    {
+      "id": "2026-w15-14",
+      "titolo": "AI come arma: hacker usa Claude e ChatGPT per rubare 150GB al governo messicano",
+      "fonte": "CybersecurityNews",
+      "data": "11 Apr 2026",
+      "url": "https://cybersecuritynews.com/hacker-uses-claude-and-chatgpt-to-breach/",
+      "categoria": "Regolamentazione",
+      "sintesi": "Claude Code ha generato il 75% dei comandi nell'attacco. 9 agenzie violate, 195M record fiscali rubati. Primo caso confermato di cyber-espionage AI-assisted.",
+      "score": 7
+    },    {
+      "id": "2026-w15-15",
+      "titolo": "Anthropic sale al 33% delle aziende USA: Claude guadagna 6 punti in un mese su OpenAI",
+      "fonte": "PYMNTS",
+      "data": "Apr 2026",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-gains-on-openai-amid-rising-adoption-among-enterprises/",
+      "categoria": "Business AI",
+      "sintesi": "33% delle aziende USA paga per Anthropic (+6pp in un mese). OpenAI piatta al 35%. Il gap si chiude. Il mercato enterprise non è più un monopolio.",
+      "score": 7
+    }
+  ]
+}
