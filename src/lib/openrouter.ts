@@ -3,11 +3,13 @@
 
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
-// Modelli gratuiti su OpenRouter — aggiornati aprile 2026
-// openrouter/free = meta-modello che sceglie il migliore disponibile
+// Modelli gratuiti su OpenRouter — aggiornati 13 aprile 2026
+// gpt-oss: veloci (~2s), rispondono con JSON pulito, non rate-limited
+// openrouter/free: meta-modello lento nel serverless, usato come ultimo fallback
 const FREE_MODELS = [
+  "openai/gpt-oss-20b:free",
+  "openai/gpt-oss-120b:free",
   "openrouter/free",
-  "google/gemma-4-31b-it:free",
 ];
 
 interface ChatMessage {
@@ -65,7 +67,7 @@ export async function chat(messages: ChatMessage[]): Promise<string> {
   for (const model of FREE_MODELS) {
     try {
       console.log(`🤖 Provo: ${model}`);
-      const result = await withTimeout(callModel(model, messages), 40000, model);
+      const result = await withTimeout(callModel(model, messages), 20000, model);
       if (result) {
         console.log(`✅ ${model} ok (${result.length} chars)`);
         return result;
