@@ -60,7 +60,11 @@ function pipelineToNewsItem(article: {
     id: article.id,
     titolo: article.title,
     fonte: article.source,
-    data: article.date,
+    data: (() => {
+      try {
+        return new Date(article.date).toLocaleDateString("it-IT", { day: "numeric", month: "short", year: "numeric" });
+      } catch { return article.date; }
+    })(),
     url: article.link,
     categoria: (article.tags && article.tags[0]) || "AI",
     sintesi: article.sommario || "",

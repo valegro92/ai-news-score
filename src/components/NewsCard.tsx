@@ -32,8 +32,7 @@ export default function NewsCard({
 
   return (
     <article
-      className="news-card animate-slide-up bg-cassetta-surface border border-cassetta-border rounded-xl p-6 relative overflow-hidden"
-      style={{ animationDelay: `${index * 80}ms` }}
+      className="news-card bg-cassetta-surface border border-cassetta-border rounded-xl p-6 relative overflow-hidden"
     >
       {/* Subtle gradient accent */}
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-cassetta-brand/50 to-transparent" />

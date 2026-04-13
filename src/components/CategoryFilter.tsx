@@ -36,7 +36,7 @@ export default function CategoryFilter({ news, weekLabel, lastUpdate }: Props) {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <h2 className="text-2xl font-bold text-white">{weekLabel}</h2>
         <span className="text-xs font-mono text-cassetta-muted bg-cassetta-surface px-3 py-1.5 rounded-lg border border-cassetta-border">
-          Aggiornato: {lastUpdate}
+          Aggiornato: {new Date(lastUpdate).toLocaleDateString("it-IT", { day: "numeric", month: "short", year: "numeric" })}
         </span>
       </div>
 

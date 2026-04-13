@@ -57,6 +57,20 @@ function slugify(text: string): string {
     .slice(0, 60);
 }
 
+// --- HTML entity decoder ---
+function decodeEntities(text: string): string {
+  const entities: Record<string, string> = {
+    "&amp;": "&", "&lt;": "<", "&gt;": ">", "&quot;": '"',
+    "&apos;": "'", "&#39;": "'", "&#039;": "'",
+  };
+  return text
+    .replace(/&(?:#(?:x([0-9a-fA-F]+)|([0-9]+))|([a-zA-Z]+));/g, (match, hex, dec, named) => {
+      if (hex) return String.fromCharCode(parseInt(hex, 16));
+      if (dec) return String.fromCharCode(parseInt(dec, 10));
+      return entities[`&${named};`] || match;
+    });
+}
+
 // --- Fetch RSS con fetch nativo (no rss-parser, zero deps) ---
 function extractItems(xml: string, sourceName: string): RawArticle[] {
   const items: RawArticle[] = [];
@@ -69,7 +83,7 @@ function extractItems(xml: string, sourceName: string): RawArticle[] {
       || block.match(/<link[^>]*href="([^"]+)"/)?.[1]?.trim();
     const pubDate = block.match(/<pubDate[^>]*>(.*?)<\/pubDate>/)?.[1]?.trim();
     if (title && link) {
-      items.push({ title, link, source: sourceName, date: pubDate || new Date().toISOString() });
+      items.push({ title: decodeEntities(title), link, source: sourceName, date: pubDate || new Date().toISOString() });
     }
   }
   return items;
