@@ -65,9 +65,11 @@ async function fetchFeeds(): Promise<RawArticle[]> {
   const sevenDaysAgo = new Date();
   sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
 
-  // Tutti i feed in parallelo — un singolo Promise.allSettled
+  // Primi 20 feed (i più importanti) in parallelo
+  const topFeeds = feedList.slice(0, 20);
+  console.log(`📡 Fetch da ${topFeeds.length}/${feedList.length} feed...`);
   const results = await Promise.allSettled(
-    feedList.map(async (feed) => {
+    topFeeds.map(async (feed) => {
       try {
         const parsed = await parser.parseURL(feed.url);
         return (parsed.items || [])

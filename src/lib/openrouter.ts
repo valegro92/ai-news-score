@@ -50,22 +50,32 @@ async function callModel(
   return data.choices[0]?.message?.content?.trim() || "";
 }
 
-// Prova i modelli in ordine; se uno fallisce, passa al successivo
+// Timeout helper
+function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+  return Promise.race([
+    promise,
+    new Promise<never>((_, reject) =>
+      setTimeout(() => reject(new Error(`Timeout ${ms}ms: ${label}`)), ms)
+    ),
+  ]);
+}
+
+// Prova i modelli in ordine; se uno fallisce o è lento, passa al successivo
 export async function chat(messages: ChatMessage[]): Promise<string> {
   const errors: string[] = [];
 
   for (const model of FREE_MODELS) {
     try {
-      console.log(`🤖 Provo modello: ${model}`);
-      const result = await callModel(model, messages);
+      console.log(`🤖 Provo: ${model}`);
+      const result = await withTimeout(callModel(model, messages), 25000, model);
       if (result) {
-        console.log(`✅ Risposta da ${model} (${result.length} chars)`);
+        console.log(`✅ ${model} ok (${result.length} chars)`);
         return result;
       }
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
       errors.push(msg);
-      console.warn(`⚠️ Fallback: ${model} fallito → ${msg}`);
+      console.warn(`⚠️ ${model}: ${msg}`);
     }
   }
 
