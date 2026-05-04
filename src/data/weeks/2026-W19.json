@@ -1,0 +1,126 @@
+{
+  "week": "2026-W19",
+  "generated_at": "2026-05-04 09:01",
+  "items": [
+    {
+      "title": "OpenAI rompe l'esclusiva con Microsoft: i modelli GPT sbarcano su Amazon AWS",
+      "score": 9,
+      "category": "Business AI",
+      "summary": "GPT-5.5 e Codex disponibili su Amazon Bedrock in limited preview dopo che Amazon ha investito $50B in OpenAI. La dipendenza da Microsoft è finita: chi usa AWS ora ha accesso diretto ai modelli OpenAI per costruire agenti enterprise.",
+      "url": "https://www.cnbc.com/2026/04/28/openai-brings-models-to-aws-after-ending-exclusivity-with-microsoft.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "PwC: il 74% del valore AI finisce nelle tasche del 20% delle aziende — il gap si allarga",
+      "score": 9,
+      "category": "Adozione AI",
+      "summary": "Le aziende AI leader generano un rendimento 7.2x superiore alla media perché ridisegnano i processi attorno all'AI invece di aggiungere tool ai flussi esistenti. Il 20% di chi vince automatizza decisioni 3x più velocemente degli altri.",
+      "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html",
+      "source": "PwC"
+    },
+    {
+      "title": "Google scommette $40 miliardi su Anthropic: $10B subito, 5 gigawatt di compute inclusi",
+      "score": 8,
+      "category": "Business AI",
+      "summary": "Valutazione Anthropic a $350B dopo l'investimento annunciato il 24 aprile. Google non si fida solo dei suoi modelli e rafforza la posizione in cloud compute: chi usa Claude di Anthropic ha ora la potenza infrastrutturale di Google DeepMind dietro.",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "82% delle PMI usa in media 5 strumenti AI: marketing e automazione guidano l'adozione",
+      "score": 8,
+      "category": "Adozione AI",
+      "summary": "Secondo il survey SBE Council 2026, il 78.6% delle piccole imprese che usano AI riporta riduzione dei costi o miglioramento dell'efficienza. L'AI non è più opzionale per le PMI: chi non è ancora entrato è già indietro di un ciclo.",
+      "url": "https://sbecouncil.org/2026/04/25/the-ai-tools-small-businesses-are-using/",
+      "source": "SBE Council"
+    },
+    {
+      "title": "Mistral lancia Workflows: dall'esperimento alla produzione senza blocchi tecnici",
+      "score": 8,
+      "category": "Tool e Automazione",
+      "summary": "Engine di orchestrazione AI basato su Temporal (lo stesso usato da Netflix e Stripe), già a milioni di esecuzioni giornaliere. I team tecnici scrivono i workflow, i business team li avviano da Le Chat: la distanza tra prototipo e produzione si accorcia drasticamente.",
+      "url": "https://venturebeat.com/technology/mistral-ai-launches-workflows-a-temporal-powered-orchestration-engine-already-running-millions-of-daily-executions",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "GPT-5.5 in 6 settimane da GPT-5.4: OpenAI accelera il ritmo di rilascio",
+      "score": 8,
+      "category": "Modelli e Open Source",
+      "summary": "Ottimizzato per coding, computer use e ricerca scientifica precoce, GPT-5.5 arriva il 23 aprile. Il segnale è chiaro: la cadenza di aggiornamento si misura in settimane, non semestri — chi integra AI nei processi deve costruire architetture aggiornabili.",
+      "url": "https://llm-stats.com/ai-news",
+      "source": "LLM Stats"
+    },
+    {
+      "title": "Gartner: l'80% delle app enterprise ha un agente AI, ma solo il 31% è in produzione",
+      "score": 8,
+      "category": "Adozione AI",
+      "summary": "Dati Q1 2026: dal 33% del 2024 all'80% di applicazioni con agenti integrati, ma l'88% dei pilot non passa mai in produzione. Il problema non è la tecnologia ma evaluation, governance e affidabilità — chi risolve questo ha vantaggio competitivo enorme.",
+      "url": "https://turion.ai/blog/what-april-ai-agent-launches-mean-2026/",
+      "source": "Turion AI"
+    },
+    {
+      "title": "Google Cloud Next '26: protocollo A2A v1.0 e agenti enterprise disponibili su Vertex AI",
+      "score": 7,
+      "category": "Tool e Automazione",
+      "summary": "Google porta il protocollo Agent-to-Agent alla versione 1.0 come primitiva nativa di Vertex AI. L'automazione multi-agente non è più una preview lab: le aziende possono costruire reti di agenti che collaborano su task complessi di business.",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-22/google-releases-new-ai-agents-to-challenge-openai-and-anthropic",
+      "source": "Bloomberg"
+    },
+    {
+      "title": "Gemini 3.1 Pro: 1 milione di token, multimodale nativo su testo, audio, video e codice",
+      "score": 7,
+      "category": "Modelli e Open Source",
+      "summary": "Il modello è ora in preview su Vertex AI e Google AI Studio. Una finestra da 1M di token significa poter analizzare interi repository di codice, contratti complessi o archivi documentali in un'unica chiamata — use case finora impraticabili diventano accessibili.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+      "source": "Google Blog"
+    },
+    {
+      "title": "Colorado AI Act: il 30 giugno 2026 scatta l'obbligo per chi usa AI in decisioni ad alto rischio",
+      "score": 7,
+      "category": "Regolamentazione",
+      "summary": "Prima legge statale AI completa negli USA: chi usa AI per assunzioni, credito, salute o housing deve avere risk management policy, impact assessment e disclosure dei consumatori entro il 30 giugno. Sanzioni fino a $20.000 per violazione — modello che gli stati europei osserveranno con attenzione.",
+      "url": "https://aicompliancedocuments.com/blog/colorado-ai-law-91-days-deadline-requirements",
+      "source": "AI Compliance Documents"
+    },
+    {
+      "title": "Anthropic Mythos in early access: il modello più potente con focus cybersecurity",
+      "score": 7,
+      "category": "Modelli e Open Source",
+      "summary": "Project Glasswing porta Mythos in accesso controllato dal 7 aprile per partner selezionati. È il modello più capace di Anthropic ad oggi, con applicazioni specifiche in ambito cybersecurity — segnala che la corsa ai frontier model si sposta verso domini verticali ad alto rischio.",
+      "url": "https://whatllm.org/blog/new-ai-models-april-2026",
+      "source": "WhatLLM"
+    },
+    {
+      "title": "Adobe CX Enterprise: agenti AI orchestrano l'intero ciclo cliente, con governance integrata",
+      "score": 7,
+      "category": "Tool e Automazione",
+      "summary": "Presentato all'Adobe Summit del 20 aprile, CX Enterprise combina agenti AI, endpoint MCP e un layer di governance per automatizzare il lifecycle cliente end-to-end. È il segnale che le suite enterprise tradizionali si stanno riscrivendo intorno agli agenti, non attorno ai form.",
+      "url": "https://news.adobe.com/news/2026/04/adobe-redefines-custome-experience",
+      "source": "Adobe"
+    },
+    {
+      "title": "Lavoro e AI in Italia: trasformazione non neutrale, solo l'11% dei lavoratori è coinvolto",
+      "score": 7,
+      "category": "AI e Lavoro",
+      "summary": "Primo Maggio 2026: lavoro d'ufficio il settore più esposto all'automazione AI, colpisce soprattutto figure amministrative. Il manifatturiero tiene ma la riqualificazione è urgente — Hays segnala figure tecniche sempre più difficili da trovare.",
+      "url": "https://www.matricedigitale.it/2026/05/02/lavoro-intelligenza-artificiale/",
+      "source": "Matrice Digitale"
+    },
+    {
+      "title": "White House pubblica il framework nazionale USA per la governance dell'AI",
+      "score": 6,
+      "category": "Regolamentazione",
+      "summary": "Il 20 marzo 2026 la Casa Bianca ha rilasciato raccomandazioni legislative per un approccio federale unificato all'AI. Non è ancora legge, ma è destinato a plasmare la legislazione nei mesi successivi — anche l'Europa osserva come gli USA si posizionano rispetto all'AI Act.",
+      "url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+      "source": "White House"
+    },
+    {
+      "title": "Decreto Lavoro 1° maggio: 934 milioni contro il caporalato digitale e per l'occupazione stabile",
+      "score": 6,
+      "category": "AI e Lavoro",
+      "summary": "Il decreto introduce salario giusto, incentivi all'assunzione stabile e misure contro l'intermediazione digitale illecita. L'AI come strumento di sfruttamento (task gig invisibili, tariffe algoritmiche) entra per la prima volta nell'agenda normativa italiana.",
+      "url": "https://www.capitaladvisory.net/incentivi/decreto-lavoro-1-maggio-2026-cosa-cambia-per-imprese-e-lavoratori/",
+      "source": "Capital Advisory"
+    }
+  ]
+}
