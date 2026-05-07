@@ -1,126 +1,157 @@
 {
-  "week": "2026-W18",
-  "generated_at": "2026-04-27 09:07",
-  "items": [
+  "id": "2026-W18",
+  "label": "Settimana 18 — Aprile 2026",
+  "lastUpdate": "27 Apr 2026",
+  "news": [
     {
-      "title": "L81% delle PMI italiane usa l IA ma solo 1 su 4 l ha integrata nei processi",
-      "score": 10,
-      "category": "Adozione AI",
-      "summary": "La fotografia piu precisa del divario italiano: sperimentazione diffusissima, adozione strutturata rarissima. Solo il 25% ha IA integrata nei flussi quotidiani, il 70% la usa in modo occasionale e non misurabile.",
+      "id": "2026-w18-01",
+      "titolo": "L81% delle PMI italiane usa l IA ma solo 1 su 4 l ha integrata nei processi",
+      "fonte": "PMI.it",
+      "data": "27 Apr 2026",
       "url": "https://www.pmi.it/impresa/business-e-project-management/491949/intelligenza-artificiale-pmi-adozione.html",
-      "source": "PMI.it"
+      "categoria": "Adozione AI",
+      "sintesi": "La fotografia piu precisa del divario italiano: sperimentazione diffusissima, adozione strutturata rarissima. Solo il 25% ha IA integrata nei flussi quotidiani, il 70% la usa in modo occasionale e non misurabile.",
+      "score": 10
     },
     {
-      "title": "OpenAI e Confartigianato lanciano SME AI Accelerator: formazione AI gratuita per le PMI italiane",
-      "score": 10,
-      "category": "Adozione AI",
-      "summary": "Primo hub nazionale di formazione AI per artigiani e PMI, con workshop pratici a partire da Milano il 15 maggio. La notizia italiana della settimana: finalmente un programma strutturato che porta l IA concreta in fabbrica.",
+      "id": "2026-w18-02",
+      "titolo": "OpenAI e Confartigianato lanciano SME AI Accelerator: formazione AI gratuita per le PMI italiane",
+      "fonte": "Confartigianato",
+      "data": "27 Apr 2026",
       "url": "https://www.confartigianato.it/2026/04/openai-e-confartigianato-lanciano-lo-sme-ai-accelerator-per-le-pmi-italiane/",
-      "source": "Confartigianato"
+      "categoria": "Adozione AI",
+      "sintesi": "Primo hub nazionale di formazione AI per artigiani e PMI, con workshop pratici a partire da Milano il 15 maggio. La notizia italiana della settimana: finalmente un programma strutturato che porta l IA concreta in fabbrica.",
+      "score": 10
     },
     {
-      "title": "PwC 2026: solo il 20% delle aziende cattura il 74% del valore AI, e puntano sulla crescita non sui tagli",
-      "score": 9,
-      "category": "Business AI",
-      "summary": "Il report PwC fotografa la biforcazione definitiva: i leader AI generano nuovo mercato, non ottimizzano costi. Chi usa l IA solo per risparmiare e gia fuori gara.",
+      "id": "2026-w18-03",
+      "titolo": "PwC 2026: solo il 20% delle aziende cattura il 74% del valore AI, e puntano sulla crescita non sui tagli",
+      "fonte": "PwC",
+      "data": "27 Apr 2026",
       "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html",
-      "source": "PwC"
+      "categoria": "Business AI",
+      "sintesi": "Il report PwC fotografa la biforcazione definitiva: i leader AI generano nuovo mercato, non ottimizzano costi. Chi usa l IA solo per risparmiare e gia fuori gara.",
+      "score": 9
     },
     {
-      "title": "Google lancia Gemma 4: modello open source multimodale con 256K context, audio e licenza Apache 2.0",
-      "score": 9,
-      "category": "Modelli e Open Source",
-      "summary": "Il modello da 31B parametri batte rivali da 400B e gira su GPU consumer. Con licenza Apache 2.0 e supporto per testo, immagini e audio, abbassa il costo di entry per chi vuole AI senza cloud.",
+      "id": "2026-w18-04",
+      "titolo": "Google lancia Gemma 4: modello open source multimodale con 256K context, audio e licenza Apache 2.0",
+      "fonte": "Google Blog",
+      "data": "27 Apr 2026",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
-      "source": "Google Blog"
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Il modello da 31B parametri batte rivali da 400B e gira su GPU consumer. Con licenza Apache 2.0 e supporto per testo, immagini e audio, abbassa il costo di entry per chi vuole AI senza cloud.",
+      "score": 9
     },
     {
-      "title": "OpenAI lancia i Workspace Agents in ChatGPT Business: automazione nativa su Slack, Gmail e tool aziendali",
-      "score": 8,
-      "category": "Tool e Automazione",
-      "summary": "Gli agenti che lavorano su Slack e Gmail diventano nativi in ChatGPT Business ed Enterprise. La barriera all automazione dei workflow quotidiani per le PMI si abbassa a zero setup tecnico.",
+      "id": "2026-w18-05",
+      "titolo": "OpenAI lancia i Workspace Agents in ChatGPT Business: automazione nativa su Slack, Gmail e tool aziendali",
+      "fonte": "MarketingProfs",
+      "data": "27 Apr 2026",
       "url": "https://www.marketingprofs.com/opinions/2026/54587/ai-update-april-24-2026-ai-news-and-views-from-the-past-week",
-      "source": "MarketingProfs"
+      "categoria": "Tool e Automazione",
+      "sintesi": "Gli agenti che lavorano su Slack e Gmail diventano nativi in ChatGPT Business ed Enterprise. La barriera all automazione dei workflow quotidiani per le PMI si abbassa a zero setup tecnico.",
+      "score": 8
     },
     {
-      "title": "OpenAI annuncia GPT-5.5: agentic coding avanzato, computer use e ricerca profonda in un solo modello",
-      "score": 8,
-      "category": "Modelli e Open Source",
-      "summary": "GPT-5.5 e disponibile da API a 5 dollari per milione di token input, integra coding su task complessi e computer use. Per le aziende su ChatGPT Enterprise e l upgrade piu significativo dell anno.",
+      "id": "2026-w18-06",
+      "titolo": "OpenAI annuncia GPT-5.5: agentic coding avanzato, computer use e ricerca profonda in un solo modello",
+      "fonte": "TechCrunch",
+      "data": "27 Apr 2026",
       "url": "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-      "source": "TechCrunch"
+      "categoria": "Modelli e Open Source",
+      "sintesi": "GPT-5.5 e disponibile da API a 5 dollari per milione di token input, integra coding su task complessi e computer use. Per le aziende su ChatGPT Enterprise e l upgrade piu significativo dell anno.",
+      "score": 8
     },
     {
-      "title": "79% delle aziende enterprise ha gia adottato AI agent e il 100% prevede di espanderne l uso nel 2026",
-      "score": 8,
-      "category": "Adozione AI",
-      "summary": "L AI agentiva non e piu la frontiera, e lo standard enterprise 2026. Le PMI senza almeno un agente attivo rischiano di trovarsi strutturalmente in ritardo rispetto ai competitor piu grandi.",
+      "id": "2026-w18-07",
+      "titolo": "79% delle aziende enterprise ha gia adottato AI agent e il 100% prevede di espanderne l uso nel 2026",
+      "fonte": "Crescendo AI",
+      "data": "27 Apr 2026",
       "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
-      "source": "Crescendo AI"
+      "categoria": "Adozione AI",
+      "sintesi": "L AI agentiva non e piu la frontiera, e lo standard enterprise 2026. Le PMI senza almeno un agente attivo rischiano di trovarsi strutturalmente in ritardo rispetto ai competitor piu grandi.",
+      "score": 8
     },
     {
-      "title": "Microsoft lancia 3 modelli AI proprietari MAI e sfida OpenAI anche sul mercato dei foundation model",
-      "score": 8,
-      "category": "Modelli e Open Source",
-      "summary": "MAI-Transcribe-1 batte Whisper in 25 lingue, MAI-Image-2 e top 3 su Arena. Microsoft ha rimosso il vincolo contrattuale con OpenAI e punta a un LLM frontier proprio entro il 2027.",
+      "id": "2026-w18-08",
+      "titolo": "Microsoft lancia 3 modelli AI proprietari MAI e sfida OpenAI anche sul mercato dei foundation model",
+      "fonte": "TechCrunch",
+      "data": "27 Apr 2026",
       "url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-      "source": "TechCrunch"
+      "categoria": "Modelli e Open Source",
+      "sintesi": "MAI-Transcribe-1 batte Whisper in 25 lingue, MAI-Image-2 e top 3 su Arena. Microsoft ha rimosso il vincolo contrattuale con OpenAI e punta a un LLM frontier proprio entro il 2027.",
+      "score": 8
     },
     {
-      "title": "Microsoft rilascia Agent Governance Toolkit open source: 7 pacchetti per governare gli agenti autonomi",
-      "score": 8,
-      "category": "Tool e Automazione",
-      "summary": "Audit trail, controllo e accountability degli agenti AI in un toolkit open source gratuito su GitHub e PyPI. Finalmente uno strumento concreto per chi vuole gestire il rischio operativo degli agenti aziendali.",
+      "id": "2026-w18-09",
+      "titolo": "Microsoft rilascia Agent Governance Toolkit open source: 7 pacchetti per governare gli agenti autonomi",
+      "fonte": "VentureBeat",
+      "data": "27 Apr 2026",
       "url": "https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google",
-      "source": "VentureBeat"
+      "categoria": "Tool e Automazione",
+      "sintesi": "Audit trail, controllo e accountability degli agenti AI in un toolkit open source gratuito su GitHub e PyPI. Finalmente uno strumento concreto per chi vuole gestire il rischio operativo degli agenti aziendali.",
+      "score": 8
     },
     {
-      "title": "EU valuta di rinviare le scadenze di compliance AI Act al 2027-2028 per difficolta di implementazione",
-      "score": 8,
-      "category": "Regolamentazione",
-      "summary": "Bruxelles studia un posticipo per le aziende ad alto rischio. Meno pressione nel breve, ma il framework non cambia: chi non ha ancora fatto gap analysis dovrebbe farlo adesso, non aspettare il rinvio.",
+      "id": "2026-w18-10",
+      "titolo": "EU valuta di rinviare le scadenze di compliance AI Act al 2027-2028 per difficolta di implementazione",
+      "fonte": "Eversheds Sutherland",
+      "data": "27 Apr 2026",
       "url": "https://www.eversheds-sutherland.com/en/global/insights/gloabl-ai-bulletin-april-2026",
-      "source": "Eversheds Sutherland"
+      "categoria": "Regolamentazione",
+      "sintesi": "Bruxelles studia un posticipo per le aziende ad alto rischio. Meno pressione nel breve, ma il framework non cambia: chi non ha ancora fatto gap analysis dovrebbe farlo adesso, non aspettare il rinvio.",
+      "score": 8
     },
     {
-      "title": "Google investe fino a 40 miliardi in Anthropic: 10 subito, altri 30 al raggiungimento di target di performance",
-      "score": 7,
-      "category": "Business AI",
-      "summary": "Google raddoppia su Anthropic insieme ad Amazon, consolidando la valutazione a 350 miliardi. Il segnale e chiaro: il duopolio AI sara OpenAI vs Anthropic, con tutto il Big Tech schierato su un lato.",
+      "id": "2026-w18-11",
+      "titolo": "Google investe fino a 40 miliardi in Anthropic: 10 subito, altri 30 al raggiungimento di target di performance",
+      "fonte": "TechCrunch",
+      "data": "27 Apr 2026",
       "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-      "source": "TechCrunch"
+      "categoria": "Business AI",
+      "sintesi": "Google raddoppia su Anthropic insieme ad Amazon, consolidando la valutazione a 350 miliardi. Il segnale e chiaro: il duopolio AI sara OpenAI vs Anthropic, con tutto il Big Tech schierato su un lato.",
+      "score": 7
     },
     {
-      "title": "Snowflake e OpenAI: partnership da 200 milioni per portare l AI agentiva direttamente nel Data Cloud",
-      "score": 7,
-      "category": "Business AI",
-      "summary": "I modelli OpenAI integrati nativamente in Snowflake accelerano i data team verso agenti autonomi. Per le aziende con dati in cloud, la barriera tecnica all AI scende drasticamente.",
+      "id": "2026-w18-12",
+      "titolo": "Snowflake e OpenAI: partnership da 200 milioni per portare l AI agentiva direttamente nel Data Cloud",
+      "fonte": "CNBC",
+      "data": "27 Apr 2026",
       "url": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html",
-      "source": "CNBC"
+      "categoria": "Business AI",
+      "sintesi": "I modelli OpenAI integrati nativamente in Snowflake accelerano i data team verso agenti autonomi. Per le aziende con dati in cloud, la barriera tecnica all AI scende drasticamente.",
+      "score": 7
     },
     {
-      "title": "Deloitte lancia una practice agentiva dedicata con Google Cloud Gemini Enterprise per la trasformazione AI",
-      "score": 7,
-      "category": "Adozione AI",
-      "summary": "Il piu grande network di consulenza al mondo scala la propria offerta agentiva con Google. Segnale che l AI agentiva enterprise e uscita dai proof-of-concept ed entra nelle roadmap di trasformazione reali.",
+      "id": "2026-w18-13",
+      "titolo": "Deloitte lancia una practice agentiva dedicata con Google Cloud Gemini Enterprise per la trasformazione AI",
+      "fonte": "Google Cloud Blog",
+      "data": "27 Apr 2026",
       "url": "https://www.googlecloudpresscorner.com/2026-04-22-Deloitte-Accelerates-AI-Transformation-on-Gemini-Enterprise-With-Dedicated-Google-Cloud-Agentic-Transformation-Practice",
-      "source": "Google Cloud Blog"
+      "categoria": "Adozione AI",
+      "sintesi": "Il piu grande network di consulenza al mondo scala la propria offerta agentiva con Google. Segnale che l AI agentiva enterprise e uscita dai proof-of-concept ed entra nelle roadmap di trasformazione reali.",
+      "score": 7
     },
     {
-      "title": "Cursor 3: interfaccia agent-first per il coding con LLM a scelta, generazione codice e video demo automatico",
-      "score": 7,
-      "category": "Tool e Automazione",
-      "summary": "Descrivi la feature in linguaggio naturale, scegli il modello, ricevi codice funzionante piu video dimostrativo. Cursor 3 porta il vibe coding a un livello professionale adatto anche ai team aziendali.",
+      "id": "2026-w18-14",
+      "titolo": "Cursor 3: interfaccia agent-first per il coding con LLM a scelta, generazione codice e video demo automatico",
+      "fonte": "SiliconANGLE",
+      "data": "27 Apr 2026",
       "url": "https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/",
-      "source": "SiliconANGLE"
+      "categoria": "Tool e Automazione",
+      "sintesi": "Descrivi la feature in linguaggio naturale, scegli il modello, ricevi codice funzionante piu video dimostrativo. Cursor 3 porta il vibe coding a un livello professionale adatto anche ai team aziendali.",
+      "score": 7
     },
     {
-      "title": "Casa Bianca pubblica il National Policy Framework for AI: proposta di preemption federale sulle leggi statali",
-      "score": 6,
-      "category": "Regolamentazione",
-      "summary": "L amministrazione Trump chiede al Congresso un framework federale unico che superi le leggi statali. Impatto diretto limitato per le PMI italiane, ma indica la direzione di deregulation USA che influenzera le big tech globali.",
+      "id": "2026-w18-15",
+      "titolo": "Casa Bianca pubblica il National Policy Framework for AI: proposta di preemption federale sulle leggi statali",
+      "fonte": "Consumer Finance Monitor",
+      "data": "27 Apr 2026",
       "url": "https://www.consumerfinancemonitor.com/2026/04/08/the-white-houses-national-policy-framework-for-artificial-intelligence-what-it-means-and-what-comes-next/",
-      "source": "Consumer Finance Monitor"
+      "categoria": "Regolamentazione",
+      "sintesi": "L amministrazione Trump chiede al Congresso un framework federale unico che superi le leggi statali. Impatto diretto limitato per le PMI italiane, ma indica la direzione di deregulation USA che influenzera le big tech globali.",
+      "score": 6
     }
   ]
 }
