@@ -1,0 +1,126 @@
+{
+  "week": "2026-W20",
+  "generated_at": "2026-05-11 09:21",
+  "items": [
+    {
+      "title": "Deloitte 2026: 79% delle aziende fatica ad adottare AI nonostante gli investimenti",
+      "score": 9,
+      "category": "Adozione AI",
+      "summary": "Il report Deloitte 2026 rivela che il 79% delle organizzazioni incontra difficoltà nell'adozione AI—aumento a doppia cifra rispetto al 2025—e il 54% dei C-level ammette che l'AI sta creando fratture interne. Il vero problema non è trovare i tool: è integrare l'AI nei processi reali.",
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+      "source": "Deloitte"
+    },
+    {
+      "title": "Stanford HAI 2026: adozione organizzativa AI all'88%, Gen AI più veloce del PC",
+      "score": 9,
+      "category": "Adozione AI",
+      "summary": "Il report annuale Stanford HAI fotografa un'AI che corre: adozione organizzativa all'88%, Gen AI al 53% della popolazione in soli 3 anni (il PC ci impiegò 17), valore per i consumatori USA a $172 miliardi. Le performance tecniche hanno raggiunto il livello umano su matematica olimpica e domande PhD.",
+      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+      "source": "Stanford HAI"
+    },
+    {
+      "title": "82% delle PMI ha investito in AI: 5,6 ore a settimana risparmiate per dipendente",
+      "score": 9,
+      "category": "Adozione AI",
+      "summary": "Secondo US Chamber of Commerce, l'82% delle PMI ha già investito in AI tool e quasi 1 su 3 dipendenti li usa ogni giorno, con un risparmio medio di 5,6 ore settimanali. I manager risparmiano il doppio dei collaboratori (7,2 vs 3,4 ore). Stack medio: 5 tool.",
+      "url": "https://www.uschamber.com/co/run/technology/ai-powered-growth-engines",
+      "source": "US Chamber of Commerce"
+    },
+    {
+      "title": "EU AI Act: accordo sull'Omnibus raggiunto, posticipati i requisiti per sistemi ad alto rischio",
+      "score": 8,
+      "category": "Regolamentazione",
+      "summary": "Il 7 maggio i legislatori UE hanno raggiunto l'accordo sull'AI Omnibus, che modifica l'AI Act posticipando i requisiti per i sistemi AI ad alto rischio oltre la scadenza del 2 agosto 2026. Per le PMI italiane è un respiro: più tempo per prepararsi alla compliance.",
+      "url": "https://www.techpolicy.press/what-the-eu-ai-omnibus-deal-changes-for-the-ai-act-and-what-lies-ahead/",
+      "source": "TechPolicy.Press"
+    },
+    {
+      "title": "OpenAI Frontier: agenti AI gestiti a livello aziendale per Oracle, Uber, State Farm",
+      "score": 8,
+      "category": "Tool e Automazione",
+      "summary": "OpenAI ha lanciato la piattaforma Frontier per costruire, deployare e gestire agenti AI che operano trasversalmente sui sistemi aziendali. Con clienti come Oracle, Uber e State Farm, segna il passaggio dell'AI da strumento individuale a infrastruttura operativa d'impresa.",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai/",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Microsoft rompe l'esclusiva con OpenAI: i modelli ora disponibili su qualsiasi cloud",
+      "score": 8,
+      "category": "Business AI",
+      "summary": "Microsoft e OpenAI hanno rivisto i termini della partnership: la licenza Microsoft sui modelli non è più esclusiva e OpenAI può ora distribuire i propri prodotti su qualsiasi cloud provider. Un cambio strutturale che riapre il mercato cloud AI alla competizione.",
+      "url": "https://www.marketingprofs.com/opinions/2026/54655/ai-update-may-8-2026-ai-news-and-views-from-the-past-week",
+      "source": "MarketingProfs"
+    },
+    {
+      "title": "AI erode 16.000 posti netti al mese negli USA: la Gen Z è la più colpita",
+      "score": 8,
+      "category": "AI e Lavoro",
+      "summary": "Goldman Sachs stima che l'AI elimini 16.000 posti netti al mese negli USA, con le assunzioni entry-level nelle top 15 tech company calate del 25% dal 2023. Le donne e i lavoratori junior sono i più esposti; chi ha competenze AI vede invece crescite salariali significative.",
+      "url": "https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market",
+      "source": "Goldman Sachs"
+    },
+    {
+      "title": "Spesa media enterprise AI balza a $11,6M nel 2026: +65% in un anno",
+      "score": 8,
+      "category": "Business AI",
+      "summary": "Gli investimenti in AI enterprise superano i $650 miliardi annui globali; la spesa media aziendale passa da $7M nel 2025 a $11,6M nel 2026 (+65%). Il 97% degli executive dichiara di aver deployato agenti AI nell'ultimo anno.",
+      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288006/0/en/AI-Investment-Activity-to-Surpass-650-Billion-Annually-as-Enterprise-Adoption-Accelerates-Toward-2026.html",
+      "source": "GlobeNewswire"
+    },
+    {
+      "title": "Microsoft: l'AI è usata dal 17,8% della popolazione attiva mondiale",
+      "score": 8,
+      "category": "Adozione AI",
+      "summary": "Il report Microsoft 'State of Global AI Diffusion' certifica che l'utilizzo AI nel Q1 2026 è salito dal 16,3% al 17,8% della popolazione attiva mondiale. La Gen AI ha raggiunto il 53% di adozione in 3 anni: la curva più ripida di qualsiasi tecnologia precedente.",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/",
+      "source": "Microsoft"
+    },
+    {
+      "title": "GPT-5.5 disponibile agli abbonati: OpenAI migliora coding, ricerca e uso autonomo del computer",
+      "score": 7,
+      "category": "Modelli e Open Source",
+      "summary": "OpenAI ha rilasciato GPT-5.5 per gli abbonati Plus, Pro, Business ed Enterprise, con miglioramenti significativi su coding, deep research e capacità di operare autonomamente su computer. La gara con Anthropic e Google si fa sempre più serrata.",
+      "url": "https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Anthropic lancia Claude Opus 4.7: ottimizzato per coding, Mythos resta riservato",
+      "score": 7,
+      "category": "Modelli e Open Source",
+      "summary": "Anthropic ha rilasciato Claude Opus 4.7, il modello più capace disponibile al pubblico, con focus su software engineering e task del mondo reale. Il più potente—Mythos—rimane riservato per rischi cybersecurity; il revenue run-rate Anthropic supera i $30 miliardi.",
+      "url": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Google investe fino a $40 miliardi in Anthropic: AI come infrastruttura strategica",
+      "score": 7,
+      "category": "Business AI",
+      "summary": "Alphabet ha annunciato un investimento fino a $40 miliardi in Anthropic ($10B subito a valutazione $350B, altri $30B condizionati ai risultati). È la più grande scommessa finanziaria sul settore AI e consolida Anthropic come alternativa credibile a OpenAI.",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Google, Microsoft e xAI aprono i modelli al governo USA prima del lancio",
+      "score": 7,
+      "category": "Regolamentazione",
+      "summary": "Microsoft, Google e xAI hanno siglato accordi con NIST/CAISI per consentire al governo USA di testare i modelli AI prima del rilascio pubblico. È il primo framework formale di oversight pre-lancio negli Stati Uniti: sicurezza nazionale entra nei processi di sviluppo AI.",
+      "url": "https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models",
+      "source": "CNN Business"
+    },
+    {
+      "title": "Nvidia supera $40 miliardi in investimenti equity AI nel 2026",
+      "score": 7,
+      "category": "Business AI",
+      "summary": "Nvidia si trasforma da fornitore di chip a mega-investitore nell'ecosistema AI: nel 2026 ha già superato $40 miliardi in scommesse equity, tra cui $3,2B in Corning e $2,1B in IREN. Un segnale del consolidamento verticale del settore AI intorno ai grandi player.",
+      "url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump apre all'oversight AI: il caso Mythos spinge verso una svolta sulla sicurezza",
+      "score": 7,
+      "category": "Regolamentazione",
+      "summary": "L'amministrazione Trump, che aveva rifiutato qualsiasi supervisione AI, valuta ora oversight sui modelli avanzati. La molla è Mythos di Anthropic, capace di individuare ed exploitare vulnerabilità cyber: la sicurezza nazionale batte l'ideologia del mercato libero.",
+      "url": "https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/",
+      "source": "Fortune"
+    }
+  ]
+}
