@@ -1,0 +1,157 @@
+{
+  "id": "2026-W21",
+  "label": "Settimana 21 — 12-18 maggio 2026",
+  "lastUpdate": "2026-05-18 16:57",
+  "news": [
+    {
+      "id": "2026-W21-01",
+      "titolo": "Claude for Small Business: AI dentro QuickBooks, HubSpot e PayPal senza costi extra",
+      "score": 9,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Anthropic porta Claude dentro QuickBooks, PayPal, HubSpot, Canva e Microsoft 365 senza costi aggiuntivi: 15 workflow pronti per gestione fatture, payroll e marketing — adottabile oggi da qualsiasi PMI con un piano Team o Enterprise.",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "fonte": "Anthropic",
+      "data": "13 mag 2026"
+    },
+    {
+      "id": "2026-W21-02",
+      "titolo": "Anthropic + Blackstone e Goldman Sachs: 1,5 miliardi per portare Claude nelle medie imprese",
+      "score": 9,
+      "categoria": "Business AI",
+      "sintesi": "Un consorzio Wall Street investe 1,5 miliardi di dollari per portare ingegneri Anthropic embedded dentro le aziende di medie dimensioni: per la prima volta l IA enterprise usa i fondi di private equity come canale di distribuzione diretto.",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "fonte": "TechCrunch",
+      "data": "4 mag 2026"
+    },
+    {
+      "id": "2026-W21-03",
+      "titolo": "Anthropic sorpassa OpenAI nell enterprise: 56,2% contro 32,3% di adozione",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "In soli tre mesi (gennaio-marzo 2026) Claude ha ribaltato il mercato enterprise: chi sceglie oggi il provider AI principale ha un nuovo benchmark di riferimento e il gap si sta allargando ogni mese.",
+      "url": "https://venturebeat.com/orchestration/claudes-next-enterprise-battle-is-not-models-its-the-agent-control-plane",
+      "fonte": "VentureBeat",
+      "data": "15 mag 2026"
+    },
+    {
+      "id": "2026-W21-04",
+      "titolo": "76% delle grandi organizzazioni ha gia un Chief AI Officer — era il 26% un anno fa",
+      "score": 8,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Il ruolo del CAIO e passato dal 26% al 76% in un anno su oltre 2.000 aziende surveyed: avere una figura AI-responsabile interna smette di essere opzionale e diventa prerequisito competitivo.",
+      "url": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+      "fonte": "CNBC",
+      "data": "11 mag 2026"
+    },
+    {
+      "id": "2026-W21-05",
+      "titolo": "OpenAI Deployment Company: 4 miliardi e 150 ingegneri per portare AI in produzione",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "OpenAI lancia una societa di deployment da 4 miliardi con ingegneri embedded nelle aziende clienti — risposta diretta alla JV di Anthropic e segnale che il valore si sposta dal modello all implementazione.",
+      "url": "https://www.cnbc.com/2026/05/11/open-ai-dresser-enterprise-business.html",
+      "fonte": "CNBC",
+      "data": "11 mag 2026"
+    },
+    {
+      "id": "2026-W21-06",
+      "titolo": "SAP Autonomous Enterprise: 50 assistenti AI verticali per ogni funzione aziendale",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "SAP Sapphire lancia 50 assistenti Joule AI di dominio per finance, supply chain, HR e customer experience: le aziende su SAP hanno ora AI verticale pronta all uso senza integrazioni custom da sviluppare.",
+      "url": "https://news.sap.com/2026/05/sap-sapphire-keynote-business-ai-platform-power-autonomous-enterprise/",
+      "fonte": "SAP News Center",
+      "data": "12 mag 2026"
+    },
+    {
+      "id": "2026-W21-07",
+      "titolo": "Microsoft Agent 365: piattaforma agenti AI in azienda a 99 dollari al mese tutto incluso",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Microsoft lancia Agent 365 come control plane per agenti enterprise con licenza E7 a 99 dollari per utente al mese che include Copilot, Entra Suite e tutto l ecosistema M365: la barriera d accesso all AI agenziale crolla.",
+      "url": "https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-may-2026",
+      "fonte": "Oracle AI Blog",
+      "data": "1 mag 2026"
+    },
+    {
+      "id": "2026-W21-08",
+      "titolo": "EU AI Act semplificato: accordo su AI Omnibus, requisiti alto rischio posticipati",
+      "score": 7,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il 7 maggio la UE ha trovato accordo su AI Omnibus: posticipati i requisiti per sistemi ad alto rischio e semplificata la conformita — le PMI europee guadagnano tempo concreto per adeguarsi senza sanzioni immediate.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "fonte": "Consiglio UE",
+      "data": "7 mag 2026"
+    },
+    {
+      "id": "2026-W21-09",
+      "titolo": "NVIDIA Nemotron 3: modelli open source per agenti AI con throughput 4 volte superiore",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "NVIDIA lancia Nemotron 3 in tre versioni (Nano, Super, Ultra) ottimizzate per applicazioni agentic AI con throughput 4x rispetto alla generazione precedente — i team tecnici hanno modelli open pronti per deployment autonomo.",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models",
+      "fonte": "NVIDIA Newsroom",
+      "data": "12 mag 2026"
+    },
+    {
+      "id": "2026-W21-10",
+      "titolo": "Google I/O 2026: Gemini diventa assistente proattivo su Android senza bisogno di prompt",
+      "score": 6,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Google presenta Gemini con modalita proattiva su Android che opera attraverso app e sessioni di navigazione senza attendere input esplicito — cambia il paradigma dall assistente reattivo all agente ambientale.",
+      "url": "https://www.techtimes.com/articles/316755/20260517/google-i-o-2026-keynote-opens-tuesday-new-gemini-lands-behind-mythos-gpt-55.htm",
+      "fonte": "TechTimes",
+      "data": "17 mag 2026"
+    },
+    {
+      "id": "2026-W21-11",
+      "titolo": "IBM Forward Deployed Units: il modello ingegnere AI embedded in azienda diventa standard",
+      "score": 6,
+      "categoria": "Adozione AI",
+      "sintesi": "IBM Consulting lancia i Forward Deployed Units, team di ingegneri AI che operano fisicamente nelle aziende clienti: il deployment AI si fa sul campo, non da remoto — modello che converge con quello di Anthropic e OpenAI.",
+      "url": "https://newsroom.ibm.com/2026-05-14-A-New-Way-to-Make-AI-Actually-Work-in-the-Real-World",
+      "fonte": "IBM Newsroom",
+      "data": "14 mag 2026"
+    },
+    {
+      "id": "2026-W21-12",
+      "titolo": "Trump abbraccia l oversight AI: il modello Mythos di Anthropic spaventa la sicurezza nazionale USA",
+      "score": 6,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il modello Mythos di Anthropic, capace di identificare e sfruttare vulnerabilita cyber, ha convinto l amministrazione Trump a considerare supervisione AI che aveva rifiutato: la sicurezza nazionale ridisegna il perimetro regolatorio globale.",
+      "url": "https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/",
+      "fonte": "Fortune",
+      "data": "6 mag 2026"
+    },
+    {
+      "id": "2026-W21-13",
+      "titolo": "OpenAI Daybreak: AI applicata alla ricerca automatica di vulnerabilita nel codice",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "OpenAI lancia Daybreak, iniziativa cybersecurity che usa modelli AI e Codex per mappare minacce nel codice e identificare percorsi d attacco prima che lo facciano gli attaccanti — cybersecurity AI passa da difensiva ad anticipatoria.",
+      "url": "https://www.cnbc.com/2026/05/11/open-ai-dresser-enterprise-business.html",
+      "fonte": "CNBC",
+      "data": "11 mag 2026"
+    },
+    {
+      "id": "2026-W21-14",
+      "titolo": "Adozione AI globale al 17,8%: UAE al 70%, USA al 21° posto — il gap si allarga",
+      "score": 6,
+      "categoria": "Adozione AI",
+      "sintesi": "L adozione AI tra la forza lavoro mondiale cresce dal 16,3% al 17,8% nel Q1 2026 mentre gli USA sono solo al 21° posto con il 31,3%: chi adotta presto accumula vantaggio competitivo strutturale ogni trimestre.",
+      "url": "https://medium.com/@kayceEagan/the-ai-roundup-everything-that-matters-this-week-may-15-2026-0aecb75a558c",
+      "fonte": "The AI Roundup",
+      "data": "15 mag 2026"
+    },
+    {
+      "id": "2026-W21-15",
+      "titolo": "GLM-4.7: il modello cinese senza chip NVIDIA con il tasso di allucinazione piu basso (1,2%)",
+      "score": 5,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Zhipu AI addestra GLM-4.7 interamente su hardware Huawei Ascend con un tasso di allucinazione dell 1,2%, il piu basso mai riportato da un lab frontier — dimostra che la dipendenza da NVIDIA non e piu tecnica ma politica.",
+      "url": "https://llm-stats.com/llm-updates",
+      "fonte": "LLM Stats",
+      "data": "14 mag 2026"
+    }
+  ]
+}
