@@ -1,0 +1,157 @@
+{
+  "id": "2026-W22",
+  "label": "Settimana 22 — 18-24 maggio 2026",
+  "lastUpdate": "2026-05-25 09:09",
+  "news": [
+    {
+      "id": "2026-W22-01",
+      "titolo": "Google I/O 2026: Gemini 3.5 Flash a 1/3 del prezzo, l agente Spark diventa autonomo",
+      "score": 9,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Google lancia Gemini 3.5 Flash — prestazioni frontier a meno di un terzo del costo — e Gemini Spark, agente generale che ragiona su app connesse: la corsa all AI ora si gioca sul prezzo.",
+      "url": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+      "fonte": "CNBC",
+      "data": "19 mag 2026"
+    },
+    {
+      "id": "2026-W22-02",
+      "titolo": "OpenAI lancia DeployCo: 4 miliardi per portare l AI dentro le aziende con team dedicati",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "OpenAI crea una sussidiaria da 4 miliardi (valutata 10 miliardi) con team di ingegneria embedded nelle aziende: finisce l era dell API, inizia quella dell implementazione guidata.",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-4-billion-dollar-company-accelerate-enterprise-ai-adoption/",
+      "fonte": "PYMNTS",
+      "data": "13 mag 2026"
+    },
+    {
+      "id": "2026-W22-03",
+      "titolo": "Anthropic + Blackstone e Goldman Sachs: 1,5 miliardi per portare l AI nelle PMI del private equity",
+      "score": 8,
+      "categoria": "Business AI",
+      "sintesi": "Anthropic lancia una joint venture con i grandi fondi PE per distribuire l AI nelle aziende di portfolio: e il modello che portera Claude nelle PMI che non sanno ancora di averne bisogno.",
+      "url": "https://www.marketingprofs.com/opinions/2026/54786/ai-update-may-15-2026-ai-news-and-views-from-the-past-week",
+      "fonte": "MarketingProfs",
+      "data": "15 mag 2026"
+    },
+    {
+      "id": "2026-W22-04",
+      "titolo": "Microsoft Agent 365 e live: gli agenti AI diventano il nuovo sistema operativo del lavoro",
+      "score": 8,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Agent 365 disponibile a 15 dollari/utente/mese: Copilot smette di essere un assistente e diventa un orchestratore di agenti autonomi che gestiscono processi multi-step in tutta la suite Microsoft.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
+      "fonte": "Microsoft",
+      "data": "5 mag 2026"
+    },
+    {
+      "id": "2026-W22-05",
+      "titolo": "UE rinvia AI Act al 2027-2028 e vieta le app di nudificazione: accordo Digital Omnibus",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "Accordo UE il 7 maggio: obblighi AI ad alto rischio slittano al 2027-2028 — piu tempo per le PMI per adeguarsi — con divieto esplicito per le app nudifier e semplificazione delle doppie conformita.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "fonte": "Consiglio UE",
+      "data": "7 mag 2026"
+    },
+    {
+      "id": "2026-W22-06",
+      "titolo": "Adozione AI in azienda: dal 22% al 40% in 12 mesi, il punto di non ritorno e superato",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "L adozione AI organizzativa quasi raddoppia in un anno: il 97% dei manager ha gia deployato agenti AI, il 70% dei dipendenti usa strumenti AI ogni giorno per almeno 30 minuti.",
+      "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
+      "fonte": "Writer",
+      "data": "14 mag 2026"
+    },
+    {
+      "id": "2026-W22-07",
+      "titolo": "SAP Sapphire 2026: piattaforma AI unificata per l Autonomous Enterprise con Anthropic e Google",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "SAP unifica tutti i layer AI in un unica Business AI Platform con Anthropic, Google, AWS e NVIDIA: l ERP diventa il centro di controllo degli agenti aziendali per le grandi imprese.",
+      "url": "https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/",
+      "fonte": "SAP News",
+      "data": "19 mag 2026"
+    },
+    {
+      "id": "2026-W22-08",
+      "titolo": "Dal 26% al 76% in un anno: ogni tre aziende, due hanno ora un Chief AI Officer (IBM)",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "In un solo anno la figura del CAIO e passata da nicchia a standard: il 76% delle 2.000 organizzazioni monitorate da IBM ha ora un responsabile AI dedicato in C-suite, contro il 26% nel 2025.",
+      "url": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+      "fonte": "CNBC",
+      "data": "11 mag 2026"
+    },
+    {
+      "id": "2026-W22-09",
+      "titolo": "Meta taglia 8.000 posti per finanziare l AI: nel 2026 il tech ha gia perso 93.000 lavori",
+      "score": 7,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Meta riduce il 10% della forza lavoro con effetto dal 20 maggio per finanziare l AI: siamo gia a 93.000 licenziamenti tech nel 2026, con una stima di 300.000 entro fine anno.",
+      "url": "https://ainews.it/meta-in-arrivo-8-000-licenziamenti-il-motivo-ridurre-i-costi-per-finanziare-lai/",
+      "fonte": "AI News Italia",
+      "data": "20 mag 2026"
+    },
+    {
+      "id": "2026-W22-10",
+      "titolo": "Qwen 3.5 open source supera tutti: 397 miliardi di parametri gratis con licenza Apache 2.0",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Qwen 3.5 (Apache 2.0) guida le benchmark GPQA Diamond all 88.4% con 397B parametri totali e 17B attivi: le PMI possono ora usare modelli frontier-level senza pagare per ogni chiamata API.",
+      "url": "https://whatllm.org/blog/new-ai-models-may-2026",
+      "fonte": "WhatLLM",
+      "data": "20 mag 2026"
+    },
+    {
+      "id": "2026-W22-11",
+      "titolo": "Il modello Mythos di Anthropic preoccupa la Casa Bianca: Trump valuta l oversight AI",
+      "score": 7,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il modello Anthropic Mythos — capace di identificare e sfruttare vulnerabilita cyber — spinge la Casa Bianca a riconsiderare l oversight AI per ragioni di sicurezza nazionale, invertendo la posizione iniziale.",
+      "url": "https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/",
+      "fonte": "Fortune",
+      "data": "6 mag 2026"
+    },
+    {
+      "id": "2026-W22-12",
+      "titolo": "Google DeepMind AlphaEvolve si espande oltre la matematica: gia 1.300 algoritmi migliorati",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "AlphaEvolve di DeepMind ha prodotto 1.300 scoperte algoritmiche validate in 11 mesi e ora scala in nuovi settori: e il primo sistema AI che migliora sistematicamente codice e algoritmi fondamentali.",
+      "url": "https://dentro.de/ai/news/",
+      "fonte": "dentro.de/AI",
+      "data": "13 mag 2026"
+    },
+    {
+      "id": "2026-W22-13",
+      "titolo": "NVIDIA lancia Nemotron open source per voce, RAG multimodale e sicurezza AI",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "NVIDIA apre i modelli Nemotron specializzati su speech, RAG multimodale e AI safety: l infrastruttura open source per applicazioni enterprise avanzate si consolida senza costi di licensing.",
+      "url": "https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai/",
+      "fonte": "NVIDIA Blog",
+      "data": "19 mag 2026"
+    },
+    {
+      "id": "2026-W22-14",
+      "titolo": "Banche italiane: 26.000 posti a rischio entro il 2030 per via dell AI, il 10% del settore",
+      "score": 7,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Morgan Stanley stima che l AI ridurra l organico bancario europeo del 10% entro il 2030: in Italia 26.000 dei 262.000 dipendenti bancari potrebbero perdere il lavoro, il fronte caldo per l occupazione.",
+      "url": "https://www.digitalic.it/tech-news/licenziamenti-tech-2026",
+      "fonte": "Digitalic",
+      "data": "18 mag 2026"
+    },
+    {
+      "id": "2026-W22-15",
+      "titolo": "ChatGPT ai minimi di traffico referral, HubSpot lancia AEO Sensor per la nuova SEO",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Ad aprile ChatGPT ha toccato i minimi di traffico business referral in 12 mesi; HubSpot risponde con AEO Sensor, una dashboard pubblica per monitorare citazioni e traffico nell era dei motori risposta.",
+      "url": "https://www.marketingprofs.com/opinions/2026/54655/ai-update-may-8-2026-ai-news-and-views-from-the-past-week",
+      "fonte": "MarketingProfs",
+      "data": "8 mag 2026"
+    }
+  ]
+}
