@@ -1,0 +1,157 @@
+{
+  "id": "2026-W23",
+  "label": "Settimana 23 — 25-31 maggio 2026",
+  "lastUpdate": "2026-06-01 09:09",
+  "news": [
+    {
+      "id": "2026-W23-01",
+      "titolo": "OpenAI e Confartigianato portano l'AI agli artigiani italiani: da Milano parte lo SME Accelerator",
+      "score": 9,
+      "categoria": "Adozione AI",
+      "sintesi": "Il 15 maggio a Milano OpenAI, Confartigianato e Booking.com lanciano l'acceleratore europeo per le PMI: formazione e strumenti concreti per chi finora era tagliato fuori. Per le micro-imprese italiane è il segnale che l'AI non è più roba solo da grandi.",
+      "url": "https://www.confartigianato.it/2026/05/confartigianato-e-openai-insieme-per-portare-lintelligenza-artificiale-nelle-pmi-italiane/",
+      "fonte": "Confartigianato",
+      "data": "15 mag 2026"
+    },
+    {
+      "id": "2026-W23-02",
+      "titolo": "L'UE rinvia al dicembre 2027 gli obblighi sui sistemi ad alto rischio: l'AI Act si semplifica",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "L'accordo Omnibus sposta di 16 mesi gli adempimenti per i sistemi ad alto rischio e alleggerisce gli obblighi, ma introduce nuovi divieti su deepfake intimi e materiale pedopornografico. Chi pianifica la compliance può ricalibrare scadenze e budget.",
+      "url": "https://www.euronews.com/my-europe/2026/05/21/the-eu-simplified-its-toughest-ai-law-what-changed-and-why-it-matters",
+      "fonte": "Euronews",
+      "data": "21 mag 2026"
+    },
+    {
+      "id": "2026-W23-03",
+      "titolo": "L'AI 'a noleggio' per le PMI italiane: innovare senza immobilizzare capitale",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Emerge il modello pay-per-use: affittare l'intelligenza artificiale come un macchinario, senza investimento iniziale pesante. Una formula abilitante per colmare il divario con le grandi aziende, in un mercato AI italiano che vale ormai 1,8 miliardi (+50%).",
+      "url": "https://www.giornalepartiteiva.it/2026/05/31/leggi-notizia/argomenti/news-4/articolo/lintelligenza-artificiale-diventa-a-noleggio-cosi-le-pmi-italiane-provano-a-colmare-il-di.html",
+      "fonte": "Giornale Partite IVA",
+      "data": "31 mag 2026"
+    },
+    {
+      "id": "2026-W23-04",
+      "titolo": "Gartner: l'80% di chi taglia posti con l'AI lo fa senza vedere un ritorno reale",
+      "score": 8,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Uno studio smonta l'equazione AI-uguale-risparmio: molte aziende licenziano per automazione a prescindere dai risultati. Il messaggio per gli imprenditori: l'AI conviene se ridisegna i processi, non se sostituisce persone a casaccio.",
+      "url": "https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/",
+      "fonte": "Fortune",
+      "data": "11 mag 2026"
+    },
+    {
+      "id": "2026-W23-05",
+      "titolo": "Il 79% delle aziende fatica ad adottare l'AI e il 54% dei vertici ammette: ci sta dividendo",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "Il report 2026 fotografa il lato scomodo: l'adozione cresce ma le difficoltà aumentano a doppia cifra sul 2025. Più tecnologia non basta: servono governance, competenze e cultura interna, soprattutto nelle realtà piccole.",
+      "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
+      "fonte": "Writer",
+      "data": "27 mag 2026"
+    },
+    {
+      "id": "2026-W23-06",
+      "titolo": "OpenAI B2B Signals: le aziende 'frontiera' usano 3,5 volte più AI per dipendente",
+      "score": 7,
+      "categoria": "Business AI",
+      "sintesi": "Il nuovo report sui dati d'uso aggregati misura il divario reale: i leader concentrano il vantaggio in workflow agentici e coding. Per le PMI il gap non è il modello, è quanto lo si integra davvero nel lavoro quotidiano.",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai/",
+      "fonte": "OpenAI",
+      "data": "28 mag 2026"
+    },
+    {
+      "id": "2026-W23-07",
+      "titolo": "Anthropic porta gli agenti dentro le mura aziendali: sandbox self-hosted e tunnel MCP privati",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Al Code w/ Claude di Londra Anthropic annuncia l'esecuzione degli agenti sulla propria infrastruttura, tenendo i dati nel perimetro di sicurezza aziendale. Una risposta concreta al freno numero uno dell'adozione: la paura di far uscire i dati.",
+      "url": "https://www.anthropic.com/news",
+      "fonte": "Anthropic",
+      "data": "26 mag 2026"
+    },
+    {
+      "id": "2026-W23-08",
+      "titolo": "Camunda lancia ProcessOS: l'AI che scopre e riprogetta i processi aziendali da sola",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Un layer intelligente che mappa i flussi, individua le frizioni e li trasforma in workflow agentici, in beta dal 20 maggio. Per il manifatturiero e le PMI process-intensive è l'automazione che parte dall'analisi, non dal software.",
+      "url": "https://camunda.com/blog/",
+      "fonte": "Camunda",
+      "data": "20 mag 2026"
+    },
+    {
+      "id": "2026-W23-09",
+      "titolo": "Nove modelli open-weight frontier in sei settimane: DeepSeek V4, Qwen 3.6 e Mistral Large 3 sotto licenza aperta",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "L'open source ricuce il distacco dai modelli chiusi: architetture Mixture-of-Experts, licenze Apache e MIT, prestazioni da frontiera. Per chi vuole AI on-premise e dati in casa, le alternative gratuite non sono più un ripiego.",
+      "url": "https://llm-stats.com/llm-updates",
+      "fonte": "LLM-Stats",
+      "data": "26 mag 2026"
+    },
+    {
+      "id": "2026-W23-10",
+      "titolo": "Un agente AI costa 80 dollari al mese, un commerciale 80mila l'anno: la matematica delle PMI",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Chi integra agenti nei flussi quotidiani vede guadagni di produttività del 20-30% in 12 mesi senza nuove assunzioni. Il 71% delle piccole imprese punta ad aumentare gli investimenti in AI: il tema non è più 'se', ma 'dove'.",
+      "url": "https://bemodo.com/blog/ai-agents-new-arcade-cabinet",
+      "fonte": "Bemodo",
+      "data": "28 mag 2026"
+    },
+    {
+      "id": "2026-W23-11",
+      "titolo": "Censimento USA: il 37% delle grandi imprese usa l'AI, ma le piccole restano sotto il 20%",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "I dati ufficiali confermano il divario per dimensione: a usare l'AI sono soprattutto le aziende con oltre 250 dipendenti. La fotografia vale anche per l'Italia: la sfida non è la tecnologia, è portarla nelle realtà più piccole.",
+      "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+      "fonte": "US Census Bureau",
+      "data": "22 mag 2026"
+    },
+    {
+      "id": "2026-W23-12",
+      "titolo": "Meta taglia 8.000 posti, Cloudflare 1.100: maggio 2026 è il mese dei licenziamenti 'da AI'",
+      "score": 7,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Oltre 92.000 posti tech persi in cinque mesi mentre le aziende si riorganizzano intorno all'AI; Cloudflare dichiara un +600% di uso interno. L'altra faccia: l'impatto più silenzioso è il blocco delle assunzioni junior.",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html",
+      "fonte": "Yahoo Finance",
+      "data": "20 mag 2026"
+    },
+    {
+      "id": "2026-W23-13",
+      "titolo": "Anthropic supera OpenAI: round da 65 miliardi e valutazione vicina ai 1.000 miliardi",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "Con la Series H Anthropic quasi triplica il valore in tre mesi e diventa la startup AI più cara della Silicon Valley. Oltre alla corsa ai capitali, conta il segnale: la fiducia degli investitori si sposta verso l'AI applicata alle imprese.",
+      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+      "fonte": "CNBC",
+      "data": "28 mag 2026"
+    },
+    {
+      "id": "2026-W23-14",
+      "titolo": "Il 76% delle aziende ha nominato un Chief AI Officer: l'AI entra in consiglio di amministrazione",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "Un anno fa erano il 26%: la governance dell'AI sale ai piani alti e diventa responsabilità strategica, non più sperimentazione dell'IT. Per le PMI è il promemoria che serve un referente chiaro, anche senza un C-level dedicato.",
+      "url": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+      "fonte": "CNBC",
+      "data": "11 mag 2026"
+    },
+    {
+      "id": "2026-W23-15",
+      "titolo": "Salesforce mette un 'collega AI' dentro il CRM: arriva Agentforce Coworker",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "La nuova superficie in beta incorpora un compagno AI nelle interfacce di lavoro: recupera il contesto del CRM e agisce al posto dell'utente. Il segnale di direzione: gli agenti escono dalle demo ed entrano negli strumenti che le aziende usano ogni giorno.",
+      "url": "https://www.salesforce.com/news/",
+      "fonte": "Salesforce",
+      "data": "22 mag 2026"
+    }
+  ]
+}
