@@ -1,0 +1,157 @@
+{
+  "id": "2026-W24",
+  "label": "Settimana 24 — 2-8 giugno 2026",
+  "lastUpdate": "2026-06-08 09:10",
+  "news": [
+    {
+      "id": "2026-W24-01",
+      "titolo": "Anthropic deposita S-1 in SEC: IPO a valutazione $965 miliardi",
+      "score": 9,
+      "categoria": "Business AI",
+      "sintesi": "Anthropic ha depositato in via riservata il prospetto per la quotazione in borsa, con un'ultima valutazione di 965 miliardi di dollari. Con OpenAI pronta a seguire, il 2026 si prepara alle due maggiori IPO dell'industria AI: l'impatto sul mercato enterprise sarà significativo.",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026",
+      "fonte": "BuildFastWithAI",
+      "data": "1 giu 2026"
+    },
+    {
+      "id": "2026-W24-02",
+      "titolo": "Agenti AI: successo nei task reali saltato dal 12% al 66% in un solo anno",
+      "score": 9,
+      "categoria": "Adozione AI",
+      "sintesi": "Lo Stanford AI Index 2026 documenta un salto storico: gli agenti AI completano correttamente il 66% dei task su computer reali, contro il 12% del 2025. Mancano solo 6 punti percentuali alle prestazioni umane su flussi di lavoro multi-step.",
+      "url": "https://www.packagingtechtoday.com/news-headlines/ai-agents-jumped-from-12-to-66-task-success-in-one-year/",
+      "fonte": "Stanford AI Index",
+      "data": "4 giu 2026"
+    },
+    {
+      "id": "2026-W24-03",
+      "titolo": "EU AI Act: soglia PMI sale a 750 dipendenti, scadenze rinviate al 2027",
+      "score": 9,
+      "categoria": "Regolamentazione",
+      "sintesi": "Accordo provvisorio tra Consiglio UE, Parlamento e Commissione: le PMI godono del regime semplificato fino a 750 dipendenti e 150 milioni di euro di fatturato. Gli obblighi per i sistemi ad alto rischio Annex III slittano dal 2 agosto 2026 al 2 dicembre 2027.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "fonte": "Consiglio UE",
+      "data": "7 mag 2026"
+    },
+    {
+      "id": "2026-W24-04",
+      "titolo": "Microsoft MAI-Code-1-Flash: primo modello proprietario per il codice, rivale di GPT-4.1",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Microsoft presenta il suo primo modello AI per la generazione di codice addestrato internamente, MAI-Code-1-Flash, competitivo su SWE-Bench Pro con dimensioni medie. Mossa strategica per ridurre la dipendenza da OpenAI e abbassare i costi per gli sviluppatori Azure.",
+      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "fonte": "CNBC",
+      "data": "2 giu 2026"
+    },
+    {
+      "id": "2026-W24-05",
+      "titolo": "Alibaba Qwen 3.7 Max: benchmark frontier a metà del costo di Claude Opus",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Qwen 3.7 Max eguaglia o supera Claude Opus 4.7 su benchmark agentici a circa metà del costo di input e un quarto dell'output. Per le PMI che usano API, è un'alternativa concreta che può dimezzare la spesa senza sacrificare qualità.",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026",
+      "fonte": "BuildFastWithAI",
+      "data": "6 giu 2026"
+    },
+    {
+      "id": "2026-W24-06",
+      "titolo": "Gartner: il 40% delle organizzazioni declasserà gli agenti AI per problemi di governance",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Gartner prevede che quasi la metà delle aziende sarà costretta a limitare o ritirare agenti AI già deployati per incapacità di governarli. Il dato segnala che adottare agenti senza un framework di controllo è il primo errore delle implementazioni 2025-2026.",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026",
+      "fonte": "Gartner / BuildFastWithAI",
+      "data": "6 giu 2026"
+    },
+    {
+      "id": "2026-W24-07",
+      "titolo": "Microsoft Build: Azure Agent Mesh e Windows Agent Store, l'infrastruttura per agenti enterprise",
+      "score": 8,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Microsoft Build (2-3 giugno) ha presentato Azure Agent Mesh per orchestrare agenti multi-vendor e il Windows Agent Store come marketplace per task automatizzati. L'ecosistema si sta attrezzando per l'era post-SaaS: non più software, ma agenti che lavorano.",
+      "url": "https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/",
+      "fonte": "WaveSpeed / Microsoft",
+      "data": "3 giu 2026"
+    },
+    {
+      "id": "2026-W24-08",
+      "titolo": "OpenAI forma 20.000 PMI europee: programma AI skills in 6 paesi inclusa l'Italia",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "OpenAI lancia un programma strutturato per portare le competenze AI in 20.000 piccole imprese europee attraverso sei paesi, Italia compresa. Per chi fa consulenza o formazione alle PMI, è sia concorrenza che opportunità di posizionarsi prima che il mercato si saturi.",
+      "url": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu/",
+      "fonte": "OpenAI",
+      "data": "2 giu 2026"
+    },
+    {
+      "id": "2026-W24-09",
+      "titolo": "Qwen 3 235B Apache 2.0: il miglior modello open source guida tutti i benchmark",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Qwen 3 235B-A22B (Alibaba) conquista la testa di quasi ogni classifica su reasoning, coding e multilingua sotto licenza Apache 2.0 completamente gratuita. Per chi costruisce prodotti AI propri, il 2026 ha eliminato il vincolo economico dei modelli frontier.",
+      "url": "https://huggingface.co/blog/daya-shankar/open-source-llms",
+      "fonte": "Hugging Face",
+      "data": "3 giu 2026"
+    },
+    {
+      "id": "2026-W24-10",
+      "titolo": "Italia: solo il 5% delle aziende usa l'AI in modo intensivo, il gap produttivo si allarga",
+      "score": 8,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Dati Banca d'Italia: con adozione AI lenta, la produttività cresce dello 0,2% l'anno; con diffusione rapida, potrebbe superare un punto percentuale. Il 30% delle imprese usa l'AI, ma solo il 5% in modo sistematico: il divario con i competitor europei si sta aprendo.",
+      "url": "https://www.franzrusso.it/condividere-comunicare/intelligenza-artificiale-mercato-lavoro-italia-2026/",
+      "fonte": "Franz Russo / Banca d'Italia",
+      "data": "5 giu 2026"
+    },
+    {
+      "id": "2026-W24-11",
+      "titolo": "Asana acquisisce StackAI per $75 milioni: nasce l'OS per team umano-agente",
+      "score": 8,
+      "categoria": "Business AI",
+      "sintesi": "Asana compra StackAI, piattaforma per agenti AI enterprise, segnalando che il project management del futuro è la gestione di team misti umani-bot. Per le PMI già su Asana, significa agenti AI integrati direttamente nei flussi di lavoro esistenti entro fine 2026.",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-funding-new-tools-and-security-focus",
+      "fonte": "AI Agents Directory",
+      "data": "5 giu 2026"
+    },
+    {
+      "id": "2026-W24-12",
+      "titolo": "OpenAI porta GPT-5.5 e Codex su Amazon Bedrock in disponibilità generale",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "GPT-5.5, GPT-5.4 e Codex sono ora accessibili tramite Amazon Bedrock. Per le aziende già su AWS, significa integrare i modelli OpenAI più recenti senza cambiare infrastruttura e con la fatturazione cloud già consolidata.",
+      "url": "https://llm-stats.com/llm-updates",
+      "fonte": "LLM Stats",
+      "data": "3 giu 2026"
+    },
+    {
+      "id": "2026-W24-13",
+      "titolo": "ILO chiede redistribuzione dei guadagni AI: produttività sì, ma non tutta ai soci",
+      "score": 7,
+      "categoria": "AI e Lavoro",
+      "sintesi": "L'Organizzazione Internazionale del Lavoro chiede ai governi di garantire che i guadagni di produttività generati dall'AI vengano distribuiti equamente tra lavoratori e imprese. Sullo sfondo: l'assunzione di profili junior sta calando nelle professioni più esposte all'automazione.",
+      "url": "https://it.euronews.com/business/2026/06/01/intelligenza-artificiale-e-lavoro-loil-chiede-una-distribuzione-equa-dei-guadagni-di-produ",
+      "fonte": "Euronews / ILO",
+      "data": "1 giu 2026"
+    },
+    {
+      "id": "2026-W24-14",
+      "titolo": "Colorado AI Act: prima legge statale USA su AI entra in vigore il 30 giugno 2026",
+      "score": 7,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il Colorado Consumer Protections for Artificial Intelligence Act, prima legge statale organica negli USA, diventa operativa il 30 giugno. Vieta la discriminazione algoritmica nei sistemi AI ad alto rischio e anticipa il modello che altri stati americani potrebbero seguire.",
+      "url": "https://www.marketingprofs.com/opinions/2026/54909/ai-update-june-5-2026-ai-news-and-views-from-the-past-week",
+      "fonte": "MarketingProfs",
+      "data": "5 giu 2026"
+    },
+    {
+      "id": "2026-W24-15",
+      "titolo": "OpenAI lancia pubblicità in ChatGPT: self-serve advertising platform per brand",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "OpenAI apre ChatGPT agli inserzionisti con una piattaforma pubblicitaria self-serve. La mossa accelera la monetizzazione ma solleva domande sull'integrità delle risposte: per le PMI, potrebbe aprire canali di advertising inediti nei prossimi mesi.",
+      "url": "https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/",
+      "fonte": "WaveSpeed",
+      "data": "4 giu 2026"
+    }
+  ]
+}
