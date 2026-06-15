@@ -1,0 +1,157 @@
+{
+  "id": "2026-W25",
+  "label": "Settimana 25 — 9-15 giugno 2026",
+  "lastUpdate": "2026-06-15 09:10",
+  "news": [
+    {
+      "id": "2026-W25-01",
+      "titolo": "Italia: adozione AI raddoppia al 16,4%, ma il divario PMI-grandi imprese tocca 37 punti",
+      "score": 9,
+      "categoria": "Adozione AI",
+      "sintesi": "L'uso dell'AI nelle imprese italiane passa dall'8,2% al 16,4% in un anno, ma le grandi viaggiano al 53% e le PMI restano al 15,7%: il gap di competenze e governance è il vero collo di bottiglia.",
+      "url": "https://www.pidmed.eu/weekly-digital-radar-8-ai-act-pmi-italiane/",
+      "fonte": "PIDMed",
+      "data": "11 giu 2026"
+    },
+    {
+      "id": "2026-W25-02",
+      "titolo": "Salesforce migra in 13 giorni un progetto da 231 con Claude Code, zero nuove assunzioni dev",
+      "score": 9,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Un caso scoperto questa settimana: migrazione stimata 231 giorni chiusa in 13 con Claude Code, e Salesforce dichiara zero nuovi ingegneri nel FY2026. Segnale concreto di cosa cambia nei team tecnici.",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026",
+      "fonte": "BuildFastWithAI",
+      "data": "8 giu 2026"
+    },
+    {
+      "id": "2026-W25-03",
+      "titolo": "95% delle aziende non vede ritorni dall'AI: SEI e Accenture pubblicano un modello di maturità",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Carnegie Mellon SEI e Accenture rilasciano un AI Adoption Maturity Model per uscire dai pilot eterni: utile come griglia di autovalutazione per chi vuole risultati misurabili e non hype.",
+      "url": "https://www.sei.cmu.edu/news/sei-and-accenture-release-ai-adoption-maturity-model-to-help-organizations-scale-ai-with-predictable-outcomes/",
+      "fonte": "CMU SEI",
+      "data": "10 giu 2026"
+    },
+    {
+      "id": "2026-W25-04",
+      "titolo": "AI Act: il 10 giugno arriva il Codice di condotta su marcatura ed etichettatura dei contenuti generati",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "La Commissione UE pubblica le regole pratiche per marcare i contenuti AI. Per chi produce testi, immagini o video con l'AI diventa una checklist da integrare subito nei workflow.",
+      "url": "https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2/",
+      "fonte": "Global Policy Watch",
+      "data": "10 giu 2026"
+    },
+    {
+      "id": "2026-W25-05",
+      "titolo": "AI Act Omnibus: gli obblighi sui sistemi ad alto rischio slittano da agosto 2026 a dicembre 2027",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "L'accordo politico UE proroga le scadenze per i sistemi high-risk (Annex III) e semplifica alcuni adempimenti. Più respiro per le imprese, ma il 2 agosto 2026 resta lo spartiacque per le regole di base.",
+      "url": "https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines",
+      "fonte": "Latham & Watkins",
+      "data": "9 giu 2026"
+    },
+    {
+      "id": "2026-W25-06",
+      "titolo": "L'AI cancella 87mila posti negli USA, gli sviluppatori junior crollano del 20%",
+      "score": 8,
+      "categoria": "AI e Lavoro",
+      "sintesi": "I tagli legati all'AI superano 2024 e 2025 insieme; lo Stanford HAI Index registra -20% di occupazione per i dev 22-25enni. Non sparisce il mestiere, spariscono i task ripetitivi da entry-level.",
+      "url": "https://www.outlookbusiness.com/corporate/ai-overtakes-all-other-reasons-for-us-job-cuts-as-layoffs-surge-in-2026",
+      "fonte": "Outlook Business",
+      "data": "12 giu 2026"
+    },
+    {
+      "id": "2026-W25-07",
+      "titolo": "Alteryx lancia Agent Studio e un server MCP: gli analisti creano agenti senza passare dall'IT",
+      "score": 8,
+      "categoria": "Tool e Automazione",
+      "sintesi": "All'Inspire 2026 Alteryx trasforma i flussi dati esistenti in agenti autonomi via MCP. Esempio chiaro di come l'automazione agentica scende a livello di chi conosce i processi, non solo degli sviluppatori.",
+      "url": "https://www.marketingprofs.com/opinions/2026/54909/ai-update-june-5-2026-ai-news-and-views-from-the-past-week",
+      "fonte": "MarketingProfs",
+      "data": "5 giu 2026"
+    },
+    {
+      "id": "2026-W25-08",
+      "titolo": "Claude Opus 4.6 entra dentro PowerPoint ed Excel come add-in nativo",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Anthropic porta il modello direttamente negli strumenti Office quotidiani. Per una PMI è AI dove il lavoro già si fa, senza cambiare abitudini né piattaforme.",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026",
+      "fonte": "BuildFastWithAI",
+      "data": "8 giu 2026"
+    },
+    {
+      "id": "2026-W25-09",
+      "titolo": "AWS spacchetta Amazon Connect in quattro agenti verticali: supply chain, hiring, clienti e sanità",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Amazon Connect Decisions, Talent, Customer e Health: soluzioni agentiche pronte per casi d'uso specifici. Utile come mappa di dove l'automazione conversazionale sta diventando prodotto.",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "fonte": "Crescendo AI",
+      "data": "9 giu 2026"
+    },
+    {
+      "id": "2026-W25-10",
+      "titolo": "Mercato AI Italia a 1,8 miliardi (+50%): la GenAI vale già il 46% del comparto",
+      "score": 7,
+      "categoria": "Business AI",
+      "sintesi": "L'AI in Italia cresce del 50% in un anno trainata dalla generativa. Il mercato c'è e accelera: la domanda non è più se adottare, ma con quale priorità e con quali competenze interne.",
+      "url": "https://www.channeltech.it/2026/05/15/le-aziende-italiane-sono-pronte-allera-ai-driven/",
+      "fonte": "ChannelTech",
+      "data": "11 giu 2026"
+    },
+    {
+      "id": "2026-W25-11",
+      "titolo": "Il 79% delle aziende fatica con l'AI nonostante gli investimenti alti",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "Report Writer: tanti budget, pochi risultati. Il problema non è il modello ma integrazione, dati e adozione reale dei team. Lezione diretta per chi parte ora: prima il processo, poi la tecnologia.",
+      "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
+      "fonte": "Writer",
+      "data": "8 giu 2026"
+    },
+    {
+      "id": "2026-W25-12",
+      "titolo": "NVIDIA presenta Nemotron 3 in versione Ultra: open-weights da 550 miliardi di parametri",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "La famiglia Nemotron 3 (Nano, Super, Ultra) punta a essere la più efficiente per applicazioni agentiche aperte. Per chi vuole AI on-premise e controllo dei dati, l'open-weights diventa un'opzione seria.",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models",
+      "fonte": "NVIDIA",
+      "data": "4 giu 2026"
+    },
+    {
+      "id": "2026-W25-13",
+      "titolo": "Mistral e NVIDIA insieme nella Nemotron Coalition: arriva Mistral Small 4 open source",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Mistral entra come membro fondatore della coalizione open di NVIDIA e rilascia Mistral Small 4. L'ecosistema europeo open accelera: alternative reali ai modelli proprietari per imprese attente a sovranità e costi.",
+      "url": "https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models/",
+      "fonte": "Mistral AI",
+      "data": "10 giu 2026"
+    },
+    {
+      "id": "2026-W25-14",
+      "titolo": "Snowflake e Anthropic spingono l'AI governata: clienti come Block, Carvana e Notion",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "Al Summit la partnership cresce attorno al tema della governance dei dati. Segnale che il mercato enterprise chiede AI tracciabile e controllata, non solo potente.",
+      "url": "https://www.snowflake.com/en/news/press-releases/snowflake-and-anthropic-accelerate-enterprise-ai-adoption-driven-by-rising-demand-for-governed-ai/",
+      "fonte": "Snowflake",
+      "data": "8 giu 2026"
+    },
+    {
+      "id": "2026-W25-15",
+      "titolo": "Il PMI pubblica il primo standard globale sull'AI nel project management",
+      "score": 6,
+      "categoria": "Adozione AI",
+      "sintesi": "L'11 giugno il Project Management Institute rilascia lo standard per l'uso dell'AI in portfolio, programmi e progetti: una cornice metodologica utile a chi vuole inserire l'AI nei processi senza improvvisare.",
+      "url": "https://news.europawire.eu/pmi-pubblica-il-primo-standard-globale-al-mondo-sullintelligenza-artificiale-nel-lavoro-di-progetto-mentre-i-quadri-normativi-faticano-a-stare-al-passo/eu-press-release/2026/06/11/15/41/26/176366/",
+      "fonte": "EuropaWire",
+      "data": "11 giu 2026"
+    }
+  ]
+}
