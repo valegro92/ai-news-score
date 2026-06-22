@@ -1,0 +1,157 @@
+{
+  "id": "2026-W26",
+  "label": "Settimana 26 — 16-22 giugno 2026",
+  "lastUpdate": "2026-06-22 09:09",
+  "news": [
+    {
+      "id": "2026-W26-01",
+      "titolo": "SpaceX acquisisce Cursor per 60 miliardi: l'AI di codice diventa industria pesante",
+      "score": 8,
+      "categoria": "Business AI",
+      "sintesi": "SpaceX acquisisce Cursor (Anysphere) per 60 miliardi in azioni — deal all-stock atteso per chiudersi nel Q3 2026. Con 4 miliardi di ricavi annualizzati, Cursor diventa il segnale che l'AI per il codice non è più una nicchia startup: è infrastruttura strategica per chi vuole competere nell'era agentica.",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "fonte": "TechCrunch",
+      "data": "16 giu 2026"
+    },
+    {
+      "id": "2026-W26-02",
+      "titolo": "OpenAI Partner Network: i Big 5 della consulenza certificati, 300.000 consulenti AI entro dicembre",
+      "score": 9,
+      "categoria": "Adozione AI",
+      "sintesi": "OpenAI lancia il suo primo programma partner globale con 150 milioni di investimento: Accenture, Bain, BCG, McKinsey e PwC sono i launch partner con specializzazioni su Codex, sicurezza e agenti. L'obiettivo è certificare 300.000 consulenti entro fine 2026 — il mercato professionale dell'AI prende forma strutturata.",
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai/",
+      "fonte": "OpenAI",
+      "data": "16 giu 2026"
+    },
+    {
+      "id": "2026-W26-03",
+      "titolo": "72% delle grandi aziende ha agenti AI in produzione: il divario con le PMI si allarga",
+      "score": 9,
+      "categoria": "Adozione AI",
+      "sintesi": "Il report dell'Agentic AI Institute rivela che il 72% delle grandi imprese ha sistemi AI agentici già operativi, ma la governance rimane il principale gap. Le PMI che non si attivano ora rischiano uno svantaggio competitivo strutturale entro 18 mesi — non è più una questione di 'se', ma di 'quanto prima'.",
+      "url": "https://agenticaiinstitute.org/agentic-ai-enterprise-adoption-2026-governance-gap/",
+      "fonte": "Agentic AI Institute",
+      "data": "15 giu 2026"
+    },
+    {
+      "id": "2026-W26-04",
+      "titolo": "Claude Fable 5 torna online dopo 6 giorni di stop governativo, con nuovi controlli di nazionalità",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "Anthropic ha ripristinato Claude Fable 5 il 18 giugno dopo uno shutdown forzato di 6 giorni imposto dal governo, implementando verifiche di identità e restrizioni geografiche sull'accesso API. Primo precedente documentato di blocco governativo di un modello AI di frontiera — con conseguenze per le aziende che lo usano.",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "fonte": "Anthropic",
+      "data": "18 giu 2026"
+    },
+    {
+      "id": "2026-W26-05",
+      "titolo": "Claude Fable 5 e Mythos 5: autonomia estesa e 88% sul benchmark matematico più difficile dell'AI",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Anthropic ha rilasciato Claude Fable 5 (classe Mythos, sopra Opus), progettato per pianificazione autonoma e task di lunga durata su coding, ricerca e operazioni aziendali. Con 88% su FrontierMath Tier 4 — 13 punti sopra GPT-5.5 — è il nuovo riferimento tecnico per applicazioni enterprise ad alto impatto.",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "fonte": "Anthropic",
+      "data": "9 giu 2026"
+    },
+    {
+      "id": "2026-W26-06",
+      "titolo": "ChatGPT raggiunge 1 miliardo di utenti mensili: l'adozione AI di massa è ufficialmente arrivata",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "ChatGPT ha superato il miliardo di utenti attivi mensili, diventando l'app in più rapida crescita della storia. Con 25 miliardi di ricavi annualizzati e 50 milioni di abbonati paganti, OpenAI consolida l'AI generativa come servizio di massa — per le aziende, ignorarla ora è una scelta strategicamente rischiosa.",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/chatgpt-reaches-1-billion-users-as-the-ai-economy-takes-shape/",
+      "fonte": "PYMNTS",
+      "data": "17 giu 2026"
+    },
+    {
+      "id": "2026-W26-07",
+      "titolo": "82% delle piccole imprese USA investe in AI: 20+ ore risparmiate al mese, fino a 2.000 $ di costi in meno",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Il 2026 Small Business Tech Use Survey della SBE Council rileva che l'82% delle PMI americane ha investito in AI, con il 91% che dichiara crescita di fatturato. I risparmi concreti: oltre 20 ore/mese e 500-2.000 dollari mensili di costi operativi. Dati che le PMI italiane non possono continuare a ignorare.",
+      "url": "https://sbecouncil.org/2026/04/25/the-ai-tools-small-businesses-are-using/",
+      "fonte": "SBE Council",
+      "data": "19 giu 2026"
+    },
+    {
+      "id": "2026-W26-08",
+      "titolo": "CMU e Accenture rilasciano l'AI Adoption Maturity Model: la prima roadmap validata per scalare l'AI",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Il Software Engineering Institute di CMU e Accenture hanno pubblicato un modello di maturità AI empiricamente validato per misurare le capacità AI di un'organizzazione, identificare i gap e costruire una roadmap di adozione responsabile. Finalmente uno strumento pratico, non teorico, per chi deve fare scelte concrete.",
+      "url": "https://www.sei.cmu.edu/news/sei-and-accenture-release-ai-adoption-maturity-model-to-help-organizations-scale-ai-with-predictable-outcomes/",
+      "fonte": "CMU SEI",
+      "data": "8 giu 2026"
+    },
+    {
+      "id": "2026-W26-09",
+      "titolo": "Colorado AI Act: primo enforcement AI negli USA dal 30 giugno, con risk management obbligatorio",
+      "score": 7,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il Colorado Consumer Protections for Artificial Intelligence Act entra in vigore il 30 giugno 2026, imponendo programmi di risk management e impact assessment per i sistemi AI ad alto rischio. Prima vera scadenza di enforcement AI sul suolo americano — un anticipo del modello che si diffonderà in Europa.",
+      "url": "https://www.kiteworks.com/cybersecurity-risk-management/ai-regulation-2026-business-compliance-guide/",
+      "fonte": "Kiteworks",
+      "data": "20 giu 2026"
+    },
+    {
+      "id": "2026-W26-10",
+      "titolo": "Snowflake + Anthropic: Claude gira direttamente sui dati aziendali con governance e sicurezza native",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Al Snowflake Summit 26, Snowflake e Anthropic hanno presentato Cortex AI: i modelli Claude lavorano direttamente dentro i dati aziendali con governance, sicurezza e osservabilità integrate. La spesa Anthropic dei clienti vale come credito Snowflake — un modello commerciale che abbassa le barriere all'adozione enterprise.",
+      "url": "https://www.snowflake.com/en/news/press-releases/snowflake-and-anthropic-accelerate-enterprise-ai-adoption-driven-by-rising-demand-for-governed-ai/",
+      "fonte": "Snowflake",
+      "data": "1 giu 2026"
+    },
+    {
+      "id": "2026-W26-11",
+      "titolo": "Trump firma executive order AI: i lab condividono i modelli con il governo 30 giorni prima del lancio",
+      "score": 7,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il 2 giugno Trump ha firmato un executive order che chiede ai lab AI di condividere volontariamente i nuovi modelli con il governo federale 30 giorni prima del rilascio, istituendo un clearinghouse AI-cybersecurity. L'obiettivo dichiarato è sicurezza nazionale — ma l'effetto pratico è un nuovo livello di controllo governativo sui modelli.",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "fonte": "White House",
+      "data": "2 giu 2026"
+    },
+    {
+      "id": "2026-W26-12",
+      "titolo": "MiniMax M3: primo open-weight con 1 milione di token di contesto e computer use multimodale",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "MiniMax M3 è il primo modello open-weight a combinare capacità frontier nel software engineering con contesto da 1 milione di token e computer use nativo multimodale. Abbassa il costo di entry per applicazioni enterprise complesse senza dipendere da API proprietarie — rilevante per chi vuole controllo sui propri dati.",
+      "url": "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026",
+      "fonte": "devFlokers",
+      "data": "18 giu 2026"
+    },
+    {
+      "id": "2026-W26-13",
+      "titolo": "Microsoft e Google vs Anthropic e OpenAI: la guerra dei modelli AI per il coding è aperta",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Microsoft e Google hanno lanciato nuovi modelli AI specializzati nel coding per sfidare direttamente OpenAI e Anthropic, con un'offensiva coordinata che punta su enterprise e sviluppatori. La competizione comprime i prezzi e accelera le release — per le PMI, più scelta e costi più bassi entro 12 mesi.",
+      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "fonte": "CNBC",
+      "data": "1 giu 2026"
+    },
+    {
+      "id": "2026-W26-14",
+      "titolo": "Unreal Engine 6 integra Claude e Gemini nativamente: l'AI entra nel cuore dello sviluppo software",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Epic Games ha annunciato che Unreal Engine 6 includerà Claude e Gemini come modelli AI nativi per automatizzare scripting, asset generation e debugging. Primo motore di sviluppo di riferimento a integrare AI proprietaria di terze parti a livello di piattaforma — un modello che altri settori software seguiranno.",
+      "url": "https://aiweekly.co/ai-news-today/anthropic-news",
+      "fonte": "AI Weekly",
+      "data": "17 giu 2026"
+    },
+    {
+      "id": "2026-W26-15",
+      "titolo": "Anthropic + Google + Broadcom: accordo multi-gigawatt per la prossima generazione di modelli AI",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "Anthropic ha annunciato un'espansione dell'accordo con Google e Broadcom per accesso a diversi gigawatt di potenza computazionale di nuova generazione. La corsa all'infrastruttura AI si misura ora in gigawatt — chi controlla il compute controlla il ritmo dell'innovazione e, indirettamente, i prezzi dei servizi AI.",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "fonte": "Anthropic",
+      "data": "12 giu 2026"
+    }
+  ]
+}
