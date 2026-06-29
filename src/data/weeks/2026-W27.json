@@ -1,0 +1,157 @@
+{
+  "id": "2026-W27",
+  "label": "Settimana 27 — 23-29 giugno 2026",
+  "lastUpdate": "2026-06-29 09:10",
+  "news": [
+    {
+      "id": "2026-W27-01",
+      "titolo": "EU AI Act: approvati ritardi e semplificazioni per i sistemi ad alto rischio",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il Parlamento europeo ha approvato il 16 giugno emendamenti che ritardano gli obblighi più pesanti sull'AI ad alto rischio e semplificano le regole per categorie specifiche: le PMI europee guadagnano più tempo per adeguarsi, ma il quadro normativo si fa definitivo.",
+      "url": "https://www.morganlewis.com/pubs/2026/06/eu-approves-delays-and-other-amendments-to-certain-eu-ai-act-obligations-what-businesses-should-know",
+      "fonte": "Morgan Lewis",
+      "data": "16 giu 2026"
+    },
+    {
+      "id": "2026-W27-02",
+      "titolo": "Microsoft 365 Copilot diventa SKU permanente: l'AI entra stabilmente nel piano Office aziendale",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Dal 1° luglio 2026 Microsoft 365 Business Standard e Premium con Copilot diventano piani fissi: niente più contratti sperimentali o add-on separati — per le PMI italiane è la normalizzazione definitiva dell'AI assistant nell'ambiente di lavoro quotidiano.",
+      "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+      "fonte": "Microsoft Learn",
+      "data": "giu 2026"
+    },
+    {
+      "id": "2026-W27-03",
+      "titolo": "Gemini 2.5 Pro Deep Think: 82,4% su GPQA Diamond, supera tutti i modelli pubblici nel ragionamento",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Google lancia Gemini 2.5 Pro con modalità Deep Think e si porta a 82,4% su GPQA Diamond e 89,8% su MMLU-Pro, superando tutti i modelli disponibili pubblicamente: un nuovo benchmark di riferimento per applicazioni enterprise che richiedono ragionamento complesso.",
+      "url": "https://aiweekly.co/ai-news-today/google-ai-news",
+      "fonte": "AI Weekly",
+      "data": "22 giu 2026"
+    },
+    {
+      "id": "2026-W27-04",
+      "titolo": "OpenAI lancia GPT-5.6 (Sol, Terra, Luna) e manda in pensione GPT-4.5",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "OpenAI introduce la famiglia GPT-5.6 con tre varianti — Sol, Terra, Luna — ottimizzate per sicurezza e cybersecurity, e ritira GPT-4.5 da ChatGPT: chi ha workflow o integrazioni basati su GPT-4.5 deve aggiornare ora, senza aspettare la deprecazione forzata.",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-june-28-2026",
+      "fonte": "AI Tools Recap",
+      "data": "26 giu 2026"
+    },
+    {
+      "id": "2026-W27-05",
+      "titolo": "Agentjacking: iniezione markdown negli agenti AI di codice, 85% di successo su 2.388 organizzazioni",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Divulgata la vulnerabilità Agentjacking: report d'errore falsificati con markdown injection convincono gli agenti AI di coding a eseguire istruzioni malevole con un tasso di successo dell'85% — chi usa agenti AI per sviluppo deve rivedere le policy di sicurezza e i controlli di validazione dell'input.",
+      "url": "https://unrot.co/blogs/today-top-10-ai-news-june-26-2026",
+      "fonte": "unrot.co",
+      "data": "26 giu 2026"
+    },
+    {
+      "id": "2026-W27-06",
+      "titolo": "AI adottata dal 78% delle aziende, ma solo l'1% è operativamente matura: il gap di execution è enorme",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "I dati di giugno 2026 confermano che il 78% delle organizzazioni ha qualche forma di AI, ma appena l'1% ha raggiunto la maturità operativa: avere un account ChatGPT non è adozione AI — le aziende che non affrontano governance, processi e misurazione restano ferme anche se usano strumenti AI ogni giorno.",
+      "url": "https://autothinkai.net/blog/ai-automation-business-tools-2026-productivity",
+      "fonte": "AutoThink AI",
+      "data": "giu 2026"
+    },
+    {
+      "id": "2026-W27-07",
+      "titolo": "Gartner: spesa AI a 2.590 miliardi nel 2026, +47% — il salto annuale più grande nella storia del software enterprise",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "Gartner prevede per il 2026 una spesa globale AI di 2.590 miliardi di dollari, con un incremento del 47% YoY mai visto nel software enterprise: l'AI smette di essere un'opportunità emergente e diventa l'asse centrale degli investimenti IT — per le PMI è la conferma che il momentum non si ferma né rallenta.",
+      "url": "https://autothinkai.net/blog/ai-automation-business-tools-2026-productivity",
+      "fonte": "Gartner / AutoThink AI",
+      "data": "giu 2026"
+    },
+    {
+      "id": "2026-W27-08",
+      "titolo": "OpenAI e Broadcom lanciano Jalapeño: il primo chip custom per inferenza AI dedicato a ChatGPT e API",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "OpenAI presenta Jalapeño, il primo chip progettato internamente con Broadcom per l'inferenza — non per il training — con un ciclo di design di 9 mesi accelerato dall'AI stessa: meno latenza e costi infrastrutturali più bassi si tradurranno in prezzi API più competitivi nel medio termine.",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-25-2026",
+      "fonte": "Build Fast With AI",
+      "data": "25 giu 2026"
+    },
+    {
+      "id": "2026-W27-09",
+      "titolo": "Google DeepMind perde 4 ricercatori top in 6 giorni: Alphabet brucia 250 miliardi di capitalizzazione",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "In sei giorni DeepMind ha perso Noam Shazeer (co-lead Gemini, a OpenAI), John Jumper (Nobel AlphaFold, ad Anthropic), Jonas Adler e Alexander Pritzel (entrambi ad Anthropic): Alphabet ha perso $250 miliardi in Borsa — la talent war AI si vince sul capitale umano prima che su quello finanziario.",
+      "url": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/",
+      "fonte": "Fortune",
+      "data": "23 giu 2026"
+    },
+    {
+      "id": "2026-W27-10",
+      "titolo": "OpenAI limita i nuovi modelli frontier solo ai 'trusted partners' su direttiva del governo USA",
+      "score": 6,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il governo USA ha chiesto a OpenAI di restringere l'accesso ai nuovi modelli frontier a un cerchio ristretto di partner certificati: primo segnale concreto di una geopolitica dell'AI dove l'accesso ai modelli più potenti non sarà più universale — con ricadute per chi costruisce prodotti su API OpenAI.",
+      "url": "https://www.cnbc.com/2026/06/26/openai-limits-new-ai-models-to-trusted-partners-request-us-government.html",
+      "fonte": "CNBC",
+      "data": "26 giu 2026"
+    },
+    {
+      "id": "2026-W27-11",
+      "titolo": "White House chiede a OpenAI di rallentare il rilascio del prossimo modello frontier per sicurezza",
+      "score": 5,
+      "categoria": "Regolamentazione",
+      "sintesi": "La Casa Bianca ha chiesto formalmente a OpenAI di ritardare il rilascio del prossimo modello per consentire una valutazione governativa di sicurezza: il precedente trasforma il lancio dei modelli AI da decisione commerciale a processo con supervisione statale — un cambio strutturale nella governance dell'innovazione.",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "fonte": "TechCrunch",
+      "data": "25 giu 2026"
+    },
+    {
+      "id": "2026-W27-12",
+      "titolo": "Anthropic denuncia Alibaba/Qwen: 25.000 account falsi, 28,8 milioni di scambi per rubare le capacità di Claude",
+      "score": 5,
+      "categoria": "Business AI",
+      "sintesi": "Anthropic accusa Alibaba e il lab Qwen di una campagna di distillazione massiva: 25.000 account fraudolenti hanno generato 28,8 milioni di interazioni con Claude tra aprile e giugno per estrarne ragionamento agentico e capacità di software engineering — il furto di IP nell'AI è ora una questione di sicurezza industriale strutturale.",
+      "url": "https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week",
+      "fonte": "MarketingProfs",
+      "data": "26 giu 2026"
+    },
+    {
+      "id": "2026-W27-13",
+      "titolo": "Claude Fable 5 e Mythos 5 ancora offline dopo 14 giorni: l'export control AI diventa un problema operativo",
+      "score": 4,
+      "categoria": "Regolamentazione",
+      "sintesi": "Al 26 giugno, Fable 5 e Mythos 5 di Anthropic restano inaccessibili via API da due settimane per effetto dell'ordine del Commerce Department USA: chi aveva integrato questi modelli nei propri prodotti sta affrontando il primo caso reale di blocco operativo da regolamentazione AI senza preavviso.",
+      "url": "https://unrot.co/blogs/today-top-10-ai-news-june-26-2026",
+      "fonte": "unrot.co",
+      "data": "26 giu 2026"
+    },
+    {
+      "id": "2026-W27-14",
+      "titolo": "OpenAI: la pubblicità diventa strategia core con 900 milioni di utenti settimanali su ChatGPT",
+      "score": 4,
+      "categoria": "Business AI",
+      "sintesi": "OpenAI dichiara che l'advertising è ora parte centrale del modello di business: con 900 milioni di utenti settimanali, ChatGPT diventa un vettore pubblicitario basato su utilità — chi usa ChatGPT come strumento neutro deve iniziare a considerare le implicazioni della sponsorship sui contenuti generati.",
+      "url": "https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week",
+      "fonte": "MarketingProfs",
+      "data": "26 giu 2026"
+    },
+    {
+      "id": "2026-W27-15",
+      "titolo": "Great American AI Act: proposta la prima legge federale USA organica sull'intelligenza artificiale",
+      "score": 4,
+      "categoria": "Regolamentazione",
+      "sintesi": "I deputati Obernolte e Trahan hanno presentato il GAAIA il 4 giugno: primo framework federale USA su AI articolato in quattro titoli — governance frontier, workforce, cybersecurity e cooperazione internazionale — che anticipa dinamiche normative destinate a influenzare anche le aziende italiane che operano con partner o mercati USA.",
+      "url": "https://www.mcdonaldhopkins.com/insights/news/the-great-american-ai-act-what-businesses-need-to-know",
+      "fonte": "McDonald Hopkins",
+      "data": "4 giu 2026"
+    }
+  ]
+}
