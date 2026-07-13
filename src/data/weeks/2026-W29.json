@@ -1,0 +1,157 @@
+{
+  "id": "2026-W29",
+  "label": "Settimana 29, 2026",
+  "lastUpdate": "2026-07-13 09:11",
+  "news": [
+    {
+      "id": "2026-W29-01",
+      "titolo": "GPT-5.6 in tre versioni: OpenAI abbassa il prezzo per l'uso aziendale quotidiano",
+      "score": 6,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "OpenAI lancia Sol, Terra e Luna: Terra costa la meta del modello precedente a prestazioni quasi identiche, pensato per supporto clienti, revisione codice e strumenti interni.",
+      "url": "https://unrot.co/blogs/today-top-10-ai-news-july-10-2026",
+      "fonte": "unrot.co",
+      "data": "2026-07-10"
+    },
+    {
+      "id": "2026-W29-02",
+      "titolo": "Claude Sonnet 5 debutta mentre Anthropic firma un data center da 19 miliardi",
+      "score": 6,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Anthropic lancia Claude Sonnet 5 e chiude un contratto da 19 miliardi di dollari con TeraWulf per capacita di calcolo: dietro ogni nuovo modello c'e una scommessa infrastrutturale enorme.",
+      "url": "https://siliconangle.com/2026/07/03/openai-offers-feds-stake-anthropic-gets-ai-model-jail-meta-wants-neocloud/",
+      "fonte": "SiliconANGLE",
+      "data": "2026-07-03"
+    },
+    {
+      "id": "2026-W29-03",
+      "titolo": "I modelli open-source cinesi valgono gia il 30-46% del traffico API aziendale USA",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "I modelli cinesi, fino al 90% piu economici di quelli di punta di OpenAI e Anthropic, guadagnano quota tra gli sviluppatori enterprise: conviene testare alternative prima di fermarsi al primo fornitore.",
+      "url": "https://www.zonetechify.com/blog/ai-news-july-2026-latest-ai-developments",
+      "fonte": "ZoneTechify",
+      "data": "2026-07-13"
+    },
+    {
+      "id": "2026-W29-04",
+      "titolo": "Microsoft investe 2,5 miliardi di dollari solo per far adottare l'AI alle aziende",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "La nuova Microsoft Frontier Company mette 6.000 persone sul campo per aiutare i clienti a implementare l'AI: il collo di bottiglia oggi non e la tecnologia ma chi sa metterla a terra.",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "fonte": "TechCrunch",
+      "data": "2026-07-02"
+    },
+    {
+      "id": "2026-W29-05",
+      "titolo": "Accenture e Google Cloud lanciano AI agentiva pronta all'uso per le aziende di fascia media",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "La nuova suite punta a imprese tra 300 milioni e 3 miliardi di fatturato con agenti preconfezionati: pacchetti pronti invece di sviluppo custom, un modello che scendera anche sulle PMI piu piccole.",
+      "url": "https://solutionsreview.com/ai-news-for-the-week-of-july-10-updates-from-accenture-google-cloud-supermicro-more/",
+      "fonte": "Solutions Review",
+      "data": "2026-07-10"
+    },
+    {
+      "id": "2026-W29-06",
+      "titolo": "Solo il 27% dei manager si sente pronto per l'AI, contro il 70% dei dipendenti",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "McKinsey fotografa un divario enorme tra chi usa gia l'AI ogni giorno e chi dovrebbe guidarne l'adozione in azienda: il freno non e la tecnologia, e la leadership.",
+      "url": "https://www.newkerala.com/news/a/employees-adopting-ai-faster-than-organisations-says-mckinsey-145.htm",
+      "fonte": "McKinsey (via Newkerala)",
+      "data": "2026-07-09"
+    },
+    {
+      "id": "2026-W29-07",
+      "titolo": "Anche Amazon scommette 1 miliardo di dollari sull'adozione AI, non sui modelli",
+      "score": 5,
+      "categoria": "Adozione AI",
+      "sintesi": "Due giorni prima di Microsoft, AWS annuncia un investimento interno da 1 miliardo per aiutare i clienti a implementare l'AI: tre big del cloud convergono sulla stessa idea, vendere adozione piu che calcolo.",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "fonte": "TechCrunch",
+      "data": "2026-06-30"
+    },
+    {
+      "id": "2026-W29-08",
+      "titolo": "I middle manager sono sommersi di lavoro extra per colpa dell'AI",
+      "score": 7,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Harvard Business Review segnala che i quadri intermedi validano output AI, correggono errori e formano i colleghi senza supporto ne tempo in piu: un rischio concreto anche per le PMI.",
+      "url": "https://hbr.org/2026/06/ai-adoption-is-overloading-your-middle-managers",
+      "fonte": "Harvard Business Review",
+      "data": "2026-06-30"
+    },
+    {
+      "id": "2026-W29-09",
+      "titolo": "120.000 licenziamenti tech nel 2026 con l'AI citata come causa",
+      "score": 6,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Il conteggio aggiornato di Layoffs.fyi mostra che il legame tra tagli occupazionali e AI resta un tema caldo: utile saperlo prima di annunciare automazioni interne senza un piano di comunicazione.",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "fonte": "TechCrunch",
+      "data": "2026-07-06"
+    },
+    {
+      "id": "2026-W29-10",
+      "titolo": "L'AI Act europeo rallenta: rinviate al 2027-2028 le regole sui sistemi ad alto rischio",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "Il Consiglio UE approva una versione semplificata del regolamento, spostando le scadenze piu dure a dicembre 2027 e agosto 2028: le PMI italiane guadagnano tempo, ma il tema non sparisce.",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/",
+      "fonte": "Consilium Europa",
+      "data": "2026-06-29"
+    },
+    {
+      "id": "2026-W29-11",
+      "titolo": "La FTC statunitense apre una consultazione pubblica sull'accuratezza dell'AI",
+      "score": 5,
+      "categoria": "Regolamentazione",
+      "sintesi": "Fino al 31 luglio si potra commentare la policy sulle implicazioni legali quando le leggi statali impongono di correggere gli output AI: un tema che riguarda anche chi produce contenuti per il pubblico.",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy",
+      "fonte": "FTC",
+      "data": "2026-07-01"
+    },
+    {
+      "id": "2026-W29-12",
+      "titolo": "LinkedIn regala cinque strumenti AI per le inserzioni ai piccoli investitori pubblicitari",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Brand Kit, bozze generate dall'AI e varianti automatiche degli annunci: LinkedIn punta sulle aziende con budget marketing ridotto, il profilo di tante PMI italiane finora lontane dalla piattaforma.",
+      "url": "https://solutionsreview.com/ai-news-for-the-week-of-july-10-updates-from-accenture-google-cloud-supermicro-more/",
+      "fonte": "Solutions Review",
+      "data": "2026-07-10"
+    },
+    {
+      "id": "2026-W29-13",
+      "titolo": "Z.ai lancia il primo ambiente agentivo open-weight per programmare con l'AI",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "ZCode arriva gratuito e modificabile, non chiuso in un abbonamento: per chi vuole sperimentare in azienda senza vincolarsi a un fornitore e un'opzione in piu da tenere d'occhio.",
+      "url": "https://www.aiapps.com/blog/july-ai-mega-update-major-breakthroughs-launches/",
+      "fonte": "AIapps",
+      "data": "2026-07-02"
+    },
+    {
+      "id": "2026-W29-14",
+      "titolo": "Anthropic accelera: da 30 a 47 miliardi di dollari di fatturato annualizzato in due mesi",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "La velocita di crescita segnala quanto le aziende stiano gia spendendo su AI in produzione, non solo in pilot: un indicatore concreto di quanto il mercato si stia consolidando su pochi fornitori.",
+      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "fonte": "TechCrunch",
+      "data": "2026-07-08"
+    },
+    {
+      "id": "2026-W29-15",
+      "titolo": "Il governo USA usera ChatGPT per stanare frodi nella spesa sanitaria pubblica",
+      "score": 5,
+      "categoria": "Business AI",
+      "sintesi": "Il Dipartimento della Salute analizzera con l'AI i report di audit di tutti i 50 stati per individuare sprechi: un caso d'uso concreto di AI nella pubblica amministrazione, guardabile anche in ottica italiana.",
+      "url": "https://solutionsreview.com/ai-news-for-the-week-of-july-10-updates-from-accenture-google-cloud-supermicro-more/",
+      "fonte": "Solutions Review",
+      "data": "2026-07-10"
+    }
+  ]
+}
