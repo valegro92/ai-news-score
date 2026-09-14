@@ -1,0 +1,157 @@
+{
+  "id": "2026-W38",
+  "label": "Settimana del 8-14 settembre 2026",
+  "lastUpdate": "2026-09-14 09:10",
+  "news": [
+    {
+      "id": "2026-W38-01",
+      "titolo": "GPT-6 Astra supera la soglia critica di rischio cyber, OpenAI lo rilascia comunque",
+      "score": 6,
+      "categoria": "Regolamentazione",
+      "sintesi": "OpenAI ammette che GPT-6 Astra ha superato la soglia 'Critical' per rischio cybersecurity nel suo Preparedness Framework, ma lo attiva comunque su enterprise, API e AWS con opt-in manuale per le aziende.",
+      "url": "https://www.csoonline.com/article/4218679/openai-launches-gpt-6-astra-its-first-model-to-cross-a-critical-cybersecurity-threshold.html",
+      "fonte": "CSO Online",
+      "data": "2026-09-03"
+    },
+    {
+      "id": "2026-W38-02",
+      "titolo": "Anthropic taglia il 75% il costo della cache con Claude Fable 5.1 e Mythos 5.1",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Fable 5.1 arriva a 52,6% su Terminal-Bench-Science (contro 24,7% di Fable 5) e riduce fino al 45% i costi sui workload agentici: per le PMI che fanno vibe coding e' un salto pratico, non solo di benchmark.",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "fonte": "Anthropic",
+      "data": "2026-09-01"
+    },
+    {
+      "id": "2026-W38-03",
+      "titolo": "Accenture e Google Cloud mettono 1.000 ingegneri sul campo per Gemini Enterprise",
+      "score": 5,
+      "categoria": "Business AI",
+      "sintesi": "Il nuovo Accenture Gemini Enterprise Business Group schiera fino a 1.000 forward-deployed engineer per accelerare i deployment agentici: segnale che l'adozione enterprise si sta spostando dal pilota all'implementazione su scala.",
+      "url": "https://www.hpcwire.com/aiwire/2026/09/08/accenture-and-google-cloud-launch-gemini-enterprise-business-group/",
+      "fonte": "AIwire",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "2026-W38-04",
+      "titolo": "Anthropic sale al 43,8% delle aziende USA che pagano per AI, OpenAI resta indietro",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "Il Ramp AI Index di settembre mostra Anthropic al 43,8% delle imprese USA abbonate (+0,34 punti) contro il 39,8% di OpenAI (+0,09): nel B2B la battaglia si vince sui workflow reali, non sull'hype dei lanci.",
+      "url": "https://ramp.com/data/ai-index-sept-2026",
+      "fonte": "Ramp",
+      "data": "2026-09-01"
+    },
+    {
+      "id": "2026-W38-05",
+      "titolo": "California, multe fino a 1 milione di dollari per chatbot che danneggiano minori",
+      "score": 6,
+      "categoria": "Regolamentazione",
+      "sintesi": "Newsom firma leggi che obbligano le aziende a valutazioni di rischio prima del lancio di chatbot e protocolli di crisi per segnalare ai genitori segnali di disagio emotivo nei minori: la California anticipa una tendenza che arrivera' anche altrove.",
+      "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "fonte": "Governor of California",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "2026-W38-06",
+      "titolo": "McKinsey: il 44% delle aziende ora scala l'AI a livello enterprise, ma l'EBIT non si muove",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Il Global Survey 2026 di McKinsey dice che l'80% delle persone nota piu' produttivita' personale, ma solo il 37% delle aziende vede un impatto positivo sull'EBIT: il gap tra beneficio individuale e ritorno aziendale resta il vero nodo del 2026.",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "fonte": "McKinsey",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "2026-W38-07",
+      "titolo": "BCG: oltre il 40% delle grandi imprese scala gia' l'AI agentica, banche in testa",
+      "score": 6,
+      "categoria": "Adozione AI",
+      "sintesi": "Secondo l'AI Radar 2026 di BCG, banche, servizi finanziari e assicurazioni sono i settori piu' avanti nel passaggio dai pilot agentici alla produzione: un riferimento utile per chi lavora con clienti regolati.",
+      "url": "https://www.bcg.com/publications/2026/as-ai-investments-surge-ceos-take-the-lead",
+      "fonte": "BCG",
+      "data": "2026-09-05"
+    },
+    {
+      "id": "2026-W38-08",
+      "titolo": "Quasi una PMI italiana su due usa gia' l'AI, ma il 42% non ne vede l'impatto",
+      "score": 9,
+      "categoria": "Adozione AI",
+      "sintesi": "Il 45% delle PMI italiane usa strumenti di AI, in linea con la media UE, ma il 42% di chi li adotta non vede ancora un impatto concreto sull'attivita' quotidiana: il problema non e' piu' l'accesso allo strumento, ma il metodo di adozione.",
+      "url": "https://www.ilsole24ore.com/art/l-adozione-intelligenza-artificiale-cresce-italia-e-conquista-anche-pmi-AGyf3d4",
+      "fonte": "Il Sole 24 Ore",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "2026-W38-09",
+      "titolo": "Manutenzione predittiva e visione artificiale restano gli usi AI piu' concreti in manifattura",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "Nelle PMI manifatturiere italiane gli impieghi che reggono nel tempo sono manutenzione predittiva, controllo qualita' con visione artificiale e ottimizzazione energetica: non i chatbot generalisti, ma l'AI innestata su un processo fisico gia' misurato.",
+      "url": "https://www.ilsole24ore.com/art/le-pmi-accelerano-digitale-ma-c-e-ancora-diffidenza-l-ai-AJ4eOmH",
+      "fonte": "Il Sole 24 Ore",
+      "data": "2026-09-07"
+    },
+    {
+      "id": "2026-W38-10",
+      "titolo": "Il 78% degli imprenditori italiani non affiderebbe le decisioni finanziarie all'AI",
+      "score": 7,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Il 42% preferisce mantenere il controllo diretto della gestione, il resto dichiara di non fidarsi ancora della tecnologia sulle scelte di allocazione delle risorse: la fiducia resta il collo di bottiglia piu' dell'accesso allo strumento.",
+      "url": "https://www.ilsole24ore.com/art/l-adozione-intelligenza-artificiale-cresce-italia-e-conquista-anche-pmi-AGyf3d4",
+      "fonte": "Il Sole 24 Ore",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "2026-W38-11",
+      "titolo": "Oltre 92.000 licenziamenti tech nel 2026, ma l'AI ha creato un milione di posti in USA",
+      "score": 6,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Layoffs.fyi conta piu' di 92.000 licenziamenti in quasi 100 aziende tech nel 2026, mentre uno studio dell'Economist stima che l'AI abbia creato circa un milione di posti negli USA, cinque volte i licenziamenti attribuiti all'automazione dalla meta' del 2023.",
+      "url": "https://www.fortuneita.com/2026/04/28/licenziamenti-nel-tech-e-ai-una-rivoluzione-del-lavoro-ancora-incerta/",
+      "fonte": "Fortune Italia",
+      "data": "2026-09-01"
+    },
+    {
+      "id": "2026-W38-12",
+      "titolo": "In Italia non esiste ancora una norma che permetta di licenziare 'per sostituzione con l'AI'",
+      "score": 7,
+      "categoria": "Regolamentazione",
+      "sintesi": "La normativa italiana del 2026 chiarisce che un algoritmo non puo' sostituire il giudizio umano nelle decisioni che incidono sui diritti fondamentali del dipendente: un punto fermo utile per chi in azienda deve gestire riorganizzazioni legate all'AI.",
+      "url": "https://www.lamiafinanza.it/2026/03/licenziare-per-sostituire-con-lia-cosa-dice-il-diritto-del-lavoro-in-italia/",
+      "fonte": "La Mia Finanza",
+      "data": "2026-09-02"
+    },
+    {
+      "id": "2026-W38-13",
+      "titolo": "Quattro big AI (Anthropic, OpenAI, Meta, Google) rilasciano modelli nella stessa settimana",
+      "score": 5,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Nella stessa settimana escono Claude Fable/Mythos 5.1, Gemini 3.8 Flash, Muse Spark 1.3 e GPT-6 Astra: i laboratori corrono verso la quotazione e la cadenza dei rilasci accelera piu' della capacita' delle aziende di assorbirli.",
+      "url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+      "fonte": "CNBC",
+      "data": "2026-09-06"
+    },
+    {
+      "id": "2026-W38-14",
+      "titolo": "Sakana AI rilascia Fugu Ultra v2.0 e Fugu Max, nuovi modelli open-weight",
+      "score": 4,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Sakana AI pubblica due nuovi modelli open-weight l'11 settembre, in un mese che ha gia' visto 11 rilasci: per chi valuta alternative ai big four vale la pena tenere d'occhio i costi di licenza piu' che i soli benchmark.",
+      "url": "https://www.thundercompute.com/blog/best-open-source-llms",
+      "fonte": "Thunder Compute",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "2026-W38-15",
+      "titolo": "Anthropic, OpenAI e Google DeepMind lavorano in segreto a uno standard di settore per l'AI",
+      "score": 6,
+      "categoria": "Regolamentazione",
+      "sintesi": "Da luglio i tre laboratori tengono working group riservati per creare un organismo di standard guidato dall'industria, con Dario Amodei come promotore principale e Sam Altman che lo appoggia: un tentativo di autoregolamentazione prima che arrivi quella statale.",
+      "url": "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html",
+      "fonte": "CNBC",
+      "data": "2026-09-06"
+    }
+  ]
+}
