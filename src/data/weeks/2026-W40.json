@@ -1,0 +1,157 @@
+{
+  "id": "2026-W40",
+  "label": "Settimana 40, 2026 (21-28 settembre)",
+  "lastUpdate": "2026-09-28 09:03",
+  "news": [
+    {
+      "id": "2026-W40-01",
+      "titolo": "Solo il 7% delle licenze Microsoft 365 usa Copilot: arriva la 'super app' con agenti AI",
+      "score": 8,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Microsoft unifica chat, coding e agenti autonomi in un'unica app: 30 milioni di posti pagati su 450 milioni totali (il 7%) mostrano quanto lavoro di adozione resti da fare anche per il leader del mercato.",
+      "url": "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/",
+      "fonte": "Fortune",
+      "data": "2026-09-25"
+    },
+    {
+      "id": "2026-W40-02",
+      "titolo": "Salesforce spacchetta i flussi di back-office in compiti per agenti AI, con controllo umano incorporato",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Agentforce Operations trasforma processi finora impliciti in blueprint tracciabili passo per passo: senza questo strato di controllo, avverte Salesforce, gli agenti aumentano i costi invece di ridurli.",
+      "url": "https://venturebeat.com/orchestration/salesforce-launches-agentforce-operations-to-fix-the-workflows-breaking-enterprise-ai",
+      "fonte": "VentureBeat",
+      "data": "2026-09-24"
+    },
+    {
+      "id": "2026-W40-03",
+      "titolo": "Il costo dell'AI crolla ancora: nuovo minimo a 0,10 dollari per milione di token, 119 volte meno del top di gamma",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "In due settimane 28 aziende hanno rilasciato oltre 20 modelli e lo spread di prezzo tra i big è di 119 volte: scegliere il modello giusto per il compito, non il più famoso, è ormai la vera leva di risparmio.",
+      "url": "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html",
+      "fonte": "Local AI Zone",
+      "data": "2026-09-25"
+    },
+    {
+      "id": "2026-W40-04",
+      "titolo": "L'AI Act entra nella fase di enforcement: chatbot e contenuti generati devono dichiararsi come tali",
+      "score": 8,
+      "categoria": "Regolamentazione",
+      "sintesi": "Dal 2 agosto è obbligatorio avvisare l'utente quando interagisce con un chatbot ed etichettare deepfake e contenuti AI-generati: oltre 180 organizzazioni hanno già aderito al Codice di Pratica europeo sulla trasparenza.",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "fonte": "Commissione Europea",
+      "data": "2026-08-02"
+    },
+    {
+      "id": "2026-W40-05",
+      "titolo": "Il 76% delle PMI italiane non investe in AI e non ha piani per farlo",
+      "score": 9,
+      "categoria": "Adozione AI",
+      "sintesi": "Solo il 7% ha avviato percorsi di formazione AI strutturati, mentre le oltre 240mila PMI del campione generano il 40% del PIL italiano: il divario tra urgenza dichiarata e azione concreta resta il vero freno alla competitività.",
+      "url": "https://www.osservatori.net/comunicato/innovazione-digitale-nelle-pmi/pmi-italiane-innovazione/",
+      "fonte": "Osservatorio Innovazione Digitale PMI, Politecnico di Milano",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "2026-W40-06",
+      "titolo": "Il 97% dei manager ha già agenti AI in azienda, ma solo il 29% vede un ROI reale",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "Il 59% delle aziende investe oltre un milione di dollari l'anno in AI, ma solo il 23% registra ritorni concreti dagli agenti: il 75% dei dirigenti ammette che la propria strategia AI è più immagine che sostanza.",
+      "url": "https://writer.com/blog/enterprise-ai-adoption-2026/",
+      "fonte": "Writer",
+      "data": "2026-09-20"
+    },
+    {
+      "id": "2026-W40-07",
+      "titolo": "128.536 licenziamenti tech in nove mesi: Oracle, Amazon e Microsoft tagliano per finanziare l'AI",
+      "score": 7,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Il conto dei tagli 2026 ha già superato l'intero 2025: Oracle guida con 21.000 posti e 2,8 miliardi di costi di ristrutturazione legati ai data center AI, segno di uno spostamento netto dei budget dal personale al calcolo.",
+      "url": "https://www.tradingview.com/news/moodys:d3e6e0d638aef:0-tech-layoffs-2026-as-ai-takes-center-stage-here-s-a-list-of-major-companies-that-laid-off-employees/",
+      "fonte": "TradingView / Moody's",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "2026-W40-08",
+      "titolo": "Il 68% di chi usa l'AI ogni giorno negli USA ne è comunque preoccupato",
+      "score": 6,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Solo il 45% degli utenti quotidiani americani si fida dell'accuratezza dell'AI, contro percentuali molto più alte a Singapore e in Cina: usare uno strumento tutti i giorni non significa ancora fidarsene.",
+      "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
+      "fonte": "TechCrunch / Gallup",
+      "data": "2026-09-23"
+    },
+    {
+      "id": "2026-W40-09",
+      "titolo": "Claude scopre un sistema enzimatico 'tipo CRISPR' in 21 ore: 950 agenti, 210 milioni di token, ma da validare",
+      "score": 4,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Il neonato laboratorio di biologia di Anthropic annuncia una scoperta che 'sarà compito della comunità scientifica convalidare': gli esperimenti fisici restano opera di ricercatori umani, non del modello.",
+      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "fonte": "TechCrunch",
+      "data": "2026-09-23"
+    },
+    {
+      "id": "2026-W40-10",
+      "titolo": "Muse di Meta cresce più veloce di ChatGPT al lancio: 4,3 milioni di download in due settimane",
+      "score": 5,
+      "categoria": "Adozione AI",
+      "sintesi": "Con una crescita giornaliera del 55% (contro il 24% di ChatGPT al debutto) e il primo posto negli store USA, Meta spinge l'app con pubblicità mirata su tutte le sue piattaforme: la battaglia si gioca ormai sulla distribuzione, non solo sul modello.",
+      "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+      "fonte": "TechCrunch",
+      "data": "2026-09-25"
+    },
+    {
+      "id": "2026-W40-11",
+      "titolo": "L'89% delle aziende usa già l'AI in almeno una funzione, ma solo il 37% vede impatto positivo sugli utili",
+      "score": 7,
+      "categoria": "Business AI",
+      "sintesi": "McKinsey mappa 14 tecnologie chiave e indica l'energia, non i modelli, come vero collo di bottiglia: senza potenza di calcolo affidabile il divario tra investimento e valore resta aperto per la maggior parte delle imprese.",
+      "url": "https://advisoranalyst.com/2026/09/22/the-intelligence-layer-mckinsey-maps-14-technologies-reshaping-the-economy-in-2026.html/",
+      "fonte": "McKinsey (via AdvisorAnalyst)",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "2026-W40-12",
+      "titolo": "Google porta lo shopping dentro Gemini: bottone 'Compra' per Flipkart in India, in arrivo a ottobre",
+      "score": 5,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Con 350 milioni di dollari investiti in Flipkart, Google integra il checkout diretto nell'assistente AI durante la stagione dello shopping indiano: Amazon resta visibile solo nei risultati di ricerca, senza lo stesso trattamento.",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "fonte": "TechCrunch",
+      "data": "2026-09-26"
+    },
+    {
+      "id": "2026-W40-13",
+      "titolo": "OpenAI lancia GPT-5.2-Codex per il coding agentico: 87% sul benchmark di sicurezza CVE-Bench",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Refactoring su larga scala e migrazioni di codice mantenendo il contesto completo su sessioni lunghe: le aziende vi accedono già via ChatGPT a pagamento, l'accesso API arriva a breve.",
+      "url": "https://venturebeat.com/technology/enterprise-ai-coding-grows-teeth-gpt-5-2-codex-weaves-security-into-large",
+      "fonte": "VentureBeat",
+      "data": "2026-09-24"
+    },
+    {
+      "id": "2026-W40-14",
+      "titolo": "Google, Anthropic e OpenAI rilasciano modelli 'cyber' per la difesa, ma Astra tocca già la soglia critica",
+      "score": 6,
+      "categoria": "Regolamentazione",
+      "sintesi": "Gemini 3.8 Flash Cyber arriva a oltre 650 partner tra cui CrowdStrike, mentre OpenAI ammette che Astra ha superato la soglia 'Critical' del suo framework di sicurezza e respinge solo il 91,5% dei tentativi di jailbreak.",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "fonte": "The Hacker News",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "2026-W40-15",
+      "titolo": "L'ONU avverte: l'autoregolamentazione delle aziende AI 'non è assolutamente sufficiente'",
+      "score": 6,
+      "categoria": "Regolamentazione",
+      "sintesi": "Dopo le dimissioni di un ricercatore Anthropic preoccupato per rischi esistenziali, il capo dei diritti umani ONU chiede obblighi di segnalazione degli incidenti gravi e verifica indipendente delle capacità dei modelli.",
+      "url": "https://news.un.org/en/story/2026/09/1168326",
+      "fonte": "UN News",
+      "data": "2026-09-14"
+    }
+  ]
+}
