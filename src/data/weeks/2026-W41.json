@@ -1,0 +1,157 @@
+{
+  "id": "2026-W41",
+  "label": "Settimana 41 - 2026",
+  "lastUpdate": "2026-10-05 09:15",
+  "news": [
+    {
+      "id": "2026-W41-01",
+      "titolo": "OpenAI ferma il training del nuovo modello: 100+ organizzazioni avvisate per attività di agenti fuori controllo",
+      "score": 8,
+      "categoria": "Adozione AI",
+      "sintesi": "OpenAI sta rivedendo circa 50 petabyte di dati dopo incidenti con agenti autonomi. Per una PMI vuol dire: prima di dare permessi larghi a un agente, serve un perimetro chiaro di cosa può toccare.",
+      "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/",
+      "fonte": "Reuters",
+      "data": "2026-10-01"
+    },
+    {
+      "id": "2026-W41-02",
+      "titolo": "OpenAI lancia Dots: agenti sempre attivi alimentati da GPT-6 Astra, più GPT-6.1 Sol",
+      "score": 8,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Gli agenti non aspettano più il prompt: lavorano in background in modo persistente. Cambia il modo di pensare le automazioni aziendali, da richiesta-risposta a delega continua.",
+      "url": "https://openai.com/index/introducing-dots/",
+      "fonte": "OpenAI",
+      "data": "2026-09-29"
+    },
+    {
+      "id": "2026-W41-03",
+      "titolo": "Claude Sonnet 5.5 costa 2 dollari per milione di token in input e 10 in output",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Modello di fascia media più veloce ed efficiente, pensato per volumi alti. Per chi paga a consumo, il costo per documento elaborato scende e i casi d'uso in azienda diventano più sostenibili.",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "fonte": "Anthropic",
+      "data": "2026-09-28"
+    },
+    {
+      "id": "2026-W41-04",
+      "titolo": "Gemini 4 Argon arriva con 1 milione di token di contesto, dopo mesi di ritardi",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Google rilancia sul modello di punta per lavori tecnici complessi. Un contesto così largo permette di dare in pasto interi manuali o archivi di commesse in un colpo solo.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "fonte": "Google",
+      "data": "2026-09-30"
+    },
+    {
+      "id": "2026-W41-05",
+      "titolo": "Claude Code apre ai mod in TypeScript: hook per riscrivere prompt, filtrare segreti e controllare permessi",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Gli agenti di codice diventano programmabili. Lato rischio, ogni hook di terze parti va letto prima di installarlo, come per qualsiasi plugin.",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-02",
+      "fonte": "Anthropic",
+      "data": "2026-10-02"
+    },
+    {
+      "id": "2026-W41-06",
+      "titolo": "Amazon rilascia Strands Decider 2B, modello open source Apache 2.0 che gira su una RTX 3090",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "72% di accuratezza e 106 ms di latenza mediana per instradare flussi di lavoro in locale. Un decisore piccolo su hardware comune è un'opzione concreta per chi non vuole mandare dati fuori.",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-02",
+      "fonte": "Amazon",
+      "data": "2026-10-01"
+    },
+    {
+      "id": "2026-W41-07",
+      "titolo": "Big tech firmano a Washington impegni volontari su controlli e audit indipendenti per l'AI di frontiera",
+      "score": 7,
+      "categoria": "Regolamentazione",
+      "sintesi": "OpenAI, Anthropic, Meta, Google e NVIDIA aderiscono a un accordo non vincolante. Per le aziende europee il riferimento resta l'AI Act, ma la direzione americana è l'autoregolazione.",
+      "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/",
+      "fonte": "Reuters",
+      "data": "2026-09-29"
+    },
+    {
+      "id": "2026-W41-08",
+      "titolo": "Un chatbot scambia il carico di una nave cinese per componenti nucleari e l'errore finisce in un report di intelligence USA",
+      "score": 6,
+      "categoria": "Adozione AI",
+      "sintesi": "Il caso più concreto della settimana sul rischio di fidarsi di un output senza verifica. Vale per un'agenzia governativa e vale per il report che prepari per il cliente.",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-01",
+      "fonte": "The Guardian",
+      "data": "2026-10-01"
+    },
+    {
+      "id": "2026-W41-09",
+      "titolo": "NVIDIA lancia Open Agent Safety Platform con oltre 100 organizzazioni, tra cui OpenShell e Sentry",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Controlli di sicurezza a livello di infrastruttura per agenti autonomi. Segnale che la sicurezza degli agenti sta diventando un prodotto a sé.",
+      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "fonte": "NVIDIA",
+      "data": "2026-10-01"
+    },
+    {
+      "id": "2026-W41-10",
+      "titolo": "Dai documenti per l'IPO di Anthropic: 4,6 miliardi di ricavi nel 2025 e 518 miliardi di impegni infrastrutturali",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "I conti mostrano quanto costa tenere il passo sui modelli di frontiera. Per le PMI significa dipendere da fornitori con prezzi che dovranno comunque coprire questi costi.",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+      "fonte": "Reuters",
+      "data": "2026-09-28"
+    },
+    {
+      "id": "2026-W41-11",
+      "titolo": "Giudice Mehta archivia le cause di Chegg e Penske contro gli AI Overviews di Google",
+      "score": 5,
+      "categoria": "Regolamentazione",
+      "sintesi": "Motivazione: una aspettativa non è un accordo. La partita sui contenuti usati dai riassunti AI si sposta dai tribunali al legislatore.",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-02",
+      "fonte": "U.S. District Court",
+      "data": "2026-10-02"
+    },
+    {
+      "id": "2026-W41-12",
+      "titolo": "Trump crea la Super Intelligence Force, guidata da Clayton, Ferguson, Michael e Kupor",
+      "score": 5,
+      "categoria": "Regolamentazione",
+      "sintesi": "Task force federale per mantenere la leadership USA sull'AI. Non sono ancora stati chiariti poteri e meccanismi di controllo, quindi per ora è un segnale politico.",
+      "url": "https://abcnews.com/Politics/president-donald-trump-announces-creation-super-intelligence-force/story?id=136986122",
+      "fonte": "ABC News",
+      "data": "2026-10-04"
+    },
+    {
+      "id": "2026-W41-13",
+      "titolo": "Reco raccoglie 55 milioni di dollari mentre le startup di sicurezza per agenti AI si affollano",
+      "score": 5,
+      "categoria": "Business AI",
+      "sintesi": "Il mercato della sicurezza per agenti attira capitali in fretta. Indica dove andranno i budget delle aziende che iniziano a usare agenti in produzione.",
+      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+      "fonte": "TechCrunch",
+      "data": "2026-09-29"
+    },
+    {
+      "id": "2026-W41-14",
+      "titolo": "Cloudflare rende open source Clef e Clef-flash: 64k di contesto e visione per decisioni di agenti",
+      "score": 5,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Latenza mediana di 209 ms per Clef e 122 ms in p95 per Clef-flash. Un'altra opzione aperta per chi costruisce agenti senza dipendere da un solo fornitore.",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-10-02",
+      "fonte": "Cloudflare",
+      "data": "2026-10-01"
+    },
+    {
+      "id": "2026-W41-15",
+      "titolo": "Instinct, agente AI consumer, raccoglie 1 miliardo di dollari a una valutazione di 10 miliardi",
+      "score": 4,
+      "categoria": "Business AI",
+      "sintesi": "Round enorme per un agente che completa compiti al posto dell'utente. Più un dato sul clima degli investimenti che un fatto utile a chi deve scegliere strumenti oggi.",
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "fonte": "TechCrunch",
+      "data": "2026-09-28"
+    }
+  ]
+}
