@@ -1,0 +1,127 @@
+{
+  "id": "2026-W44",
+  "label": "Settimana 44 - 2026",
+  "lastUpdate": "2026-10-26 04:50",
+  "news": [
+    {
+      "id": "2026-W44-01",
+      "titolo": "Gemini lancia strumenti per le piccole imprese: hub aziendale, grafica coerente col brand e analisi finanziarie da fogli e ricevute",
+      "score": 8,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Google aggiunge in Gemini una pagina dedicata alle piccole imprese, collegata a Google Business Profile, Ads, Workspace, Shopify, Canva e Xero, con visual on-brand e grafici finanziari da fogli di calcolo e ricevute; rilascio globale nei giorni successivi.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+      "fonte": "Google",
+      "data": "2026-10-20"
+    },
+    {
+      "id": "2026-W44-02",
+      "titolo": "Un franchisee indipendente riduce del 95% il tempo per aggiornare i prezzi di menu con ChatGPT Work",
+      "score": 7,
+      "categoria": "Adozione AI",
+      "sintesi": "OpenAI racconta il caso di un franchisee Schlotzsky's e Cinnabon che ha tagliato del 95% il tempo di aggiornamento prezzi e costruito un flusso di lavoro da circa 100.000 dollari di cassa liberabile: un esempio replicabile da una PMI.",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "fonte": "OpenAI",
+      "data": "2026-10-20"
+    },
+    {
+      "id": "2026-W44-03",
+      "titolo": "Anthropic dona Agent Skills alla Agentic AI Foundation: oltre 70 piattaforme lo usano già",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Lo standard aperto per insegnare compiti specifici agli agenti passa sotto la Linux Foundation; Anthropic dichiara 1 milione di skill pubblicate e circa 280 milioni di installazioni, quindi le competenze create restano portabili tra ChatGPT, Cursor, GitHub Copilot e VS Code.",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "fonte": "Anthropic",
+      "data": "2026-10-22"
+    },
+    {
+      "id": "2026-W44-04",
+      "titolo": "I modelli OpenAI e i flussi Codex arrivano su Google Cloud, nel Model Garden di Gemini",
+      "score": 6,
+      "categoria": "Business AI",
+      "sintesi": "OpenAI e Google Cloud portano i modelli di frontiera e Codex nel Model Garden, acquistabili tramite Google Cloud Marketplace: chi è già cliente Google Cloud può usarli senza aprire un nuovo fornitore.",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "fonte": "OpenAI",
+      "data": "2026-10-21"
+    },
+    {
+      "id": "2026-W44-05",
+      "titolo": "Mistral lancia Voxtral 3: SDK per agenti vocali e modelli di riconoscimento vocale in oltre 50 lingue",
+      "score": 6,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Voxtral 3 è pensato per conversazioni in tempo reale e multi-step con chiamata di strumenti (ad esempio prenotazioni): una base europea per assistenti telefonici multilingue nelle PMI.",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "fonte": "Mistral AI",
+      "data": "2026-10-20"
+    },
+    {
+      "id": "2026-W44-06",
+      "titolo": "OpenAI presenta la Decisions API per decisioni rapide e a basso costo in qualsiasi applicazione",
+      "score": 5,
+      "categoria": "Tool e Automazione",
+      "sintesi": "OpenAI la descrive come uno strumento per prendere decisioni veloci, mirate e a basso costo dentro le applicazioni; i dettagli tecnici e i prezzi non sono ancora verificabili sulla pagina, quindi vanno controllati prima di usarla.",
+      "url": "https://openai.com/index/decisions-api",
+      "fonte": "OpenAI",
+      "data": "2026-10-22"
+    },
+    {
+      "id": "2026-W44-07",
+      "titolo": "ChatGPT Ads si estende a 26 nuovi Paesi e supera i 100.000 inserzionisti",
+      "score": 5,
+      "categoria": "Business AI",
+      "sintesi": "OpenAI estende la pubblicità in ChatGPT, dalle attività locali ai grandi marchi: per chi fa marketing, un nuovo canale dove essere trovati mentre le persone confrontano e scelgono cosa comprare.",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "fonte": "OpenAI",
+      "data": "2026-10-21"
+    },
+    {
+      "id": "2026-W44-08",
+      "titolo": "OpenAI spiega come ha rafforzato il contenimento dell'addestramento dei modelli di frontiera",
+      "score": 4,
+      "categoria": "Adozione AI",
+      "sintesi": "L'azienda descrive ambienti offline e red-teaming ad alta potenza di calcolo per addestrare e valutare i modelli; un segnale utile alle PMI che valutano quanto fidarsi di agenti con ampi permessi.",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "fonte": "OpenAI",
+      "data": "2026-10-23"
+    },
+    {
+      "id": "2026-W44-09",
+      "titolo": "Uber estende ChatGPT Work a oltre 30.000 dipendenti",
+      "score": 4,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Il rollout riguarda ricerca, analisi dei dati, presentazioni e flussi di lavoro complessi: indica che gli assistenti AI stanno passando da pilota a strumento di lavoro quotidiano nelle grandi aziende.",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "fonte": "OpenAI",
+      "data": "2026-10-22"
+    },
+    {
+      "id": "2026-W44-10",
+      "titolo": "Mistral e NVIDIA collaborano su AI per la progettazione ingegneristica, con benchmark pubblici e dataset aperti",
+      "score": 4,
+      "categoria": "Business AI",
+      "sintesi": "L'intesa unisce i modelli Mistral al calcolo accelerato e agli strumenti di simulazione NVIDIA per aerospazio, automotive e semiconduttori; rilevante per PMI manifatturiere come orizzonte, non come strumento immediato.",
+      "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+      "fonte": "Mistral AI",
+      "data": "2026-10-21"
+    },
+    {
+      "id": "2026-W44-11",
+      "titolo": "OpenAI chiarisce gli standard di sicurezza e le Usage Policies per i partner di distribuzione",
+      "score": 3,
+      "categoria": "Regolamentazione",
+      "sintesi": "OpenAI descrive come garantisce salvaguardie coerenti con i partner che distribuiscono i suoi modelli e precisa le aspettative nelle proprie Usage Policies: utile a chi accede ai modelli tramite rivenditori o integratori.",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "fonte": "OpenAI",
+      "data": "2026-10-21"
+    },
+    {
+      "id": "2026-W44-12",
+      "titolo": "OpenAI e il NASK polacco avviano una partnership su sicurezza e ricerca tecnica dell'AI",
+      "score": 3,
+      "categoria": "Regolamentazione",
+      "sintesi": "L'accordo con l'istituto di ricerca polacco punta a rafforzare le salvaguardie e un ecosistema digitale più resiliente in Europa; impatto indiretto per le PMI italiane.",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "fonte": "OpenAI",
+      "data": "2026-10-23"
+    }
+  ]
+}
