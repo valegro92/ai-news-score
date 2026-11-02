@@ -1,0 +1,137 @@
+{
+  "id": "2026-W45",
+  "label": "Settimana 45 - 2026",
+  "lastUpdate": "2026-11-02 04:55",
+  "news": [
+    {
+      "id": "2026-W45-01",
+      "titolo": "Gemini 4 Carbon: Google presenta il nuovo modello di punta, per ora solo a un gruppo di esperti di cybersicurezza",
+      "score": 7,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Google lo indica primo nell'Artificial Analysis Intelligence Index v5.0 (59) con forti risultati su sicurezza del codice; l'accesso per sviluppatori e aziende arriverà dopo i test, quindi per una PMI è un segnale su cosa diventerà disponibile, non uno strumento da usare oggi.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "fonte": "Google",
+      "data": "2026-10-28"
+    },
+    {
+      "id": "2026-W45-02",
+      "titolo": "Mistral rilascia i pesi di Large 4 (Le Chonk): modello aperto da 1 trilione di parametri, addestrato in Europa",
+      "score": 8,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Mistral dichiara il miglior modello open-weight per programmazione, con tre modalità di ragionamento per bilanciare costi e prestazioni: apre alla possibilità di installarlo su infrastrutture proprie per le PMI con vincoli di riservatezza dei dati.",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "fonte": "Mistral AI",
+      "data": "2026-10-29"
+    },
+    {
+      "id": "2026-W45-03",
+      "titolo": "Gemini permette di creare, vedere in anteprima e modificare PDF, Docs, Sheets e presentazioni direttamente nella chat",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "La funzione è attiva per tutti gli utenti e in tutte le lingue; il PDF si modifica anche da mobile, gli altri formati solo da web: meno passaggi tra chat e documenti per le attività d'ufficio quotidiane.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "fonte": "Google",
+      "data": "2026-10-29"
+    },
+    {
+      "id": "2026-W45-04",
+      "titolo": "OpenAI presenta GPT-6.1 Terra: uso del computer veloce e capace aperto a tutti",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "OpenAI lo descrive come un modello che porta l'uso autonomo del computer a tutti gli utenti; i dettagli su limiti e prezzi non sono stati verificati nella pagina completa, ma l'automazione di attività a schermo diventa più accessibile.",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "fonte": "OpenAI",
+      "data": "2026-10-26"
+    },
+    {
+      "id": "2026-W45-05",
+      "titolo": "OpenAI Signals: dati su 165 attività lavorative in quasi 100 Paesi mostrano come si usa ChatGPT al lavoro",
+      "score": 6,
+      "categoria": "AI e Lavoro",
+      "sintesi": "L'analisi misura come cambia l'uso di ChatGPT per lavoro nel tempo, utile come riferimento per capire quali attività le PMI possono affidare all'AI per prime.",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "fonte": "OpenAI",
+      "data": "2026-10-26"
+    },
+    {
+      "id": "2026-W45-06",
+      "titolo": "Credit Saison dichiara un ROI del 954% in un pilota ChatGPT Enterprise, poi esteso a tutta l'azienda",
+      "score": 5,
+      "categoria": "Adozione AI",
+      "sintesi": "Il caso, raccontato da OpenAI, mostra il passaggio da pilota a adozione aziendale con il coinvolgimento di dirigenti e dipendenti; il dato è dichiarato dal fornitore e riguarda una grande società finanziaria.",
+      "url": "https://openai.com/index/credit-saison",
+      "fonte": "OpenAI",
+      "data": "2026-10-29"
+    },
+    {
+      "id": "2026-W45-07",
+      "titolo": "OpenAI e ServiceNow ampliano l'alleanza: modelli e agenti nei flussi ServiceNow, e flussi ServiceNow dentro ChatGPT e Codex",
+      "score": 5,
+      "categoria": "Business AI",
+      "sintesi": "L'intesa porta gli agenti OpenAI nei processi aziendali gestiti con ServiceNow: rilevante per le PMI che usano già quella piattaforma o i suoi partner.",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "fonte": "OpenAI",
+      "data": "2026-10-28"
+    },
+    {
+      "id": "2026-W45-08",
+      "titolo": "OpenAI e Oracle portano le applicazioni aziendali Oracle dentro ChatGPT",
+      "score": 5,
+      "categoria": "Business AI",
+      "sintesi": "La partnership estende l'uso di app e agenti per il business direttamente in ChatGPT: per le PMI che usano software Oracle significa poter interrogare i dati aziendali dalla stessa interfaccia.",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "fonte": "OpenAI",
+      "data": "2026-10-27"
+    },
+    {
+      "id": "2026-W45-09",
+      "titolo": "Google lancia la Connected Apps Platform: un unico punto per portare app dentro Gemini e Search",
+      "score": 5,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Gli sviluppatori integrano le app tramite server MCP e le rendono disponibili in Search, nell'app Gemini o in entrambi; l'accesso è in anteprima a fasi, ma indica dove i clienti potranno trovare e usare i servizi delle imprese.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+      "fonte": "Google",
+      "data": "2026-10-28"
+    },
+    {
+      "id": "2026-W45-10",
+      "titolo": "OpenAI userà un segnale robots.txt condiviso per rispettare le preferenze dei siti sull'addestramento AI",
+      "score": 5,
+      "categoria": "Regolamentazione",
+      "sintesi": "I gestori di siti potranno indicare se i contenuti possono servire ad addestrare modelli, con un segnale adottato da più fornitori partecipanti: utile a chi pubblica contenuti e vuole controllarne il riutilizzo.",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "fonte": "OpenAI",
+      "data": "2026-10-30"
+    },
+    {
+      "id": "2026-W45-11",
+      "titolo": "Google estende la pubblicità in AI Mode a 10 nuovi Paesi, per ora senza l'Italia",
+      "score": 4,
+      "categoria": "Business AI",
+      "sintesi": "Annunciato l'arrivo in Australia, Canada, India e altri sette Paesi, con altri mercati previsti nel quarto trimestre; chi fa marketing in Italia può osservare il modello, ma l'Italia non è tra i Paesi elencati.",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+      "fonte": "Google",
+      "data": "2026-10-28"
+    },
+    {
+      "id": "2026-W45-12",
+      "titolo": "Studio Google in Italia: i docenti che pianificano le lezioni con Gemini riportano più partecipazione e meno stress",
+      "score": 4,
+      "categoria": "AI e Lavoro",
+      "sintesi": "La ricerca, condotta da Google in classi italiane e britanniche, indica che l'AI funziona meglio come supporto al lavoro degli insegnanti; è uno studio del fornitore e riguarda il settore scolastico.",
+      "url": "https://blog.google/products-and-platforms/products/education/impact-studies-uk-italy/",
+      "fonte": "Google",
+      "data": "2026-10-29"
+    },
+    {
+      "id": "2026-W45-13",
+      "titolo": "Anthropic presenta la richiesta di quotazione (modulo S-1) alla SEC statunitense per la IPO sul Nasdaq",
+      "score": 3,
+      "categoria": "Business AI",
+      "sintesi": "Numero di azioni e prezzo non sono ancora definiti: per le PMI non cambia nulla nell'immediato, ma segnala la maturità finanziaria di uno dei principali fornitori di modelli.",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "fonte": "Anthropic",
+      "data": "2026-10-26"
+    }
+  ]
+}
