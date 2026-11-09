@@ -1,0 +1,127 @@
+{
+  "id": "2026-W46",
+  "label": "Settimana 46 - 2026",
+  "lastUpdate": "2026-11-09 05:10",
+  "news": [
+    {
+      "id": "2026-W46-01",
+      "titolo": "Mistral lancia Studio con Le Chonk: agenti, flussi di lavoro e app aziendali con controllo su modelli, dati e infrastruttura",
+      "score": 7,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Mistral presenta Studio, la piattaforma per costruire e distribuire agenti, workflow e app aziendali sul modello Le Chonk: per una PMI europea con vincoli di riservatezza è un'alternativa alle piattaforme statunitensi.",
+      "url": "https://mistral.ai/news/build-with-studio/",
+      "fonte": "Mistral AI",
+      "data": "2026-11-05"
+    },
+    {
+      "id": "2026-W46-02",
+      "titolo": "Google presenta Gemini Omni 1.2 Flash: video da 15 secondi nativi e prezzi inferiori del 30%",
+      "score": 6,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Il modello genera e modifica clip video da 15 secondi con maggiore coerenza e costa il 30% in meno: rende più sostenibili i video promozionali prodotti con l'AI da piccole imprese.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "fonte": "Google",
+      "data": "2026-11-05"
+    },
+    {
+      "id": "2026-W46-03",
+      "titolo": "Google Vids integra Omni 1.2 Flash: clip AI più lunghe e scene coerenti, senza costi aggiuntivi",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Chi usa Google Workspace può creare in Vids clip da 15 secondi con scene coerenti senza pagare un extra, secondo Google: un modo a basso costo per produrre video per social e prodotti.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+      "fonte": "Google",
+      "data": "2026-11-05"
+    },
+    {
+      "id": "2026-W46-04",
+      "titolo": "OpenAI lancia Images 2.6: generazione più veloce, GIF e modifiche più precise in ChatGPT, Codex e API",
+      "score": 6,
+      "categoria": "Tool e Automazione",
+      "sintesi": "La nuova versione accelera la creazione di immagini, aggiunge le GIF e controlli API più fini per le modifiche: utile a chi produce grafiche per cataloghi e social senza un grafico dedicato.",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "fonte": "OpenAI",
+      "data": "2026-11-04"
+    },
+    {
+      "id": "2026-W46-05",
+      "titolo": "Heimstaden usa ChatGPT Enterprise e Codex per gestire il patrimonio immobiliare in Europa e ridurre i costi",
+      "score": 6,
+      "categoria": "Adozione AI",
+      "sintesi": "OpenAI racconta come la società immobiliare europea applica ChatGPT Enterprise e Codex alla gestione degli immobili per tagliare costi e dare strumenti ai dipendenti; il caso è dichiarato dal fornitore e riguarda una grande azienda.",
+      "url": "https://openai.com/index/heimstaden",
+      "fonte": "OpenAI",
+      "data": "2026-11-03"
+    },
+    {
+      "id": "2026-W46-06",
+      "titolo": "Gemini trasforma un disegno su carta in un'app funzionante tramite lo strumento Canvas",
+      "score": 5,
+      "categoria": "Tool e Automazione",
+      "sintesi": "Si carica uno schizzo e Gemini genera e affina il codice di un'app: abbassa la barriera per prototipare strumenti interni semplici senza uno sviluppatore, anche se i risultati vanno controllati.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+      "fonte": "Google",
+      "data": "2026-11-05"
+    },
+    {
+      "id": "2026-W46-07",
+      "titolo": "OpenAI presenta GPT-6 Cyber: un modello per trovare vulnerabilità e sviluppare correzioni, addestrato a restare nell'ambito autorizzato",
+      "score": 5,
+      "categoria": "Modelli e Open Source",
+      "sintesi": "Il modello è pensato per individuare falle sfruttabili e proporre patch entro limiti autorizzati; per le PMI è un segnale che l'AI per la sicurezza informatica sta diventando un prodotto, ma l'accesso è mirato.",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "fonte": "OpenAI",
+      "data": "2026-11-05"
+    },
+    {
+      "id": "2026-W46-08",
+      "titolo": "Cult.fit usa Codex per far costruire strumenti interni ai team di funzioni diverse",
+      "score": 5,
+      "categoria": "Adozione AI",
+      "sintesi": "Secondo OpenAI, i team della catena di palestre usano Codex per creare strumenti e muoversi più in fretta anche fuori dall'area tecnica: un esempio di automazione interna dal basso, raccontato dal fornitore.",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "fonte": "OpenAI",
+      "data": "2026-11-05"
+    },
+    {
+      "id": "2026-W46-09",
+      "titolo": "Merge usa GPT-6 Astra, ChatGPT e Codex per rivedere il codice, supportare il marketing e preparare gli aggiornamenti di vendita",
+      "score": 4,
+      "categoria": "Adozione AI",
+      "sintesi": "Il caso mostra una software house che applica lo stesso set di strumenti AI a sviluppo, marketing e vendite; è un caso fornitore di una realtà tecnologica, quindi replicabile solo in parte da una PMI.",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "fonte": "OpenAI",
+      "data": "2026-11-05"
+    },
+    {
+      "id": "2026-W46-10",
+      "titolo": "OpenAI acquisisce Pierre Computer Company per ampliare gli strumenti di Codex nella creazione e revisione del codice",
+      "score": 4,
+      "categoria": "Business AI",
+      "sintesi": "L'operazione rafforza Codex nella scrittura, comprensione e revisione del codice: per le PMI che usano o valutano assistenti di programmazione è un segnale sulla direzione del prodotto, senza effetti immediati.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "fonte": "OpenAI",
+      "data": "2026-11-04"
+    },
+    {
+      "id": "2026-W46-11",
+      "titolo": "DevRev usa GPT-6.1 Sol per l'assistenza clienti autonoma, bilanciando ragionamento, velocità e costo",
+      "score": 4,
+      "categoria": "Business AI",
+      "sintesi": "Il caso descrive come DevRev affida a GPT-6.1 Sol i suoi agenti Computer e Operator per il self-service aziendale: un riferimento per chi valuta assistenti clienti automatici, con dati dichiarati dal fornitore.",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "fonte": "OpenAI",
+      "data": "2026-11-04"
+    },
+    {
+      "id": "2026-W46-12",
+      "titolo": "OpenAI presenta LifeVal, un benchmark su quanto l'AI aiuta nelle attività quotidiane, dalle pratiche burocratiche alle finanze",
+      "score": 4,
+      "categoria": "AI e Lavoro",
+      "sintesi": "Il benchmark misura quanto bene l'AI porta a termine compiti pratici come cercare un servizio o gestire pratiche: indicazione utile ma indiretta, perché è un test del fornitore e non riguarda processi aziendali.",
+      "url": "https://openai.com/index/lifeval",
+      "fonte": "OpenAI",
+      "data": "2026-11-02"
+    }
+  ]
+}
